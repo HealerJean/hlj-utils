@@ -8,46 +8,46 @@ import java.util.Optional;
 /**
  * @Desc:
  * @Author HealerJean
- * @Date 2018/9/7  ÉÏÎç11:29.
+ * @Date 2018/9/7  ä¸Šåˆ11:29.
  */
 public class MainTest {
 
 
     /**
      * get
-     * Èç¹ûOptionalÓĞÖµÔò½«Æä·µ»Ø£¬·ñÔòÅ×³öNoSuchElementException¡£
+     * å¦‚æœOptionalæœ‰å€¼åˆ™å°†å…¶è¿”å›ï¼Œå¦åˆ™æŠ›å‡ºNoSuchElementExceptionã€‚
      */
 
 
     /**
-     * 1¡¢of·½·¨
-     * Í¨¹ı¹¤³§·½·¨´´½¨OptionalÀà¡£
-     * ´´½¨¶ÔÏóÊ±´«ÈëµÄ²ÎÊı²»ÄÜÎªnull¡£Èç¹û´«Èë²ÎÊıÎªnull£¬ÔòÅ×³öNullPointerException ¡£
+     * 1ã€ofæ–¹æ³•
+     * é€šè¿‡å·¥å‚æ–¹æ³•åˆ›å»ºOptionalç±»ã€‚
+     * åˆ›å»ºå¯¹è±¡æ—¶ä¼ å…¥çš„å‚æ•°ä¸èƒ½ä¸ºnullã€‚å¦‚æœä¼ å…¥å‚æ•°ä¸ºnullï¼Œåˆ™æŠ›å‡ºNullPointerException ã€‚
      */
     @Test
     public void of() {
-        //µ÷ÓÃ¹¤³§·½·¨´´½¨OptionalÊµÀı
+        //è°ƒç”¨å·¥å‚æ–¹æ³•åˆ›å»ºOptionalå®ä¾‹
         Optional<String> name = Optional.of("Sanaulla");
         System.out.println("name:"+name.get());         //name:Sanaulla
-        //´«Èë²ÎÊıÎªnull£¬Å×³öNullPointerException.
+        //ä¼ å…¥å‚æ•°ä¸ºnullï¼ŒæŠ›å‡ºNullPointerException.
         Optional<String> someNull = Optional.of(null);// java.lang.NullPointerException
         System.out.println("someNull"+someNull);
     }
 
     /**
-     * 2¡¢ ofNullable (ofNullableÓëof·½·¨ÏàËÆ£¬Î¨Ò»µÄÇø±ğÊÇ¿ÉÒÔ½ÓÊÜ²ÎÊıÎªnullµÄÇé¿ö)
-     * ÎªÖ¸¶¨µÄÖµ´´½¨Ò»¸öOptional£¬Èç¹ûÖ¸¶¨µÄÖµÎªnull£¬Ôò·µ»ØÒ»¸ö¿ÕµÄOptional¡£
+     * 2ã€ ofNullable (ofNullableä¸ofæ–¹æ³•ç›¸ä¼¼ï¼Œå”¯ä¸€çš„åŒºåˆ«æ˜¯å¯ä»¥æ¥å—å‚æ•°ä¸ºnullçš„æƒ…å†µ)
+     * ä¸ºæŒ‡å®šçš„å€¼åˆ›å»ºä¸€ä¸ªOptionalï¼Œå¦‚æœæŒ‡å®šçš„å€¼ä¸ºnullï¼Œåˆ™è¿”å›ä¸€ä¸ªç©ºçš„Optionalã€‚
      */
     @Test
     public void ofNullable() {
-        //ÏÂÃæ´´½¨ÁËÒ»¸ö²»°üº¬ÈÎºÎÖµµÄOptionalÊµÀı
-        //ÀıÈç£¬ÖµÎª'null'
+        //ä¸‹é¢åˆ›å»ºäº†ä¸€ä¸ªä¸åŒ…å«ä»»ä½•å€¼çš„Optionalå®ä¾‹
+        //ä¾‹å¦‚ï¼Œå€¼ä¸º'null'
         Optional<String> empty = Optional.ofNullable(null);
         System.out.println(empty.get()); //java.util.NoSuchElementException: No value present
     }
 
     /**
-     * 3 ¡¢isPresent¡¢Èç¹ûÖµ´æÔÚ·µ»Øtrue£¬·ñÔò·µ»Øfalse¡£
+     * 3 ã€isPresentã€å¦‚æœå€¼å­˜åœ¨è¿”å›trueï¼Œå¦åˆ™è¿”å›falseã€‚
      *
      */
     @Test
@@ -56,14 +56,14 @@ public class MainTest {
         Optional<String> name = Optional.ofNullable("HealerJean");
         Optional<String> namenull = Optional.ofNullable(null);
 
-        //isPresent·½·¨ÓÃÀ´¼ì²éOptionalÊµÀıÖĞÊÇ·ñ°üº¬Öµ
+        //isPresentæ–¹æ³•ç”¨æ¥æ£€æŸ¥Optionalå®ä¾‹ä¸­æ˜¯å¦åŒ…å«å€¼
         if (name.isPresent()) {
-            //ÔÚOptionalÊµÀıÄÚµ÷ÓÃget()·µ»ØÒÑ´æÔÚµÄÖµ
+            //åœ¨Optionalå®ä¾‹å†…è°ƒç”¨get()è¿”å›å·²å­˜åœ¨çš„å€¼
             System.out.println(name.get());//HealerJean
         }
 
         if (!namenull.isPresent()) {
-            System.out.println("namenull Îª null");
+            System.out.println("namenull ä¸º null");
         }
 
         name.ifPresent((value) -> {
@@ -73,28 +73,28 @@ public class MainTest {
     }
 
     /**
-     * 4¡¢ orElse
-     * Èç¹ûÓĞÖµÔò½«Æä·µ»Ø£¬·ñÔò·µ»ØÖ¸¶¨µÄÆäËüÖµ¡£
+     * 4ã€ orElse
+     * å¦‚æœæœ‰å€¼åˆ™å°†å…¶è¿”å›ï¼Œå¦åˆ™è¿”å›æŒ‡å®šçš„å…¶å®ƒå€¼ã€‚
      */
     @Test
     public void orElse() {
         Optional<String> empty = Optional.empty();
-        //Èç¹ûÎªnull£¬·µ»Ø´«ÈëµÄÏûÏ¢¡£
-        //Êä³ö£ºThere is no value present!
+        //å¦‚æœä¸ºnullï¼Œè¿”å›ä¼ å…¥çš„æ¶ˆæ¯ã€‚
+        //è¾“å‡ºï¼šThere is no value present!
         System.out.println(empty.orElse("There is no value present!"));
 
 
         Optional<String> name = Optional.of("HealerJean");
-        //Èç¹ûÖµ²»Îªnull£¬orElse·½·¨·µ»ØOptionalÊµÀıµÄÖµ¡£
-        //Êä³ö£ºHealerJean
+        //å¦‚æœå€¼ä¸ä¸ºnullï¼ŒorElseæ–¹æ³•è¿”å›Optionalå®ä¾‹çš„å€¼ã€‚
+        //è¾“å‡ºï¼šHealerJean
         System.out.println(name.orElse("There is some value!"));
     }
 
 
     /**
-     * 5¡¢ orElseGet
-     * orElseGetÓëorElse·½·¨ÀàËÆ£¬Çø±ğÔÚÓÚµÃµ½µÄÄ¬ÈÏÖµ¡£
-     * orElse·½·¨½«´«ÈëµÄ×Ö·û´®×÷ÎªÄ¬ÈÏÖµ£¬orElseGet·½·¨¿ÉÒÔ½ÓÊÜSupplier½Ó¿ÚµÄÊµÏÖÓÃÀ´Éú³ÉÄ¬ÈÏÖµ¡£Ê¾ÀıÈçÏÂ£º
+     * 5ã€ orElseGet
+     * orElseGetä¸orElseæ–¹æ³•ç±»ä¼¼ï¼ŒåŒºåˆ«åœ¨äºå¾—åˆ°çš„é»˜è®¤å€¼ã€‚
+     * orElseæ–¹æ³•å°†ä¼ å…¥çš„å­—ç¬¦ä¸²ä½œä¸ºé»˜è®¤å€¼ï¼ŒorElseGetæ–¹æ³•å¯ä»¥æ¥å—Supplieræ¥å£çš„å®ç°ç”¨æ¥ç”Ÿæˆé»˜è®¤å€¼ã€‚ç¤ºä¾‹å¦‚ä¸‹ï¼š
      */
     @Test
     public void orElseGet() {
@@ -102,17 +102,17 @@ public class MainTest {
 
         Optional<String> name = Optional.of("HealerJean");
 
-        //orElseGetÓëorElse·½·¨ÀàËÆ£¬Çø±ğÔÚÓÚorElse´«ÈëµÄÊÇÄ¬ÈÏÖµ£¬
-        //orElseGet¿ÉÒÔ½ÓÊÜÒ»¸ölambda±í´ïÊ½Éú³ÉÄ¬ÈÏÖµ¡£
-        //Êä³ö£ºDefault Value
+        //orElseGetä¸orElseæ–¹æ³•ç±»ä¼¼ï¼ŒåŒºåˆ«åœ¨äºorElseä¼ å…¥çš„æ˜¯é»˜è®¤å€¼ï¼Œ
+        //orElseGetå¯ä»¥æ¥å—ä¸€ä¸ªlambdaè¡¨è¾¾å¼ç”Ÿæˆé»˜è®¤å€¼ã€‚
+        //è¾“å‡ºï¼šDefault Value
         System.out.println(empty.orElseGet(() -> "Default Value"));
-        //Êä³ö£ºSanaulla
+        //è¾“å‡ºï¼šSanaulla
         System.out.println(name.orElseGet(() -> "Default Value"));
 
     }
 
     /**
-     * ±È½Ï  orElse  orElseGet nullÒ»ÖÂ
+     * æ¯”è¾ƒ  orElse  orElseGet nullä¸€è‡´
      */
     @Test
     public void givenEmptyValue_whenCompare_thenOk() {
@@ -124,9 +124,9 @@ public class MainTest {
     }
 
     /**
-     * ±È½Ï  orElse  orElseGet  ·ÇnullÊ±ºò
-     * orElse ¼´Ê¹²»´òÓ¡×ÔÉíÒ²»áÖ´ĞĞorElseÀïÃæµÄ¶«Î÷£¬
-     * µ«ÊÇorElseGet ¾Í²»»áÖ´ĞĞ£¬¶øÊÇÖ±½Ó·µ»ØÖµ¸ÃÓĞµÄÖµ
+     * æ¯”è¾ƒ  orElse  orElseGet  énullæ—¶å€™
+     * orElse å³ä½¿ä¸æ‰“å°è‡ªèº«ä¹Ÿä¼šæ‰§è¡ŒorElseé‡Œé¢çš„ä¸œè¥¿ï¼Œ
+     * ä½†æ˜¯orElseGet å°±ä¸ä¼šæ‰§è¡Œï¼Œè€Œæ˜¯ç›´æ¥è¿”å›å€¼è¯¥æœ‰çš„å€¼
      */
     @Test
     public void givenPresentValue_whenCompare_thenOk() {
@@ -145,16 +145,16 @@ public class MainTest {
 
 
     /**
-     * 6¡¢ map
-     * Èç¹ûÓĞÖµ£¬Ôò¶ÔÆäÖ´ĞĞµ÷ÓÃmappingº¯ÊıµÃµ½·µ»ØÖµ¡£
-     * Èç¹û·µ»ØÖµ²»Îªnull£¬Ôò´´½¨°üº¬mapping·µ»ØÖµµÄOptional×÷Îªmap·½·¨·µ»ØÖµ£¬·ñÔò·µ»Ø¿ÕOptional¡£
-     * flatMap·½·¨Óëmap·½·¨ÀàËÆ£¬Çø±ğÔÚÓÚmappingº¯ÊıµÄ·µ»ØÖµ²»Í¬¡£map·½·¨µÄmappingº¯Êı·µ»ØÖµ¿ÉÒÔÊÇÈÎºÎÀàĞÍT£¬
-     * ¶øflatMap·½·¨µÄmappingº¯Êı±ØĞëÊÇOptional¡£
+     * 6ã€ map
+     * å¦‚æœæœ‰å€¼ï¼Œåˆ™å¯¹å…¶æ‰§è¡Œè°ƒç”¨mappingå‡½æ•°å¾—åˆ°è¿”å›å€¼ã€‚
+     * å¦‚æœè¿”å›å€¼ä¸ä¸ºnullï¼Œåˆ™åˆ›å»ºåŒ…å«mappingè¿”å›å€¼çš„Optionalä½œä¸ºmapæ–¹æ³•è¿”å›å€¼ï¼Œå¦åˆ™è¿”å›ç©ºOptionalã€‚
+     * flatMapæ–¹æ³•ä¸mapæ–¹æ³•ç±»ä¼¼ï¼ŒåŒºåˆ«åœ¨äºmappingå‡½æ•°çš„è¿”å›å€¼ä¸åŒã€‚mapæ–¹æ³•çš„mappingå‡½æ•°è¿”å›å€¼å¯ä»¥æ˜¯ä»»ä½•ç±»å‹Tï¼Œ
+     * è€ŒflatMapæ–¹æ³•çš„mappingå‡½æ•°å¿…é¡»æ˜¯Optionalã€‚
      */
     @Test
     public void map() {
-        //map·½·¨Ö´ĞĞ´«ÈëµÄlambda±í´ïÊ½²ÎÊı¶ÔOptionalÊµÀıµÄÖµ½øĞĞĞŞ¸Ä¡£
-        //Îªlambda±í´ïÊ½µÄ·µ»ØÖµ´´½¨ĞÂµÄOptionalÊµÀı×÷Îªmap·½·¨µÄ·µ»ØÖµ¡£
+        //mapæ–¹æ³•æ‰§è¡Œä¼ å…¥çš„lambdaè¡¨è¾¾å¼å‚æ•°å¯¹Optionalå®ä¾‹çš„å€¼è¿›è¡Œä¿®æ”¹ã€‚
+        //ä¸ºlambdaè¡¨è¾¾å¼çš„è¿”å›å€¼åˆ›å»ºæ–°çš„Optionalå®ä¾‹ä½œä¸ºmapæ–¹æ³•çš„è¿”å›å€¼ã€‚
         Optional<String> name = Optional.ofNullable("HealerJean");
         Optional<String> upperName = name.map((value) -> value.toUpperCase());
         System.out.println(upperName.orElse("No value found"));
@@ -162,21 +162,21 @@ public class MainTest {
 
 
     /**
-     * 7¡¢filter
-     * filter¸ö·½·¨Í¨¹ı´«ÈëÏŞ¶¨Ìõ¼ş¶ÔOptionalÊµÀıµÄÖµ½øĞĞ¹ıÂË¡£ÎÄµµÃèÊöÈçÏÂ£º
+     * 7ã€filter
+     * filterä¸ªæ–¹æ³•é€šè¿‡ä¼ å…¥é™å®šæ¡ä»¶å¯¹Optionalå®ä¾‹çš„å€¼è¿›è¡Œè¿‡æ»¤ã€‚æ–‡æ¡£æè¿°å¦‚ä¸‹ï¼š
      */
     @Test
     public void filter() {
-        //filter·½·¨¼ì²é¸ø¶¨µÄOptionÖµÊÇ·ñÂú×ãÄ³Ğ©Ìõ¼ş¡£
-        //Èç¹ûÂú×ãÔò·µ»ØÍ¬Ò»¸öOptionÊµÀı£¬·ñÔò·µ»Ø¿ÕOptional¡£
+        //filteræ–¹æ³•æ£€æŸ¥ç»™å®šçš„Optionå€¼æ˜¯å¦æ»¡è¶³æŸäº›æ¡ä»¶ã€‚
+        //å¦‚æœæ»¡è¶³åˆ™è¿”å›åŒä¸€ä¸ªOptionå®ä¾‹ï¼Œå¦åˆ™è¿”å›ç©ºOptionalã€‚
         Optional<String> name = Optional.of("HealerJean");
         Optional<String> longName = name.filter((value) -> value.length() > 6);
-        System.out.println(longName.orElse("The name is less than 6 characters"));//Êä³öSanaulla
+        System.out.println(longName.orElse("The name is less than 6 characters"));//è¾“å‡ºSanaulla
 
-        //ÁíÒ»¸öÀı×ÓÊÇOptionalÖµ²»Âú×ãfilterÖ¸¶¨µÄÌõ¼ş¡£
+        //å¦ä¸€ä¸ªä¾‹å­æ˜¯Optionalå€¼ä¸æ»¡è¶³filteræŒ‡å®šçš„æ¡ä»¶ã€‚
         Optional<String> anotherName = Optional.of("Sana");
         Optional<String> shortName = anotherName.filter(value -> value.length() > 6);
-        //Êä³ö£ºname³¤¶È²»×ã6×Ö·û
+        //è¾“å‡ºï¼šnameé•¿åº¦ä¸è¶³6å­—ç¬¦
         System.out.println(shortName.orElse("The name is less than 6 characters"));
     }
 

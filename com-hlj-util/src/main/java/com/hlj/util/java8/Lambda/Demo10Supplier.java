@@ -9,15 +9,15 @@ import java.util.function.Supplier;
 
 /**
  * @Desc:
- * ÎªÁË¸üºÃµÄÖ§³Öº¯ÊıÊ½±à³Ì£¬
- * Ò»°ã·ÅÔÚ java.util.funtionÖĞ
- * SupplierÊÇÎÒÃÇ¸øÌá¹©£¬½á¹û
+ * ä¸ºäº†æ›´å¥½çš„æ”¯æŒå‡½æ•°å¼ç¼–ç¨‹ï¼Œ
+ * ä¸€èˆ¬æ”¾åœ¨ java.util.funtionä¸­
+ * Supplieræ˜¯æˆ‘ä»¬ç»™æä¾›ï¼Œç»“æœ
  *
  * get
  *
  *
  * @Author HealerJean
- * @Date 2018/9/14  ÉÏÎç11:48.
+ * @Date 2018/9/14  ä¸Šåˆ11:48.
  */
 public class Demo10Supplier {
 
@@ -30,7 +30,7 @@ public class Demo10Supplier {
 
     /**
      *
-     * 1¡¢½Ó´¥ Supplier
+     * 1ã€æ¥è§¦ Supplier
      * @param supplier
      */
     public void method(Supplier<String> supplier){

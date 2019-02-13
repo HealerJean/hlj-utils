@@ -3,7 +3,7 @@ package com.hlj.util.Optional.bean;
 /**
  * @Desc:
  * @Author HealerJean
- * @Date 2018/9/7  ÉÏÎç11:29.
+ * @Date 2018/9/7  ä¸Šåˆ11:29.
  */
 public class User {
     private  String email ;

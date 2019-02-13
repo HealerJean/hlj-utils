@@ -7,9 +7,9 @@ import java.util.List;
 import java.util.function.Function;
 
 /**
- * @Desc: Function Ïàµ±ÓÚstramÖĞµÄmap
+ * @Desc: Function ç›¸å½“äºstramä¸­çš„map
  * @Author HealerJean
- * @Date 2018/9/14  ÉÏÎç11:48.
+ * @Date 2018/9/14  ä¸Šåˆ11:48.
  */
 public class Demo12Function {
 
@@ -21,13 +21,13 @@ public class Demo12Function {
     }
 
     /**
-     * apply IntegerÊÇ±íÊ¾³öµÄ½á¹û
+     * apply Integeræ˜¯è¡¨ç¤ºå‡ºçš„ç»“æœ
      * @param function
      */
     public void method(Function<String ,Integer> function){
       int num =    function.apply("20");
       num += 100;
-        System.out.println("½á¹ûÊÇ"+num);
+        System.out.println("ç»“æœæ˜¯"+num);
     }
 
 

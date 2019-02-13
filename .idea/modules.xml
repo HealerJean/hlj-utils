@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/com-hlj-admin/com-hlj-admin.iml" filepath="$PROJECT_DIR$/com-hlj-admin/com-hlj-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-hlj-admin/com-hlj-admin.iml" filepath="$PROJECT_DIR$/com-hlj-admin/com-hlj-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-hlj-dao/com-hlj-dao.iml" filepath="$PROJECT_DIR$/com-hlj-dao/com-hlj-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-hlj-util/com-hlj-util.iml" filepath="$PROJECT_DIR$/com-hlj-util/com-hlj-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-hlj-util/com-hlj-util.iml" filepath="$PROJECT_DIR$/com-hlj-util/com-hlj-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/hlj-utils.iml" filepath="$PROJECT_DIR$/.idea/hlj-utils.iml" />
     </modules>

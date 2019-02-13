@@ -7,15 +7,15 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 /**
- * @Desc: ²âÊÔ»ñÈ¡Stream
+ * @Desc: æµ‹è¯•è·å–Stream
 
-»ñÈ¡Á÷³£ÓÃµÄÈıÖÖ·½Ê½
-1¡¢Í¨¹ıCollection
-2¡¢Í¨¹ıMap
-3¡¢Í¨¹ıÊı×é
+è·å–æµå¸¸ç”¨çš„ä¸‰ç§æ–¹å¼
+1ã€é€šè¿‡Collection
+2ã€é€šè¿‡Map
+3ã€é€šè¿‡æ•°ç»„
 
  * @Author HealerJean
- * @Date 2018/9/14  ÉÏÎç11:35.
+ * @Date 2018/9/14  ä¸Šåˆ11:35.
  */
 public class Demo02GetStream {
 
@@ -24,26 +24,26 @@ public class Demo02GetStream {
     public void getStream(){
 
         /**
-         *1¡¢Í¨¹ıCollection
+         *1ã€é€šè¿‡Collection
          */
         Collection<String> collection = new ArrayList<>();
         Stream<String> stream = collection.stream();
         /**
-         * 2¡¢Í¨¹ıMap
+         * 2ã€é€šè¿‡Map
          */
         Map<String,Integer> map = new HashMap<>();
-        //»ñÈ¡keyµÄstream
+        //è·å–keyçš„stream
         Stream<String> mapKeyStream =  map.keySet().stream() ;
-        //»ñÈ¡valueµÄstream
+        //è·å–valueçš„stream
         Stream<Integer> mapValueStream =  map.values().stream() ;
-        //»ñÈ¡ËùÓĞ¼üÖµ¶Ô
+        //è·å–æ‰€æœ‰é”®å€¼å¯¹
         Stream<Map.Entry<String,Integer>> entryStream = map.entrySet().stream();
 
         /**
-         * 3¡¢Í¨¹ıÊı×é ÍÆ¼öÊ¹ÓÃArrays.stream Êı×éÒ²ÓÃµÄ²»¹ı£¬StringÀàĞÍ×î¶à
-         * »òÕß¿ÉÒÔÊ¹ÓÃ¿ì¼ô¼­ alt+enter×Ô¶¯²¹È«
+         * 3ã€é€šè¿‡æ•°ç»„ æ¨èä½¿ç”¨Arrays.stream æ•°ç»„ä¹Ÿç”¨çš„ä¸è¿‡ï¼ŒStringç±»å‹æœ€å¤š
+         * æˆ–è€…å¯ä»¥ä½¿ç”¨å¿«å‰ªè¾‘ alt+enterè‡ªåŠ¨è¡¥å…¨
          */
-        String[] strings= {"ÕÅÈı·á,ÁõÀû"};
+        String[] strings= {"å¼ ä¸‰ä¸°,åˆ˜åˆ©"};
         Stream<String> stringStream = Arrays.stream(strings);
         Stream<String> stringStream2 =Stream.of(strings);
 

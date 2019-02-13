@@ -49,7 +49,7 @@ public class Demo10Element {
         listTwo.stream().filter(s->s.startsWith("张"))
                           .skip(2);
 
-    List<Person>  personList  =  Stream.concat(
+       List<Person>  personList  =  Stream.concat(
                 listOne.stream().filter(s->s.length()==3).limit(3),
                 listTwo.stream().filter(s->s.startsWith("张")).skip(2))
                 .map(Person::new).collect(Collectors.toList());

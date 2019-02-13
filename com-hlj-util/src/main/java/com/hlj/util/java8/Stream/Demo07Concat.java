@@ -7,39 +7,39 @@ import java.util.List;
 import java.util.stream.Stream;
 
 /**
- * @Desc:Concat  Stream.concat ¿ÉÒÔ¿ÉÒÔ½«Á½¸ö¼¯ºÏºÏ²¢³ÉÒ»¸öÕûÌå
+ * @Desc:Concat  Stream.concat å¯ä»¥å¯ä»¥å°†ä¸¤ä¸ªé›†åˆåˆå¹¶æˆä¸€ä¸ªæ•´ä½“
  * @Author HealerJean
- * @Date 2018/9/14  ÉÏÎç11:48.
+ * @Date 2018/9/14  ä¸Šåˆ11:48.
  */
 public class Demo07Concat {
 
     @Test
     public void demo(){
         List<String> listOne = new ArrayList<>();
-        listOne.add("¸ßÍ®");
-        listOne.add("ÕÅ´ä´ä");
-        listOne.add("ÕÅÈı·á");
+        listOne.add("é«˜å½¤");
+        listOne.add("å¼ ç¿ ç¿ ");
+        listOne.add("å¼ ä¸‰ä¸°");
 
         List<String> listTwo = new ArrayList<>();
-        listTwo.add("ÕÔÀöÓ±");
-        listTwo.add("ÕÅÓî½ú");
-        listTwo.add("ÕÔ´ºÓî");
-        listTwo.add("ÁÖÌú");
-        listTwo.add("¶Å´³");
+        listTwo.add("èµµä¸½é¢–");
+        listTwo.add("å¼ å®‡æ™‹");
+        listTwo.add("èµµæ˜¥å®‡");
+        listTwo.add("æ—é“");
+        listTwo.add("æœé—¯");
 
        Stream.concat(listOne.stream(),listTwo.stream() ).forEach(s->{
             System.out.println(s);
         });
 
         /**
-         ¸ßÍ®
-         ÕÅ´ä´ä
-         ÕÅÈı·á
-         ÕÔÀöÓ±
-         ÕÅÓî½ú
-         ÕÔ´ºÓî
-         ÁÖÌú
-         ¶Å´³
+         é«˜å½¤
+         å¼ ç¿ ç¿ 
+         å¼ ä¸‰ä¸°
+         èµµä¸½é¢–
+         å¼ å®‡æ™‹
+         èµµæ˜¥å®‡
+         æ—é“
+         æœé—¯
          */
 
 

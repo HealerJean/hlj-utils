@@ -8,7 +8,7 @@ import java.util.Comparator;
 /**
  * @Desc:
  * @Author HealerJean
- * @Date 2018/9/14  ÉÏÎç11:48.
+ * @Date 2018/9/14  ä¸Šåˆ11:48.
  */
 public class Demo08AsCallbackValue {
 
@@ -24,7 +24,7 @@ public class Demo08AsCallbackValue {
             }
         });
         /**
-         * lambdz×÷Îª·µ»ØÖµ
+         * lambdzä½œä¸ºè¿”å›å€¼
          */
         Arrays.sort(array,getComparatorOne());
 
