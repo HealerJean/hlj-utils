@@ -1,5 +1,6 @@
 package com.hlj.util.java8.Stream;
 
+import org.apache.commons.lang.StringUtils;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -30,10 +31,11 @@ public class Demo08ForEach {
             System.out.println(s);
 
             methodConsume();//非静态
-            Demo08ForEach:;methodConsume();
+             Demo08ForEach:;methodConsume();
 
             methodStaticConsume();//静态
             Demo08ForEach:;methodStaticConsume();
+
         });
 
         list.stream().forEach(System.out::println);
@@ -42,6 +44,9 @@ public class Demo08ForEach {
     public void methodConsume(){
         System.out.println("高手在民间");
     }
+
+
+
 
     public static void methodStaticConsume(){
         System.out.println("静态高手在民间");
@@ -67,8 +72,48 @@ public class Demo08ForEach {
         System.out.println(ids);
         System.out.println(orderIds);
 
+    }
+
+
+    /**
+     * for 循环不能终止
+     *
+     * 它里面有一个消费者，消费者里面 结束了，但是不能结束for，使用return则是进行下一个数据进行消费
+     *    default void forEach(Consumer<? super T> action) {
+     *         Objects.requireNonNull(action);
+     *         for (T t : this) {
+     *             action.accept(t);
+     *         }
+     *     }
+      */
+    @Test
+    public void continueForeach(){
+        List<String> list = new ArrayList<>();
+        list.add("a");
+        list.add("b");
+        list.add("c");
+
+
+
+        list.forEach(s->{
+            if(StringUtils.equals("a",s )){
+              return; //这里的return 相当于continue没有结束循环，而是继续下一个
+            }
+            System.out.println(s);
+
+        });
+
+        System.out.println("-------------------");
+        list.stream().forEach(s->{
+            if(StringUtils.equals("a",s )){
+                return; //这里的return 相当于continue没有结束循环，而是继续下一个
+            }
+            System.out.println(s);
+        });
+
 
     }
+
 
 
 }

@@ -29,7 +29,7 @@ public class ChartGraphicsZi{
                                                          int lovelyImageWidth,
                                                          int lovelyImageHeight
     ) {
-//Ğ¡±àÍÆ¼ö È¥µô
+//å°ç¼–æ¨è å»æ‰
 //        String tuijian = description ;
 //        StringBuffer s1= null;
 //        String oneLine = "",otherLine = "";
@@ -43,7 +43,7 @@ public class ChartGraphicsZi{
 //        if(otherLine!=null){
 //            s1 = new StringBuffer(otherLine);
 //            if(tuijian.length()>26) {
-//                int n = tuijian.length() / 26; //¿´¿´ÓĞ¼¸ĞĞ
+//                int n = tuijian.length() / 26; //çœ‹çœ‹æœ‰å‡ è¡Œ
 //                for (int index = 26; index < tuijian.length(); index += 26, n--) {
 //                    if (n > 1) {
 //                        s1.insert(index, '\n');
@@ -57,54 +57,54 @@ public class ChartGraphicsZi{
 //        String otherFinal = s1.toString();
 //        List<String> strs = Arrays.asList(otherFinal.split("\n"));
 //
-//        //ÕûÌåÍ¼µÄ¸ß¶ÈºÍ¿í¶È
+//        //æ•´ä½“å›¾çš„é«˜åº¦å’Œå®½åº¦
 //        int bili =0 ;
 //        int lovelyImageHeight =0 ;
-//        if(strs.size()==0){//µÚ¶şĞĞ¿ªÊ¼ 0 Êı¾İ
+//        if(strs.size()==0){//ç¬¬äºŒè¡Œå¼€å§‹ 0 æ•°æ®
 //            bili = 630-60 ;
-//        }else if(strs.size()==1){ //1ÌõÊı¾İ
+//        }else if(strs.size()==1){ //1æ¡æ•°æ®
 //            bili = 630-40 ;
-//        }else if(strs.size()==2){ //2ÌõÊı¾İ
+//        }else if(strs.size()==2){ //2æ¡æ•°æ®
 //            bili = 630 -20 ;
 //        }else {
 //            bili = 630 ;
 //        }
 //
-//        //ÕûÌåÍ¼µÄ¸ß¶ÈºÍ¿í¶È
+//        //æ•´ä½“å›¾çš„é«˜åº¦å’Œå®½åº¦
 //        int  lovelyImageWidth = 375*30;
 //        lovelyImageHeight = bili*30;
 
 
 
-        //ÕûÌåÍ¼ºÏ³É
+        //æ•´ä½“å›¾åˆæˆ
         BufferedImage bufferedImage = new BufferedImage(lovelyImageWidth, lovelyImageHeight, BufferedImage.TYPE_INT_RGB);
-        //ÉèÖÃÍ¼Æ¬µÄ±³¾°É«
+        //è®¾ç½®å›¾ç‰‡çš„èƒŒæ™¯è‰²
         Graphics2D main = bufferedImage.createGraphics();
         main.fillRect(0, 0, lovelyImageWidth, lovelyImageHeight);
 
 
         Graphics graphicsQR = bufferedImage.getGraphics();
-        //ÉÏÃæµÄ´óÍ¼
+        //ä¸Šé¢çš„å¤§å›¾
         graphicsQR.drawImage(imageQR, 0, 0, 375*30, 375*30, null);
 
 
-        //ÉÌÆ·ÍÆ¼ö
+        //å•†å“æ¨è
         Graphics2D fixTuiJian = bufferedImage.createGraphics();
         fixTuiJian.setColor(new Color(77,77,77));
         Font fixTuiJianFont = new Font("PingFang SC", Font.PLAIN, 13*30);
         fixTuiJian.setFont(fixTuiJianFont);
-        //Ê§Õæ´¦Àí
+        //å¤±çœŸå¤„ç†
         fixTuiJian.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
         fixTuiJian.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_GASP);
 
 
-//Ğ¡±àÍÆ¼öÈ¥µô
+//å°ç¼–æ¨èå»æ‰
 //
 //        if(oneLine!="") {
 //            fixTuiJian.drawString(oneLine, 85*30, 560*30);
 //        }
 //
-//        if(otherFinal!=""){ //µÚ¶şĞĞ¿ªÊ¼Ö»ÏÔÊ¾3ĞĞ
+//        if(otherFinal!=""){ //ç¬¬äºŒè¡Œå¼€å§‹åªæ˜¾ç¤º3è¡Œ
 //            for(int m = 0 ;m <strs.size();m++){
 //                if(m ==0){
 //                    fixTuiJian.drawString(strs.get(m), 20*30, 580*30);
@@ -124,133 +124,133 @@ public class ChartGraphicsZi{
         BasicStroke stokeLineKuang = new   BasicStroke(   40f   ); //12
 
 
-        Graphics2D ±êÌâ = bufferedImage.createGraphics();
-        ±êÌâ.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-        ±êÌâ.setColor(new Color(247,108,45));
-        ±êÌâ.setStroke(stokeLineKuang);
-        ±êÌâ.drawRect(0,375*30,238*30,158*30);
+        Graphics2D æ ‡é¢˜ = bufferedImage.createGraphics();
+        æ ‡é¢˜.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        æ ‡é¢˜.setColor(new Color(247,108,45));
+        æ ‡é¢˜.setStroke(stokeLineKuang);
+        æ ‡é¢˜.drawRect(0,375*30,238*30,158*30);
 
 
 
-        Graphics2D ±êÌâÎÄ×Ö = bufferedImage.createGraphics();
-        ±êÌâÎÄ×Ö.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-        ±êÌâÎÄ×Ö.setColor(new Color(247,108,45));
-        ±êÌâÎÄ×Ö.setStroke(stokeLineKuang);
-        ±êÌâÎÄ×Ö.drawRect(21*30,390*30,210*30,48*30);
+        Graphics2D æ ‡é¢˜æ–‡å­— = bufferedImage.createGraphics();
+        æ ‡é¢˜æ–‡å­—.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        æ ‡é¢˜æ–‡å­—.setColor(new Color(247,108,45));
+        æ ‡é¢˜æ–‡å­—.setStroke(stokeLineKuang);
+        æ ‡é¢˜æ–‡å­—.drawRect(21*30,390*30,210*30,48*30);
 
 
-        Graphics2D ÏÖ¼Û = bufferedImage.createGraphics();
-        ÏÖ¼Û.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-        ÏÖ¼Û.setColor(new Color(247,108,45));
-        ÏÖ¼Û.setStroke(stokeLineKuang);
-        ÏÖ¼Û.drawRect(20*30,446*30,63*30,16*30);//16.5
+        Graphics2D ç°ä»· = bufferedImage.createGraphics();
+        ç°ä»·.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        ç°ä»·.setColor(new Color(247,108,45));
+        ç°ä»·.setStroke(stokeLineKuang);
+        ç°ä»·.drawRect(20*30,446*30,63*30,16*30);//16.5
 
 
-        Graphics2D È¯ºó¼Û = bufferedImage.createGraphics();
-        È¯ºó¼Û.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-        È¯ºó¼Û.setColor(new Color(247,108,45));
-        È¯ºó¼Û.setStroke(stokeLineKuang);
-        È¯ºó¼Û.drawRect(84*30,465*30,101*30,28*30); //100.5
-
-
-
-        Graphics2D ¶şÎ¬Âë = bufferedImage.createGraphics();
-        ¶şÎ¬Âë.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-        ¶şÎ¬Âë.setColor(new Color(247,108,45));
-        ¶şÎ¬Âë.setStroke(stokeLineKuang);
-        ¶şÎ¬Âë.drawRect(232*30,394*30,124*30,120*30);
-
-
-        Graphics2D ¶şÎ¬ÂëÄÚ = bufferedImage.createGraphics();
-        ¶şÎ¬ÂëÄÚ.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-        ¶şÎ¬ÂëÄÚ.setColor(new Color(247,108,45));
-        ¶şÎ¬ÂëÄÚ.setStroke(stokeLineKuang);
-        ¶şÎ¬ÂëÄÚ.drawRect(240*30,397*30,109*30,109*30);
-
-        Graphics2D ¶şÎ¬ÂëÎÄ×Ö = bufferedImage.createGraphics();
-        ¶şÎ¬ÂëÎÄ×Ö.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-        ¶şÎ¬ÂëÎÄ×Ö.setColor(new Color(247,108,45));
-        ¶şÎ¬ÂëÎÄ×Ö.setStroke(stokeLineKuang);
-        ¶şÎ¬ÂëÎÄ×Ö.drawRect(249*30,507*30,90*30,14*30);
+        Graphics2D åˆ¸åä»· = bufferedImage.createGraphics();
+        åˆ¸åä»·.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        åˆ¸åä»·.setColor(new Color(247,108,45));
+        åˆ¸åä»·.setStroke(stokeLineKuang);
+        åˆ¸åä»·.drawRect(84*30,465*30,101*30,28*30); //100.5
 
 
 
+        Graphics2D äºŒç»´ç  = bufferedImage.createGraphics();
+        äºŒç»´ç .setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        äºŒç»´ç .setColor(new Color(247,108,45));
+        äºŒç»´ç .setStroke(stokeLineKuang);
+        äºŒç»´ç .drawRect(232*30,394*30,124*30,120*30);
 
 
-        Graphics2D ÍÆ¼ö = bufferedImage.createGraphics();
-        ÍÆ¼ö.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-        ÍÆ¼ö.setColor(new Color(247,108,45));
-        ÍÆ¼ö.setStroke(stokeLineKuang);
-//      ÍÆ¼ö.drawRect(0,533*30,375*30,123*30); //Ğ¡±àÍÆ¼ö
-        ÍÆ¼ö.drawRect(0,533*30,375*30,148*30); //»°ğì
+        Graphics2D äºŒç»´ç å†… = bufferedImage.createGraphics();
+        äºŒç»´ç å†….setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        äºŒç»´ç å†….setColor(new Color(247,108,45));
+        äºŒç»´ç å†….setStroke(stokeLineKuang);
+        äºŒç»´ç å†….drawRect(240*30,397*30,109*30,109*30);
 
-
-//        Graphics2D ÍÆ¼öÎÄ×Ó = bufferedImage.createGraphics();
-//        ÍÆ¼öÎÄ×Ó.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-//        ÍÆ¼öÎÄ×Ó.setColor(new Color(247,108,45));
-//        ÍÆ¼öÎÄ×Ó.setStroke(stokeLineKuang);
-//        ÍÆ¼öÎÄ×Ó.drawRect(20*30,546*30,338*30,88*30);
-
-
-
-        Graphics2D Í·Ïñ = bufferedImage.createGraphics();
-        Í·Ïñ.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-        Í·Ïñ.setColor(new Color(247,108,45));
-        Í·Ïñ.setStroke(stokeLineKuang);
-        Í·Ïñ.drawRect(20*30,550*30,44*30,44*30);
+        Graphics2D äºŒç»´ç æ–‡å­— = bufferedImage.createGraphics();
+        äºŒç»´ç æ–‡å­—.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        äºŒç»´ç æ–‡å­—.setColor(new Color(247,108,45));
+        äºŒç»´ç æ–‡å­—.setStroke(stokeLineKuang);
+        äºŒç»´ç æ–‡å­—.drawRect(249*30,507*30,90*30,14*30);
 
 
 
 
 
-        Graphics2D Ãû×Ö = bufferedImage.createGraphics();
-        Ãû×Ö.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-        Ãû×Ö.setColor(new Color(247,108,45));
-        Ãû×Ö.setStroke(stokeLineKuang);
-        Ãû×Ö.drawRect(76*30,550*30,80*30,28*30);
+        Graphics2D æ¨è = bufferedImage.createGraphics();
+        æ¨è.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        æ¨è.setColor(new Color(247,108,45));
+        æ¨è.setStroke(stokeLineKuang);
+//      æ¨è.drawRect(0,533*30,375*30,123*30); //å°ç¼–æ¨è
+        æ¨è.drawRect(0,533*30,375*30,148*30); //è¯ç—¨
+
+
+//        Graphics2D æ¨èæ–‡å­ = bufferedImage.createGraphics();
+//        æ¨èæ–‡å­.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+//        æ¨èæ–‡å­.setColor(new Color(247,108,45));
+//        æ¨èæ–‡å­.setStroke(stokeLineKuang);
+//        æ¨èæ–‡å­.drawRect(20*30,546*30,338*30,88*30);
 
 
 
-        Graphics2D ¸öĞÔ±êÇ© = bufferedImage.createGraphics();
-        ¸öĞÔ±êÇ©.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-        ¸öĞÔ±êÇ©.setColor(new Color(247,108,45));
-        ¸öĞÔ±êÇ©.setStroke(stokeLineKuang);
-        ¸öĞÔ±êÇ©.drawRect(76*30,580*30,80*30,15*30);
-
-
-
-
-        Graphics2D »°ğì = bufferedImage.createGraphics();
-        »°ğì.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-        »°ğì.setColor(new Color(247,108,45));
-        »°ğì.setStroke(stokeLineKuang);
-        »°ğì.drawRect(20*30,600*30,335*30,68*30);
-
-
-
-        Graphics2D »°ğìÄÚÈİ = bufferedImage.createGraphics();
-        »°ğìÄÚÈİ.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-        »°ğìÄÚÈİ.setColor(new Color(247,108,45));
-        »°ğìÄÚÈİ.setStroke(stokeLineKuang);
-        »°ğìÄÚÈİ.drawRect(32*30,612*30,311*30,44*30);
+        Graphics2D å¤´åƒ = bufferedImage.createGraphics();
+        å¤´åƒ.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        å¤´åƒ.setColor(new Color(247,108,45));
+        å¤´åƒ.setStroke(stokeLineKuang);
+        å¤´åƒ.drawRect(20*30,550*30,44*30,44*30);
 
 
 
 
 
+        Graphics2D åå­— = bufferedImage.createGraphics();
+        åå­—.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        åå­—.setColor(new Color(247,108,45));
+        åå­—.setStroke(stokeLineKuang);
+        åå­—.drawRect(76*30,550*30,80*30,28*30);
 
-        //¶şÎ¬ÂëÍ¼Æ¬
+
+
+        Graphics2D ä¸ªæ€§æ ‡ç­¾ = bufferedImage.createGraphics();
+        ä¸ªæ€§æ ‡ç­¾.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        ä¸ªæ€§æ ‡ç­¾.setColor(new Color(247,108,45));
+        ä¸ªæ€§æ ‡ç­¾.setStroke(stokeLineKuang);
+        ä¸ªæ€§æ ‡ç­¾.drawRect(76*30,580*30,80*30,15*30);
+
+
+
+
+        Graphics2D è¯ç—¨ = bufferedImage.createGraphics();
+        è¯ç—¨.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        è¯ç—¨.setColor(new Color(247,108,45));
+        è¯ç—¨.setStroke(stokeLineKuang);
+        è¯ç—¨.drawRect(20*30,600*30,335*30,68*30);
+
+
+
+        Graphics2D è¯ç—¨å†…å®¹ = bufferedImage.createGraphics();
+        è¯ç—¨å†…å®¹.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        è¯ç—¨å†…å®¹.setColor(new Color(247,108,45));
+        è¯ç—¨å†…å®¹.setStroke(stokeLineKuang);
+        è¯ç—¨å†…å®¹.drawRect(32*30,612*30,311*30,44*30);
+
+
+
+
+
+
+        //äºŒç»´ç å›¾ç‰‡
         graphicsQR.drawImage(
                 titleLab.getScaledInstance( 34*30, 17*30 ,Image.SCALE_SMOOTH), 21*30, 393*30, null);
 
 
 
-        //¹Ì¶¨ÎÄ×Ö title
+        //å›ºå®šæ–‡å­— title
         Graphics2D fixed = bufferedImage.createGraphics();
         fixed.setColor(new Color(54, 54, 54));
         Font fixedFont = new Font("PingFang SC", Font.BOLD, 16*30);
         fixed.setFont(fixedFont);
-        //Ê§Õæ´¦Àí
+        //å¤±çœŸå¤„ç†
         fixed.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
         fixed.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_GASP);
 
@@ -268,7 +268,7 @@ public class ChartGraphicsZi{
         if(titleOtherLine!=null){
             s1titleOtherLine = new StringBuffer(titleOtherLine);
             if(title.length()>13) {
-                int n = title.length() / 13; //¿´¿´ÓĞ¼¸ĞĞ
+                int n = title.length() / 13; //çœ‹çœ‹æœ‰å‡ è¡Œ
                 for (int index = 13; index < title.length(); index += 13, n--) {
                     if (n > 1) {
                         s1titleOtherLine.insert(index, '\n');
@@ -287,7 +287,7 @@ public class ChartGraphicsZi{
 
         }
 
-        if(titleOtherFinal!=""){ //µÚ¶şĞĞ¿ªÊ¼Ö»ÏÔÊ¾1ĞĞ
+        if(titleOtherFinal!=""){ //ç¬¬äºŒè¡Œå¼€å§‹åªæ˜¾ç¤º1è¡Œ
             for(int m = 0 ;m <titleStrs.size();m++){
                 if(m ==0){
                     fixed.drawString(titleStrs.get(m), 21*30, 432*30);
@@ -300,18 +300,18 @@ public class ChartGraphicsZi{
         fixNowPriceshixiao.setColor(new Color(171, 171, 171));
         BasicStroke fixNowPriceshixiaoLine = new   BasicStroke(   2f   );
         fixNowPriceshixiao.setStroke(fixNowPriceshixiaoLine);
-        fixNowPriceshixiao.drawLine(56*30,454*30,80*30,454*30);//»­Ò»ÌõÏß¶Î
+        fixNowPriceshixiao.drawLine(56*30,454*30,80*30,454*30);//ç”»ä¸€æ¡çº¿æ®µ
 
 
-        //¹Ì¶¨ÎÄ×Ö ÏÖ¼Û
+        //å›ºå®šæ–‡å­— ç°ä»·
         Graphics2D fixNowPrice = bufferedImage.createGraphics();
         fixNowPrice.setColor(new Color(171, 171, 171));
         Font fixNowPriceFont = new Font("PingFang SC", Font.BOLD, 12*30);
         fixNowPrice.setFont(fixNowPriceFont);
-        //Ê§Õæ´¦Àí
+        //å¤±çœŸå¤„ç†
         fixNowPrice.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
         fixNowPrice.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_GASP);
-        String newPrice =  "ÏÖ¼Û £¤"+originPrice;
+        String newPrice =  "ç°ä»· ï¿¥"+originPrice;
         fixNowPrice.drawString(newPrice, 20*30, 458*30);
 
 
@@ -323,15 +323,15 @@ public class ChartGraphicsZi{
         quanJx.fillRect(20*30,472*30,18*30,17*30);
 
 
-        //¹Ì¶¨ÎÄ×Ö È¯
+        //å›ºå®šæ–‡å­— åˆ¸
         Graphics2D fixquanWenzi = bufferedImage.createGraphics();
         fixquanWenzi.setColor(new Color(255,255,255));
         Font fixQuanHouwenziFont = new Font("PingFang SC", Font.PLAIN, 12*30);
         fixquanWenzi.setFont(fixQuanHouwenziFont);
-        //Ê§Õæ´¦Àí
+        //å¤±çœŸå¤„ç†
         fixquanWenzi.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
         fixquanWenzi.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_GASP);
-        String quanwezi =  "È¯";
+        String quanwezi =  "åˆ¸";
         fixquanWenzi.drawString(quanwezi, 23*30, 484*30);
 
 
@@ -346,51 +346,51 @@ public class ChartGraphicsZi{
         yuanJx.drawRect(20*30,472*30,55*30,17*30);
 
 
-        //¹Ì¶¨ÎÄ×Ö È¯½ğ¶î
+        //å›ºå®šæ–‡å­— åˆ¸é‡‘é¢
         Graphics2D fixyuanWenzi = bufferedImage.createGraphics();
         fixyuanWenzi.setColor(new Color(247,108,45));
         Font fixyuanWenziFont = new Font("PingFang SC", Font.PLAIN, 12*30);
         fixyuanWenzi.setFont(fixyuanWenziFont);
-        //Ê§Õæ´¦Àí
+        //å¤±çœŸå¤„ç†
         fixyuanWenzi.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
         fixyuanWenzi.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_GASP);
-        String yuan =  couponPrice+"Ôª";
+        String yuan =  couponPrice+"å…ƒ";
         fixyuanWenzi.drawString(yuan, 43*30, 485*30);
 
 
 
-        //¹Ì¶¨ÎÄ×Ö È¯ÒÔ¼°È¯ºó¼Û
+        //å›ºå®šæ–‡å­— åˆ¸ä»¥åŠåˆ¸åä»·
         Graphics2D fixQuanHou = bufferedImage.createGraphics();
         fixQuanHou.setColor(new Color(171, 171, 171));
         Font fixQuanHouFont = new Font("PingFang SC", Font.BOLD, 14*30);
         fixQuanHou.setFont(fixQuanHouFont);
-        //Ê§Õæ´¦Àí
+        //å¤±çœŸå¤„ç†
         fixQuanHou.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
         fixQuanHou.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_GASP);
-        String quanhoujia =  "È¯ºó¼Û";
+        String quanhoujia =  "åˆ¸åä»·";
         fixQuanHou.drawString(quanhoujia, 84*30, 484*30);
 
 
 
 
-        //¹Ì¶¨ÎÄ×Ö£¤
+        //å›ºå®šæ–‡å­—ï¿¥
         Graphics2D meiyuan = bufferedImage.createGraphics();
         meiyuan.setColor(new Color(247,108,45));
         Font qhjPriceMeiyuanFont = new Font("PingFang SC", Font.PLAIN, 10*30);
         meiyuan.setFont(qhjPriceMeiyuanFont);
-        //Ê§Õæ´¦Àí
+        //å¤±çœŸå¤„ç†
         meiyuan.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
         meiyuan.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_GASP);
-        String meiyuanWenZi =  "£¤";
+        String meiyuanWenZi =  "ï¿¥";
         meiyuan.drawString(meiyuanWenZi, 127*30, 484*30);
 
 
-        //¹Ì¶¨ÎÄ×Ö 9.90
+        //å›ºå®šæ–‡å­— 9.90
         Graphics2D qhjPrice = bufferedImage.createGraphics();
         qhjPrice.setColor(new Color(247,108,45));
         Font qhjPriceFont = new Font("PingFang SC", Font.BOLD, 20*30);
         qhjPrice.setFont(qhjPriceFont);
-        //Ê§Õæ´¦Àí
+        //å¤±çœŸå¤„ç†
         qhjPrice.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
         qhjPrice.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_GASP);
         String QaunPrice = nowPrice+"";
@@ -399,14 +399,14 @@ public class ChartGraphicsZi{
 
 
 
-//Ğ¡±àÍÆ¼ö È¥µô£¬ºóÆÚ¿ÉÒÔ¼ÓÉÏ
+//å°ç¼–æ¨è å»æ‰ï¼ŒåæœŸå¯ä»¥åŠ ä¸Š
 //        Graphics2D fixsptjwenzi = bufferedImage.createGraphics();
 //        fixsptjwenzi.setColor(new Color(77,77,77));
 //        Font sptjFont = new Font("PingFang SC", Font.BOLD,13*30);
 //        fixsptjwenzi.setFont(sptjFont);
 //        fixsptjwenzi.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 //        fixsptjwenzi.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_GASP);
-//        String sptjwenzi =  "Ğ¡±àÍÆ¼ö£º";
+//        String sptjwenzi =  "å°ç¼–æ¨èï¼š";
 //        fixsptjwenzi.drawString(sptjwenzi, 20*30, 560*30);
 
 
@@ -417,17 +417,17 @@ public class ChartGraphicsZi{
 
 
 
-        //¶şÎ¬ÂëµÄÍ¼Æ¬
+        //äºŒç»´ç çš„å›¾ç‰‡
         graphicsQR.drawImage(ImageerWeiMa, 238*30, 397*30, 109*30, 109*30, null);
 
-        //¹Ì¶¨ÎÄ×Ö ³¤°´Ê¶±ğ¶şÎ¬ÂëÁìÈ¯
+        //å›ºå®šæ–‡å­— é•¿æŒ‰è¯†åˆ«äºŒç»´ç é¢†åˆ¸
         Graphics2D changan = bufferedImage.createGraphics();
         changan.setColor(new Color(255,156,83));
         Font changanFont = new Font("PingFang SC", Font.PLAIN, 10*30);
         changan.setFont(changanFont);
         changan.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
         changan.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_GASP);
-        String changanWenzi = "³¤°´Ê¶±ğ¶şÎ¬ÂëÁìÈ¯";
+        String changanWenzi = "é•¿æŒ‰è¯†åˆ«äºŒç»´ç é¢†åˆ¸";
         changan.drawString(changanWenzi, 249*30, 517*30);
 
 
@@ -435,56 +435,56 @@ public class ChartGraphicsZi{
 
 
 
-        //´ÖÏ¸
+        //ç²—ç»†
         BasicStroke stokeLine = new   BasicStroke(   40f   ); //12
 
-        //×óÉÏ
+        //å·¦ä¸Š
         Graphics2D erweimazuo  = bufferedImage.createGraphics();
         erweimazuo.setColor(new Color(255,156,83));
         erweimazuo.setStroke(stokeLine);
-        erweimazuo.drawLine(232*30,394*30,244*30,394*30);//»­Ò»ÌõÏß¶Î
+        erweimazuo.drawLine(232*30,394*30,244*30,394*30);//ç”»ä¸€æ¡çº¿æ®µ
 
         Graphics2D erweimazuoxai  = bufferedImage.createGraphics();
         erweimazuoxai.setColor(new Color(255,156,83));
         erweimazuoxai.setStroke(stokeLine);
-        erweimazuoxai.drawLine(232*30,394*30,232*30,406*30);//»­Ò»ÌõÏß¶Î
+        erweimazuoxai.drawLine(232*30,394*30,232*30,406*30);//ç”»ä¸€æ¡çº¿æ®µ
 
 
-        //ÓÒÉÏ
+        //å³ä¸Š
         Graphics2D erweimayou  = bufferedImage.createGraphics();
         erweimayou.setColor(new Color(255,156,83));
         erweimayou.setStroke(stokeLine);
-        erweimayou.drawLine(356*30,394*30,344*30,394*30);//»­Ò»ÌõÏß¶Î
+        erweimayou.drawLine(356*30,394*30,344*30,394*30);//ç”»ä¸€æ¡çº¿æ®µ
 
         Graphics2D erweimayouxia  = bufferedImage.createGraphics();
         erweimayouxia.setColor(new Color(255,156,83));
         erweimayouxia.setStroke(stokeLine);
-        erweimayouxia.drawLine(356*30,394*30,356*30,406*30);//»­Ò»ÌõÏß¶Î
+        erweimayouxia.drawLine(356*30,394*30,356*30,406*30);//ç”»ä¸€æ¡çº¿æ®µ
 
 
-        //×óÏÂ
+        //å·¦ä¸‹
         Graphics2D erweimaxiazuo  = bufferedImage.createGraphics();
         erweimaxiazuo.setColor(new Color(255,156,83));
         erweimaxiazuo.setStroke(stokeLine);
-        erweimaxiazuo.drawLine(232*30,514*30,244*30,514*30);//»­Ò»ÌõÏß¶Î
+        erweimaxiazuo.drawLine(232*30,514*30,244*30,514*30);//ç”»ä¸€æ¡çº¿æ®µ
 
         Graphics2D erweimaxiazuoxia  = bufferedImage.createGraphics();
         erweimaxiazuoxia.setColor(new Color(255,156,83));
         erweimaxiazuoxia.setStroke(stokeLine);
-        erweimaxiazuoxia.drawLine(232*30,514*30,232*30,502*30);//»­Ò»ÌõÏß¶Î
+        erweimaxiazuoxia.drawLine(232*30,514*30,232*30,502*30);//ç”»ä¸€æ¡çº¿æ®µ
 
 
-        //ÓÒÏÂ
+        //å³ä¸‹
         Graphics2D erweimaxiayou  = bufferedImage.createGraphics();
         erweimaxiayou.setColor(new Color(255,156,83));
         erweimaxiayou.setStroke(stokeLine);
-        erweimaxiayou.drawLine(356*30,514*30,344*30,514*30);//»­Ò»ÌõÏß¶Î
+        erweimaxiayou.drawLine(356*30,514*30,344*30,514*30);//ç”»ä¸€æ¡çº¿æ®µ
 
 
         Graphics2D erweimaxiayouxia  = bufferedImage.createGraphics();
         erweimaxiayouxia.setColor(new Color(255,156,83));
         erweimaxiayouxia.setStroke(stokeLine);
-        erweimaxiayouxia.drawLine(356*30,514*30,356*30,502*30);//»­Ò»ÌõÏß¶Î
+        erweimaxiayouxia.drawLine(356*30,514*30,356*30,502*30);//ç”»ä¸€æ¡çº¿æ®µ
 
 
 
@@ -494,13 +494,13 @@ public class ChartGraphicsZi{
         xianduan.setColor(new Color(245,245,245));
         BasicStroke xianduanstokeLine = new   BasicStroke(   20f   );
         xianduan.setStroke(xianduanstokeLine);
-        xianduan.drawLine(0,534*30,375*30,534*30);//»­Ò»ÌõÏß¶Î
+        xianduan.drawLine(0,534*30,375*30,534*30);//ç”»ä¸€æ¡çº¿æ®µ
 
 
 
         if(label!=null){
             List<String> labels = Arrays.asList(label.split(","));
-            //Ò»°ã×î¶àÈı¸ö±êÇ©
+            //ä¸€èˆ¬æœ€å¤šä¸‰ä¸ªæ ‡ç­¾
             int flag = 1 ;
             int oneWidth = 0 ,twoWidth = 0 ,threeWidth = 0;
             for(int j = 0 ; j<labels.size();j++ ){
@@ -526,9 +526,9 @@ public class ChartGraphicsZi{
                     Graphics2D label2DOne = bufferedImage.createGraphics();
                     label2DOne.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
                     label2DOne.setColor(new Color(255,156,83,50));
-                    label2DOne.fillRoundRect(24*30,497*30,(oneWidth+9)*30,19*30,17*30,17*30);//Í¿Ò»¸öÔ²½Ç¾ØĞÎ¿é
+                    label2DOne.fillRoundRect(24*30,497*30,(oneWidth+9)*30,19*30,17*30,17*30);//æ¶‚ä¸€ä¸ªåœ†è§’çŸ©å½¢å—
 
-                    //¹Ì¶¨ÎÄ×Ö °üÓÊ
+                    //å›ºå®šæ–‡å­— åŒ…é‚®
                     Graphics2D fixlabel2DOne = bufferedImage.createGraphics();
                     fixlabel2DOne.setColor(new Color(254,127,0));
                     Font fixlabel2DFont = new Font("PingFang SC", Font.PLAIN, 10*30);
@@ -559,9 +559,9 @@ public class ChartGraphicsZi{
                     Graphics2D label2DTwo = bufferedImage.createGraphics();
                     label2DTwo.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
                     label2DTwo.setColor(new Color(255,156,83,50));
-                    label2DTwo.fillRoundRect((24+(oneWidth+8)+8)*30,497*30,(twoWidth+9)*30,19*30,17*30,17*30);//Í¿Ò»¸öÔ²½Ç¾ØĞÎ¿é
+                    label2DTwo.fillRoundRect((24+(oneWidth+8)+8)*30,497*30,(twoWidth+9)*30,19*30,17*30,17*30);//æ¶‚ä¸€ä¸ªåœ†è§’çŸ©å½¢å—
 
-                    //¹Ì¶¨ÎÄ×Ö °üÓÊ
+                    //å›ºå®šæ–‡å­— åŒ…é‚®
                     Graphics2D fixlabel2DTwo = bufferedImage.createGraphics();
                     fixlabel2DTwo.setColor(new Color(254,127,0));
                     Font fixlabel2DFont = new Font("PingFang SC", Font.PLAIN, 10*30);
@@ -592,9 +592,9 @@ public class ChartGraphicsZi{
                     Graphics2D label2DThree = bufferedImage.createGraphics();
                     label2DThree.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
                     label2DThree.setColor(new Color(255,156,83,50));
-                    label2DThree.fillRoundRect((24+(oneWidth+8)+8+(twoWidth+8)+8)*30,497*30,(threeWidth+8)*30,19*30,17*30,17*30);//Í¿Ò»¸öÔ²½Ç¾ØĞÎ¿é
+                    label2DThree.fillRoundRect((24+(oneWidth+8)+8+(twoWidth+8)+8)*30,497*30,(threeWidth+8)*30,19*30,17*30,17*30);//æ¶‚ä¸€ä¸ªåœ†è§’çŸ©å½¢å—
 
-                    //¹Ì¶¨ÎÄ×Ö °üÓÊ
+                    //å›ºå®šæ–‡å­— åŒ…é‚®
                     Graphics2D fixlabel2DThree = bufferedImage.createGraphics();
                     fixlabel2DThree.setColor(new Color(254,127,0));
                     Font fixlabel2DFont = new Font("PingFang SC", Font.PLAIN, 10*30);
@@ -615,7 +615,7 @@ public class ChartGraphicsZi{
         try {
             URL personImg = new URL(couponAdzoneFoodieTag.getPersonImgUrl());
             BufferedImage personBufferImage = ImageIO.read(personImg);
-            //ÉÏÃæµÄ´óÍ¼
+            //ä¸Šé¢çš„å¤§å›¾
             graphicsQR.drawImage(personBufferImage, 20*30,545*30,44*30,44*30, null);
 
         } catch (MalformedURLException e) {
@@ -628,19 +628,19 @@ public class ChartGraphicsZi{
 
 
 
-        //¹Ì¶¨ÎÄ×Ö title
+        //å›ºå®šæ–‡å­— title
         Graphics2D name = bufferedImage.createGraphics();
         name.setColor(new Color(54, 54, 54));
         Font fixedFontName = new Font("PingFang SC", Font.BOLD, 16*30);
         name.setFont(fixedFontName);
-        //Ê§Õæ´¦Àí
+        //å¤±çœŸå¤„ç†
         name.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
         name.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_GASP);
         name.drawString(couponAdzoneFoodieTag.getName(), 76*30, 566*30);
 
 
 
-        //»°ğìÄÚÈİhualaoContent
+        //è¯ç—¨å†…å®¹hualaoContent
         Graphics2D hualaoContent = bufferedImage.createGraphics();
         hualaoContent.setColor(new Color(37,37,37));
         Font hualaoContentFont = new Font("PingFang SC", Font.PLAIN, 14*30);
@@ -657,11 +657,11 @@ public class ChartGraphicsZi{
         int hualaoFirstLineWight = fm.stringWidth(couponAdzoneFoodieTag.getContent());
 
         if(hualaoFirstLineWight<=(311*30*2)) {
-            hualaoRect.fillRoundRect(20*30,600*30,335*30,68*30,0,0);//Í¿Ò»¸öÔ²½Ç¾ØĞÎ¿é
+            hualaoRect.fillRoundRect(20*30,600*30,335*30,68*30,0,0);//æ¶‚ä¸€ä¸ªåœ†è§’çŸ©å½¢å—
         }else if((hualaoFirstLineWight>311*30*2)&&hualaoFirstLineWight<=(311*30*3)) {
-            hualaoRect.fillRoundRect(20*30,600*30,335*30,95*30,0,0);//Í¿Ò»¸öÔ²½Ç¾ØĞÎ¿é
+            hualaoRect.fillRoundRect(20*30,600*30,335*30,95*30,0,0);//æ¶‚ä¸€ä¸ªåœ†è§’çŸ©å½¢å—
         }else if((hualaoFirstLineWight>311*30*3)) {
-            hualaoRect.fillRoundRect(20*30,600*30,335*30,120*30,0,0);//Í¿Ò»¸öÔ²½Ç¾ØĞÎ¿é
+            hualaoRect.fillRoundRect(20*30,600*30,335*30,120*30,0,0);//æ¶‚ä¸€ä¸ªåœ†è§’çŸ©å½¢å—
         }
 
         if(hualaoFirstLineWight<=311*30){
@@ -697,7 +697,7 @@ public class ChartGraphicsZi{
 
 
 
-        //¸öĞÔ»¯±êÇ©
+        //ä¸ªæ€§åŒ–æ ‡ç­¾
         Graphics2D editorTagRect = bufferedImage.createGraphics();
         editorTagRect.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
         editorTagRect.setColor(new Color(255,156,83,50));
@@ -717,27 +717,27 @@ public class ChartGraphicsZi{
         for(int i = 0 ; i<tagArrays.length;i++){
 
             if(i==0){
-                editorTagRect.fillRoundRect(76*30,575*30,(tagArrays[i].length()*11)*30,15*30,0,0);//Í¿Ò»¸öÔ²½Ç¾ØĞÎ¿é
+                editorTagRect.fillRoundRect(76*30,575*30,(tagArrays[i].length()*11)*30,15*30,0,0);//æ¶‚ä¸€ä¸ªåœ†è§’çŸ©å½¢å—
                 editorTag.drawString(tagArrays[i], 77*30, 587*30);
                 tagWidth[0] =  (tagArrays[i].length()*11) ;
             }
             if(i==1){
-                editorTagRect.fillRoundRect((76+tagWidth[0]+editorJianJu)*30,575*30,(tagArrays[i].length()*11)*30,15*30,0,0);//Í¿Ò»¸öÔ²½Ç¾ØĞÎ¿é
+                editorTagRect.fillRoundRect((76+tagWidth[0]+editorJianJu)*30,575*30,(tagArrays[i].length()*11)*30,15*30,0,0);//æ¶‚ä¸€ä¸ªåœ†è§’çŸ©å½¢å—
                 editorTag.drawString(tagArrays[i], (77+tagWidth[0]+editorJianJu)*30, 587*30);
-                tagWidth[1] = tagArrays[i].length()*11 + 76+tagWidth[0]+editorJianJu; //±êÇ©µÄ¿í¶È¼Ó
+                tagWidth[1] = tagArrays[i].length()*11 + 76+tagWidth[0]+editorJianJu; //æ ‡ç­¾çš„å®½åº¦åŠ 
             }
             if(i==2){
-                editorTagRect.fillRoundRect((tagWidth[1]+editorJianJu)*30,575*30,(tagArrays[i].length()*11)*30,15*30,0,0);//Í¿Ò»¸öÔ²½Ç¾ØĞÎ¿é
+                editorTagRect.fillRoundRect((tagWidth[1]+editorJianJu)*30,575*30,(tagArrays[i].length()*11)*30,15*30,0,0);//æ¶‚ä¸€ä¸ªåœ†è§’çŸ©å½¢å—
                 editorTag.drawString(tagArrays[i], (tagWidth[1]+editorJianJu+1)*30, 587*30);
             }
 
         }
 
-//        //¸öĞÔ»¯±êÇ© Ò»ĞĞ
+//        //ä¸ªæ€§åŒ–æ ‡ç­¾ ä¸€è¡Œ
 //        Graphics2D editorTagRect = bufferedImage.createGraphics();
 //        editorTagRect.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 //        editorTagRect.setColor(new Color(255,156,83,50));
-//        editorTagRect.fillRoundRect(76*30,580*30,couponAdzoneFoodieTag.getTagLength()*30,15*30,0,0);//Í¿Ò»¸öÔ²½Ç¾ØĞÎ¿é
+//        editorTagRect.fillRoundRect(76*30,580*30,couponAdzoneFoodieTag.getTagLength()*30,15*30,0,0);//æ¶‚ä¸€ä¸ªåœ†è§’çŸ©å½¢å—
 //
 //
 //
@@ -760,38 +760,38 @@ public class ChartGraphicsZi{
 
 
     /**
-     * Ö¸¶¨Í¼Æ¬¿í¶ÈºÍ¸ß¶ÈºÍÑ¹Ëõ±ÈÀı¶ÔÍ¼Æ¬½øĞĞÑ¹Ëõ
+     * æŒ‡å®šå›¾ç‰‡å®½åº¦å’Œé«˜åº¦å’Œå‹ç¼©æ¯”ä¾‹å¯¹å›¾ç‰‡è¿›è¡Œå‹ç¼©
      *
      * @param widthdist
-     *            Ñ¹ËõºóÍ¼Æ¬µÄ¿í¶È
+     *            å‹ç¼©åå›¾ç‰‡çš„å®½åº¦
      * @param heightdist
-     *            Ñ¹ËõºóÍ¼Æ¬µÄ¸ß¶È
+     *            å‹ç¼©åå›¾ç‰‡çš„é«˜åº¦
      * @param rate
-     *            Ñ¹ËõµÄ±ÈÀı
+     *            å‹ç¼©çš„æ¯”ä¾‹
      */
     public static BufferedImage reduceImg(BufferedImage bufferedImage, int widthdist, int heightdist, Float rate) {
         try {
 
-            // Èç¹û±ÈÀı²»Îª¿ÕÔòËµÃ÷ÊÇ°´±ÈÀıÑ¹Ëõ
+            // å¦‚æœæ¯”ä¾‹ä¸ä¸ºç©ºåˆ™è¯´æ˜æ˜¯æŒ‰æ¯”ä¾‹å‹ç¼©
             if (rate != null && rate > 0) {
-                //»ñµÃÔ´Í¼Æ¬µÄ¿í¸ß´æÈëÊı×éÖĞ
+                //è·å¾—æºå›¾ç‰‡çš„å®½é«˜å­˜å…¥æ•°ç»„ä¸­
                 int[] results = getImgWidthHeight(bufferedImage);
                 if (results == null || results[0] == 0 || results[1] == 0) {
                     return null;
                 } else {
-                    //°´±ÈÀıËõ·Å»òÀ©´óÍ¼Æ¬´óĞ¡£¬½«¸¡µãĞÍ×ªÎªÕûĞÍ
+                    //æŒ‰æ¯”ä¾‹ç¼©æ”¾æˆ–æ‰©å¤§å›¾ç‰‡å¤§å°ï¼Œå°†æµ®ç‚¹å‹è½¬ä¸ºæ•´å‹
                     widthdist = (int) (results[0] * rate);
                     heightdist = (int) (results[1] * rate);
                 }
             }
-            // ¿ªÊ¼¶ÁÈ¡ÎÄ¼ş²¢½øĞĞÑ¹Ëõ
+            // å¼€å§‹è¯»å–æ–‡ä»¶å¹¶è¿›è¡Œå‹ç¼©
             Image src = (Image) bufferedImage;
 
-            // ¹¹ÔìÒ»¸öÀàĞÍÎªÔ¤¶¨ÒåÍ¼ÏñÀàĞÍÖ®Ò»µÄ BufferedImage
+            // æ„é€ ä¸€ä¸ªç±»å‹ä¸ºé¢„å®šä¹‰å›¾åƒç±»å‹ä¹‹ä¸€çš„ BufferedImage
             BufferedImage tag = new BufferedImage((int) widthdist, (int) heightdist, BufferedImage.TYPE_INT_RGB);
 
-            //»æÖÆÍ¼Ïñ  getScaledInstance±íÊ¾´´½¨´ËÍ¼ÏñµÄËõ·Å°æ±¾£¬·µ»ØÒ»¸öĞÂµÄËõ·Å°æ±¾Image,°´Ö¸¶¨µÄwidth,height³ÊÏÖÍ¼Ïñ
-            //Image.SCALE_SMOOTH,Ñ¡ÔñÍ¼ÏñÆ½»¬¶È±ÈËõ·ÅËÙ¶È¾ßÓĞ¸ü¸ßÓÅÏÈ¼¶µÄÍ¼ÏñËõ·ÅËã·¨¡£
+            //ç»˜åˆ¶å›¾åƒ  getScaledInstanceè¡¨ç¤ºåˆ›å»ºæ­¤å›¾åƒçš„ç¼©æ”¾ç‰ˆæœ¬ï¼Œè¿”å›ä¸€ä¸ªæ–°çš„ç¼©æ”¾ç‰ˆæœ¬Image,æŒ‰æŒ‡å®šçš„width,heightå‘ˆç°å›¾åƒ
+            //Image.SCALE_SMOOTH,é€‰æ‹©å›¾åƒå¹³æ»‘åº¦æ¯”ç¼©æ”¾é€Ÿåº¦å…·æœ‰æ›´é«˜ä¼˜å…ˆçº§çš„å›¾åƒç¼©æ”¾ç®—æ³•ã€‚
             tag.getGraphics().drawImage(src.getScaledInstance(widthdist, heightdist, Image.SCALE_SMOOTH), 0, 0, null);
 
             return tag;
@@ -802,17 +802,17 @@ public class ChartGraphicsZi{
     }
 
     /**
-     * »ñÈ¡Í¼Æ¬¿í¶ÈºÍ¸ß¶È
+     * è·å–å›¾ç‰‡å®½åº¦å’Œé«˜åº¦
      *
-     * @return ·µ»ØÍ¼Æ¬µÄ¿í¶È
+     * @return è¿”å›å›¾ç‰‡çš„å®½åº¦
      */
     public static int[] getImgWidthHeight(BufferedImage bufferedImage) {
         int result[] = { 0, 0 };
         try {
-            // »ñµÃÎÄ¼şÊäÈëÁ÷
-            // ´ÓÁ÷Àï½«Í¼Æ¬Ğ´Èë»º³åÍ¼Æ¬Çø
-            result[0] =bufferedImage.getWidth(null); // µÃµ½Ô´Í¼Æ¬¿í
-            result[1] =bufferedImage.getHeight(null);// µÃµ½Ô´Í¼Æ¬¸ß
+            // è·å¾—æ–‡ä»¶è¾“å…¥æµ
+            // ä»æµé‡Œå°†å›¾ç‰‡å†™å…¥ç¼“å†²å›¾ç‰‡åŒº
+            result[0] =bufferedImage.getWidth(null); // å¾—åˆ°æºå›¾ç‰‡å®½
+            result[1] =bufferedImage.getHeight(null);// å¾—åˆ°æºå›¾ç‰‡é«˜
         } catch (Exception ef) {
             ef.printStackTrace();
         }

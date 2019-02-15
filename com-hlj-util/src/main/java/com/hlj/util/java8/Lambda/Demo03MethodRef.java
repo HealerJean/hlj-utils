@@ -20,7 +20,6 @@ public class Demo03MethodRef {
          * 可推导就是可引用，::方法引用符
          */
         method(System.out::println);
-
     }
 
     public void method(PrinterInterface printerInterface){

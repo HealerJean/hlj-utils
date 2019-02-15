@@ -62,6 +62,12 @@ public class Demo06Map {
         students.stream().map(student -> student.getName()).forEach(s -> {
             System.out.println(s.toString());
         });
+
+        students.stream().map(Student::getBirthday).forEach(s -> {
+            System.out.println(s.toString());
+        });
+
+
         /**
          Ice
          Leo

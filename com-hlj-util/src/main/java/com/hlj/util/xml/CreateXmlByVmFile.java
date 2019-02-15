@@ -33,7 +33,7 @@ public class CreateXmlByVmFile
 	private static Map demo(){  
 				XmlEntry p =new XmlEntry();  
 				p.setAge(24);
-				p.setPerson("ÕÅÓî½ú"); 
+				p.setPerson("å¼ å®‡æ™‹"); 
 			//	p.setName("HealerJean");
 				p.setSex(1); 
 				Map map = new HashMap();  
@@ -43,40 +43,40 @@ public class CreateXmlByVmFile
 		}
 	/**
 	 * 
-	 * @param TemplateName Ä£°åµÄÃû×Ö
-	 * @param dataMap Êı¾İÔ´
+	 * @param TemplateName æ¨¡æ¿çš„åå­—
+	 * @param dataMap æ•°æ®æº
 	 * @return
 	 */
 	public  static String createXmlFile(File fileDirectory,String TemplateName, Map dataMap) throws TemplateException, IOException     {
 		    
 
-		       //µÃFreeMarkerÅäÖÃ¶ÔÏó  
-		      // ´´½¨Configuration¶ÔÏó    
+		       //å¾—FreeMarkeré…ç½®å¯¹è±¡  
+		      // åˆ›å»ºConfigurationå¯¹è±¡    
 		  Configuration cfg = new Configuration();
 		  cfg.setEncoding(Locale.CHINA, "UTF-8");
 		 /**
-		       ÉèÖÃFreeMarkerµÄÄ£°æÎÄ¼şÎ»ÖÃ    
- 			1¡¢ÀàÂ·¾¶¡¢2¡¢ÎÄ¼şÏµÍ³ÒÔ¼°3¡¢Servlet Context¡£
+		       è®¾ç½®FreeMarkerçš„æ¨¡ç‰ˆæ–‡ä»¶ä½ç½®    
+ 			1ã€ç±»è·¯å¾„ã€2ã€æ–‡ä»¶ç³»ç»Ÿä»¥åŠ3ã€Servlet Contextã€‚
 		  * setClassForTemplateLoading(Class clazz, String pathPrefix);
 			setDirectoryForTemplateLoading(File dir) throws IOException;			
 			setServletContextForTemplateLoading(Object servletContext, String path); 
 		  */
-		//  ÀàÂ·¾¶Ö®ÏÂ 
+		//  ç±»è·¯å¾„ä¹‹ä¸‹ 
 		 // cfg.setClassForTemplateLoading(CreateXmlByVmFile.class,"");  
-		 // ÎÄ¼şÄ¿Â¼Â·¾¶ÏÂ
+		 // æ–‡ä»¶ç›®å½•è·¯å¾„ä¸‹
 		//  cfg.setDirectoryForTemplateLoading(fileDirectory);     
 		    
 		  /**
-		   * µÚ¶şÖÖ·½Ê½ Ö±½ÓÊ¹ÓÃÀàÄ£°å¼ÓÔØÆ÷   
+		   * ç¬¬äºŒç§æ–¹å¼ ç›´æ¥ä½¿ç”¨ç±»æ¨¡æ¿åŠ è½½å™¨   
 		   */
 	/*	    TemplateLoader templateLoaderClass = new ClassTemplateLoader(CreateXmlByVmFile.class,"");
 		    cfg.setTemplateLoader(templateLoaderClass); */
 		    
 		  /** 
-		   * ËÄÈıÖÖÊ¹ÓÃ fileÄ£°å¼ÓÔØ £¨£©
+		   * å››ä¸‰ç§ä½¿ç”¨ fileæ¨¡æ¿åŠ è½½ ï¼ˆï¼‰
 		   *   
 		   */
-		    //Ê¹ÓÃFileTemplateLoader  
+		    //ä½¿ç”¨FileTemplateLoader  
 		    TemplateLoader templateLoaderFile=new FileTemplateLoader(new File("E:/workspace/JavaWorkspace/CompanyOffer/bin/com/hlj/xml/"));
 	        cfg.setTemplateLoader(templateLoaderFile);  
 
@@ -85,7 +85,7 @@ public class CreateXmlByVmFile
 		   template.setEncoding("utf-8");    
 		    
 		   StringWriter w =new StringWriter();    		      
-		           // Éú³Éxml  
+		           // ç”Ÿæˆxml  
 		   template.process(dataMap, w);    
 		         
 		   return w.toString();   

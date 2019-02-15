@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="core-3.3.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/com-hlj-util/lib/util/QRcode/core-3.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/com-hlj-util/lib/util/QRcode/hamcrest-all-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/com-hlj-util/lib/util/QRcode/javase-3.3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
