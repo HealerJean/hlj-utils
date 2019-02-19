@@ -1,6 +1,6 @@
-package com.hlj.util.zz001Domain.service;
+package com.hlj.util.Z001Domain.service;
 
-import com.hlj.util.zz001Domain.data.response.RspIsRegDomainModel;
+import com.hlj.util.Z001Domain.data.response.RspIsRegDomainModel;
 
 /**
  * @Description  域名的相关处理

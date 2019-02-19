@@ -2,22 +2,28 @@ package com.hlj.util.map;
 
 import org.junit.Test;
 
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @Desc:
  * @Author HealerJean
- * @Date 2018/8/9  ионГ11:57.
+ * @Date 2018/8/9  О©╫О©╫О©╫О©╫11:57.
  */
 public class MapTest {
 
 
     @Test
     public void testHashMap(){
+
+        Map<String,Integer> hashMap = new HashMap<>() ;
+
+
+        Map<String,Integer> hashTable = new Hashtable<>();
+
+
+        Map<String,Integer>  concurrentHashMap = new ConcurrentHashMap<>() ;
+
     }
 
 }

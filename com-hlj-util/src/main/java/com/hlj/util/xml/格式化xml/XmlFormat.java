@@ -1,17 +1,13 @@
-package com.hlj.util.xml;
+package com.hlj.util.xml.æ ¼å¼åŒ–xml;
 
 
-import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.io.StringReader;
 import java.io.StringWriter;
-import java.io.UnsupportedEncodingException;
 
 import org.dom4j.Document;
-import org.dom4j.DocumentException;
 import org.dom4j.io.OutputFormat;
 import org.dom4j.io.SAXReader;
 import org.dom4j.io.XMLWriter;
@@ -21,25 +17,25 @@ public class XmlFormat {
    public static String format(String str) throws Exception {
        SAXReader reader = new SAXReader();
        // System.out.println(reader);
-       // ×¢ÊÍ£º´´½¨Ò»¸ö´®µÄ×Ö·ûÊäÈëÁ÷
+       // æ³¨é‡Šï¼šåˆ›å»ºä¸€ä¸ªä¸²çš„å­—ç¬¦è¾“å…¥æµ
        StringReader in = new StringReader(str);
        Document doc = reader.read(in);
        // System.out.println(doc.getRootElement());
-       // ×¢ÊÍ£º´´½¨Êä³ö¸ñÊ½
+       // æ³¨é‡Šï¼šåˆ›å»ºè¾“å‡ºæ ¼å¼
        OutputFormat formater = OutputFormat.createPrettyPrint();
        //formater=OutputFormat.createCompactFormat();
-       // ×¢ÊÍ£ºÉèÖÃxmlµÄÊä³ö±àÂë
+       // æ³¨é‡Šï¼šè®¾ç½®xmlçš„è¾“å‡ºç¼–ç 
        formater.setEncoding("utf-8");
-       // ×¢ÊÍ£º´´½¨Êä³ö(Ä¿±ê)
+       // æ³¨é‡Šï¼šåˆ›å»ºè¾“å‡º(ç›®æ ‡)
        StringWriter w = new StringWriter();
-       // ×¢ÊÍ£º´´½¨Êä³öÁ÷
+       // æ³¨é‡Šï¼šåˆ›å»ºè¾“å‡ºæµ
        XMLWriter writer = new XMLWriter(w, formater);
-       // ×¢ÊÍ£ºÊä³ö¸ñÊ½»¯µÄ´®µ½Ä¿±êÖĞ£¬Ö´ĞĞºó¡£¸ñÊ½»¯ºóµÄ´®±£´æÔÚoutÖĞ¡£
+       // æ³¨é‡Šï¼šè¾“å‡ºæ ¼å¼åŒ–çš„ä¸²åˆ°ç›®æ ‡ä¸­ï¼Œæ‰§è¡Œåã€‚æ ¼å¼åŒ–åçš„ä¸²ä¿å­˜åœ¨outä¸­ã€‚
        writer.write(doc);
 
        writer.close();
        System.out.println(w.toString());
-       // ×¢ÊÍ£º·µ»ØÎÒÃÇ¸ñÊ½»¯ºóµÄ½á¹û
+       // æ³¨é‡Šï¼šè¿”å›æˆ‘ä»¬æ ¼å¼åŒ–åçš„ç»“æœ
        return w.toString();
    }
 

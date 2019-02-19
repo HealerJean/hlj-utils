@@ -1,4 +1,4 @@
-package com.hlj.util.zz001Domain.data.request;
+package com.hlj.util.Z001Domain.data.request;
 
 import io.swagger.annotations.ApiModel;
 import lombok.Data;

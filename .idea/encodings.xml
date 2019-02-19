@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../cant-breathe/相关代码/17 spring  webservice/17.2 17.4/SpringWebService/src/com/hlj/SinoIntercepter/other/WsContext.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-hlj-admin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-hlj-dao" charset="UTF-8" />
@@ -8,6 +9,7 @@
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Closure/readme" charset="GBK" />
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Optional/MainTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Optional/bean/User.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/file/FileTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo0.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo08AsCallbackValue.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo09Cousumer.java" charset="GBK" />
@@ -16,7 +18,10 @@
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Stream/Demo0.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Stream/Demo02GetStream.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Stream/Demo07Concat.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/txt/GetTxtLineTextValue.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/util/job/authorZi/ChartGraphicsZi.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/CreateXmlByVmFile.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/FieldPropetiesToXml.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/格式化xml/XmlFormat.java" charset="UTF-8" />
   </component>
 </project>

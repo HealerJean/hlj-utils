@@ -1,13 +1,7 @@
-package com.hlj.util.zz001Domain.utils;
+package com.hlj.util.Z001Domain.utils;
 
-import net.sf.json.JSONArray;
-import net.sf.json.JSONObject;
 import org.dom4j.*;
-import org.dom4j.io.SAXReader;
 
-import javax.servlet.http.HttpServletRequest;
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.*;
 
 /**

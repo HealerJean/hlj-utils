@@ -12,8 +12,6 @@ import org.junit.Test;
  */
 public class Demo04ObjectRef {
 
-
-
     /**
      * 如果对象中有一个成员方法，正好就是lambda表示式所唯一希望使用的内容，
      *      那么这个时候就可以使用方法引用，格式"

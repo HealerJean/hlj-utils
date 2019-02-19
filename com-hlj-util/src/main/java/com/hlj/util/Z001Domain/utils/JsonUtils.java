@@ -1,4 +1,4 @@
-package com.hlj.util.zz001Domain.utils;
+package com.hlj.util.Z001Domain.utils;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.core.JsonParseException;

@@ -37,7 +37,6 @@ public class Demo11Predicate {
     public void method2(Predicate<String> one,Predicate<String> two){
         boolean vertlong  =  one.and(two).test("hello");
         System.out.println("长不长"+vertlong);
-
     }
 
     /**

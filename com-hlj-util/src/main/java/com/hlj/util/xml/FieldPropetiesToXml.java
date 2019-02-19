@@ -20,7 +20,7 @@ import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 
 
-//½âÎöxml
+//è§£æxml
 public class FieldPropetiesToXml {
 	static Logger logger = Logger.getLogger(FieldPropetiesToXml.class);
 	
@@ -36,27 +36,27 @@ public class FieldPropetiesToXml {
 			String fileUrl = FieldPropetiesToXml.class.getResource("test.xml").getFile(); 
 			File fileXml = new File(fileUrl);
 			Document document = reader.read(fileXml);
-			//È¡µÃ¸ù½Úµã
+			//å–å¾—æ ¹èŠ‚ç‚¹
 			Element rootElement = document.getRootElement();
 			
-			//·´ÉäÈ¡µÃ×Ö¶ÎÃû
+			//åå°„å–å¾—å­—æ®µå
 			Field[] fields = XmlEntry.class.getDeclaredFields();
-			//xmlÓëÊµÌåÀà¶ÔÓ¦ÅäÖÃÎÄ¼ş
+			//xmlä¸å®ä½“ç±»å¯¹åº”é…ç½®æ–‡ä»¶
 			Properties pop = getPropFileByBusCd();
 			
 			Iterator<Element> firstElement=rootElement.elementIterator();
-			while(firstElement.hasNext()){ //µÚÒ»²ã
+			while(firstElement.hasNext()){ //ç¬¬ä¸€å±‚
 				 Element twoElement = firstElement.next();
-				 String tagele = twoElement.getName(); //È¡µÃ±êÇ©µÄÃû×Ö
-				 String valueTxt = twoElement.getText(); //È¡µÃ±êÇ©µÄÄÚÈİ
+				 String tagele = twoElement.getName(); //å–å¾—æ ‡ç­¾çš„åå­—
+				 String valueTxt = twoElement.getText(); //å–å¾—æ ‡ç­¾çš„å†…å®¹
 				 
-				 if(!twoElement.isTextOnly()){ //ÅĞ¶ÏÊÇ²»ÊÇ½ö½öÊÇÒ»¸öÎÄ±¾£¬±ÈÈçsex½ö½öÊÇÒ»¸öÎÄ±¾£¬Ôò²»Ö´ĞĞÏÂÃæµÄ
+				 if(!twoElement.isTextOnly()){ //åˆ¤æ–­æ˜¯ä¸æ˜¯ä»…ä»…æ˜¯ä¸€ä¸ªæ–‡æœ¬ï¼Œæ¯”å¦‚sexä»…ä»…æ˜¯ä¸€ä¸ªæ–‡æœ¬ï¼Œåˆ™ä¸æ‰§è¡Œä¸‹é¢çš„
 					 Iterator<Element> twonowElement = twoElement.elementIterator();
 						 while(twonowElement.hasNext()){
 							 Element threeElement = twonowElement.next();
-							 String threetagele = threeElement.getName(); //È¡µÃ±êÇ©µÄÃû×Ö
-							 String threevalueTxt = threeElement.getText(); //È¡µÃ±êÇ©µÄÄÚÈİ
-							//½øĞĞ·´ÉäÒÔ¼°ÅäÖÃÀàÎÄ¼şµÄÉúĞ§ÖÆ×÷ÊµÌåÀà
+							 String threetagele = threeElement.getName(); //å–å¾—æ ‡ç­¾çš„åå­—
+							 String threevalueTxt = threeElement.getText(); //å–å¾—æ ‡ç­¾çš„å†…å®¹
+							//è¿›è¡Œåå°„ä»¥åŠé…ç½®ç±»æ–‡ä»¶çš„ç”Ÿæ•ˆåˆ¶ä½œå®ä½“ç±»
 							 getXmlEntry(xmlEntry, fields, pop, threetagele, threevalueTxt);
 						 }
 					}else{
@@ -93,7 +93,7 @@ public class FieldPropetiesToXml {
 	
 
 	/**
-	 * ¸ù¾İÒµÎñÀàĞÍ»ñµÃÏàÓ¦µÄÊôĞÔÎÄ¼ş
+	 * æ ¹æ®ä¸šåŠ¡ç±»å‹è·å¾—ç›¸åº”çš„å±æ€§æ–‡ä»¶
 	 * @param busCd
 	 * @return
 	 */
@@ -119,10 +119,10 @@ public class FieldPropetiesToXml {
 	}
 	
 	/**
-	 * ÎªÊôĞÔ¸³Öµ
-	 * @param field		Òª¸³ÖµµÄÊôĞÔ
-	 * @param ins		ÊôĞÔËùÊô¶ÔÏó
-	 * @param value		Öµ
+	 * ä¸ºå±æ€§èµ‹å€¼
+	 * @param field		è¦èµ‹å€¼çš„å±æ€§
+	 * @param ins		å±æ€§æ‰€å±å¯¹è±¡
+	 * @param value		å€¼
 	 * @throws IllegalAccessException 
 	 * @throws IllegalArgumentException 
 	 * @throws ParseException 

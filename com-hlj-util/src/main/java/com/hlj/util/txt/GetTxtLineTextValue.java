@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
 public class GetTxtLineTextValue {
 	public static void main(String[] args) throws Exception {
 		
-		String filePath = "C:/Users/qdkf/Desktop/ÏîÄ¿/½­ËÕ/STS01ToRST01_NJF01001_20170904_2017090465853776438363389189.txt";
+		String filePath = "C:/Users/qdkf/Desktop/é¡¹ç›®/æ±Ÿè‹/STS01ToRST01_NJF01001_20170904_2017090465853776438363389189.txt";
 		byte [] txtByteArrayText = getFileReadLineTextValue(filePath);
 		
 		BufferedReader reader = new BufferedReader(new InputStreamReader(new ByteArrayInputStream(txtByteArrayText),"utf-8"));
@@ -20,17 +20,17 @@ public class GetTxtLineTextValue {
 			flagLength++;
 			
 		 if(flagLength==1){
-			 System.out.println("µÚ"+flagLength+"ĞĞµÄÄÚÈİÎª"+lineVal);
+			 System.out.println("ç¬¬"+flagLength+"è¡Œçš„å†…å®¹ä¸º"+lineVal);
 		 }
 		 else{
-			 System.out.println("µÚ"+flagLength+"ĞĞµÄÄÚÈİÎª"+lineVal);			 
+			 System.out.println("ç¬¬"+flagLength+"è¡Œçš„å†…å®¹ä¸º"+lineVal);			 
 		 }
 		}
 		
 	}
 	
 	/**
-	 * 1 ¡¢Í¨¹ıÎÄ¼şÂ·¾¶ÕÒµ½ÏàÓ¦µÄ×Ö·û´®
+	 * 1 ã€é€šè¿‡æ–‡ä»¶è·¯å¾„æ‰¾åˆ°ç›¸åº”çš„å­—ç¬¦ä¸²
 	 * @param filePath
 	 * @return
 	 * @throws Exception

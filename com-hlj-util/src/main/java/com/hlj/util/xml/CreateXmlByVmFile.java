@@ -8,11 +8,9 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 
-import freemarker.cache.ClassTemplateLoader;
 import freemarker.cache.FileTemplateLoader;
 import freemarker.cache.TemplateLoader;
-import freemarker.cache.URLTemplateLoader;
-import freemarker.template.Configuration;    
+import freemarker.template.Configuration;
 import freemarker.template.Template;    
 import freemarker.template.TemplateException;
 

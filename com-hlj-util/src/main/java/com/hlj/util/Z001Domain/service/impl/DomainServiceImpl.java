@@ -1,9 +1,9 @@
-package com.hlj.util.zz001Domain.service.impl;
+package com.hlj.util.Z001Domain.service.impl;
 
-import com.hlj.util.zz001Domain.data.response.RspIsRegDomainModel;
-import com.hlj.util.zz001Domain.service.DomainService;
-import com.hlj.util.zz001Domain.utils.JsonUtils;
-import com.hlj.util.zz001Domain.utils.XmlUtil;
+import com.hlj.util.Z001Domain.data.response.RspIsRegDomainModel;
+import com.hlj.util.Z001Domain.service.DomainService;
+import com.hlj.util.Z001Domain.utils.JsonUtils;
+import com.hlj.util.Z001Domain.utils.XmlUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
