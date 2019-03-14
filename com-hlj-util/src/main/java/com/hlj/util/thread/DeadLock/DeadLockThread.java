@@ -1,7 +1,7 @@
 package com.hlj.util.thread.DeadLock;
 /** 
-Ïß³Ìthread1Õ¼ÓĞ×ÊÔ´objectA£¬Ïß³Ìthread2Õ¼ÓĞ×ÊÔ´objectB£¬
-µ±Á½¸öÏß³Ì·¢³öÇëÇóÊ±£¬ÓÉÓÚËùÇëÇóµÄ×ÊÔ´¶¼ÔÚ¶Ô·½ÊÖÖĞ£¬´Ó¶ø·¢ÉúÏß³Ì×èÈû£¬Ôì³ÉÁËÏß³ÌµÄËÀËø¡£
+çº¿ç¨‹thread1å æœ‰èµ„æºobjectAï¼Œçº¿ç¨‹thread2å æœ‰èµ„æºobjectBï¼Œ
+å½“ä¸¤ä¸ªçº¿ç¨‹å‘å‡ºè¯·æ±‚æ—¶ï¼Œç”±äºæ‰€è¯·æ±‚çš„èµ„æºéƒ½åœ¨å¯¹æ–¹æ‰‹ä¸­ï¼Œä»è€Œå‘ç”Ÿçº¿ç¨‹é˜»å¡ï¼Œé€ æˆäº†çº¿ç¨‹çš„æ­»é”ã€‚
  */
 public class DeadLockThread implements Runnable {
     private static final Object objectA = new Object();
@@ -11,7 +11,7 @@ public class DeadLockThread implements Runnable {
     @Override
     public void run() {
         String threadName = Thread.currentThread().getName();
-        System.out.println("µ±Ç°Ïß³Ì Îª£º" + threadName + "\tflag = " + flag);
+        System.out.println("å½“å‰çº¿ç¨‹ ä¸ºï¼š" + threadName + "\tflag = " + flag);
         if (flag) {
             synchronized (objectA) {
                 try {
@@ -20,9 +20,9 @@ public class DeadLockThread implements Runnable {
                     // TODO Auto-generated catch block
                     e.printStackTrace();
                 }
-                System.out.println(threadName + "ÒÑ½øÈëÍ¬²½´úÂë¿éobjectA£¬×¼±¸½øÈëobjectB");
+                System.out.println(threadName + "å·²è¿›å…¥åŒæ­¥ä»£ç å—objectAï¼Œå‡†å¤‡è¿›å…¥objectB");
                 synchronized (objectB) {
-                    System.out.println(threadName + "ÒÑ¾­½øÈëÍ¬²½´úÂë¿éobjectB");
+                    System.out.println(threadName + "å·²ç»è¿›å…¥åŒæ­¥ä»£ç å—objectB");
                 }
             }
 
@@ -34,9 +34,9 @@ public class DeadLockThread implements Runnable {
                     // TODO Auto-generated catch block
                     e.printStackTrace();
                 }
-                System.out.println(threadName + "ÒÑ½øÈëÍ¬²½´úÂë¿éobjectB£¬×¼±¸½øÈëobjectA");
+                System.out.println(threadName + "å·²è¿›å…¥åŒæ­¥ä»£ç å—objectBï¼Œå‡†å¤‡è¿›å…¥objectA");
                 synchronized (objectA) {
-                    System.out.println(threadName + "ÒÑ¾­½øÈëÍ¬²½´úÂë¿éobjectA");
+                    System.out.println(threadName + "å·²ç»è¿›å…¥åŒæ­¥ä»£ç å—objectA");
                     
                 }
             }

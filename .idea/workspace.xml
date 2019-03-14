@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$APPLICATION_CONFIG_DIR$/consoles/db/f4df541f-005f-43ff-a06f-f8f083bc30e8/console.sql" description="select shop, item, max(volumn) max_volumn&#10;From sal..." line="25" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5f2397da-fa64-4e6f-9906-c73133fa7656" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z002Stack/D01Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z003ThreadLocal/ContextHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z003ThreadLocal/ThreadLocalHolderMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/解析Xml/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/解析Xml/SaxXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/解析Xml/people.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z004布隆过滤器/Z004布隆过滤器.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z005BitSet/D01BitSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/file/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/file/FileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/file/FileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Serializable/SerializableStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Serializable/SerializableStatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z003ThreadLocal/ThreadLocalHolderMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z003ThreadLocal/ThreadLocalHolderMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/intlong/ShortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/intlong/ShortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo02CallbackValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo02CallbackValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo04ObjectRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo04ObjectRef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo11Predicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo11Predicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/map/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/map/MapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/txt/GetTxtLineTextValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/txt/GetTxtLineTextValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/CreateXmlByVmFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/CreateXmlByVmFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/FieldPropetiesToXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/FieldPropetiesToXml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/XmlFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/格式化xml/XmlFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/format.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/格式化xml/format.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/zz001Domain/data/request/ReqIsRegDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z001Domain/data/request/ReqIsRegDomain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/zz001Domain/data/response/RspIsRegDomainModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z001Domain/data/response/RspIsRegDomainModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/zz001Domain/service/DomainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z001Domain/service/DomainService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/zz001Domain/service/impl/DomainServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z001Domain/service/impl/DomainServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/zz001Domain/utils/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z001Domain/utils/JsonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/zz001Domain/utils/XmlUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z001Domain/utils/XmlUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/solrArithmetic/1、直接插入排序.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/solrArithmetic/InsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/thread/CallableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/thread/CallableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/thread/DeadLock/DeadLockThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/thread/DeadLock/DeadLockThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/com-hlj-admin/target/" />
     <ignored path="$PROJECT_DIR$/com-hlj-dao/target/" />
@@ -38,142 +38,209 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1453913385">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="123" />
+          <entry key="java" value="184" />
+          <entry key="md" value="1" />
           <entry key="properties" value="1" />
+          <entry key="sql" value="2" />
           <entry key="vm" value="1" />
-          <entry key="xml" value="5" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="123" />
+          <entry key="JAVA" value="184" />
+          <entry key="Markdown" value="1" />
           <entry key="Properties" value="1" />
+          <entry key="SQL" value="1" />
+          <entry key="Scratch" value="1" />
           <entry key="VTL" value="1" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="cell" value="19" />
           <entry key="dummy" value="21" />
-          <entry key="java" value="891" />
-          <entry key="xml" value="2" />
+          <entry key="java" value="2079" />
+          <entry key="md" value="12" />
+          <entry key="sql" value="935" />
+          <entry key="xml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="891" />
+          <entry key="JAVA" value="2079" />
+          <entry key="Markdown" value="12" />
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="XML" value="2" />
+          <entry key="Scratch" value="954" />
+          <entry key="XML" value="20" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo04ObjectRef.java">
+        <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/file/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z003ThreadLocal/ThreadLocalHolderMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Stream/Demo02GetStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo09Cousumer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
               <folding>
-                <element signature="e#1326#1327#0" expanded="true" />
-                <element signature="e#1386#1387#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo04ObjectRefPack/MyInterfaceObjectRef.java">
+        <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo10Supplier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="450">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo04ObjectRefPack/MethodRefObject.java">
+        <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo11Predicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-              <folding>
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo03MethodRef.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo03MethodRefPack/PrinterInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo01Lambda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="483">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo02CallbackValue.java">
+        <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo12Function.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="528">
+              <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo02CallbackValuePack/Calculator.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="1476">
+              <caret line="272" lean-forward="true" selection-start-line="272" selection-end-line="272" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            <state relative-caret-position="1610">
+              <caret line="127" column="5" lean-forward="true" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+              <folding>
+                <element signature="e#4309#4310#0" expanded="true" />
+                <element signature="e#4336#4337#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/file/FileTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="1442" column="13" selection-end-line="1468" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3107">
+              <caret line="121" selection-start-line="121" selection-end-line="121" />
             </state>
           </provider>
         </entry>
@@ -201,7 +268,16 @@
       <find>hash</find>
       <find>Seg</find>
       <find>format</find>
+      <find>haveProperties</find>
+      <find>Join</find>
+      <find>Double a = 2.4</find>
+      <find>doclear</find>
+      <find>ensureCapacity</find>
+      <find>ArrayList</find>
     </findStrings>
+    <replaceStrings>
+      <replace>CreateList</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -210,7 +286,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Stream/Demo10Element.java" />
-        <option value="$PROJECT_DIR$/com-hlj-util/pom.xml" />
         <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Arraylist/Person.java" />
         <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Arraylist/ArraylistTest.java" />
         <option value="$PROJECT_DIR$/com-hlj-admin/src/main/resources/applicationContext.xml" />
@@ -229,9 +304,20 @@
         <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z003ThreadLocal/ContextHolder.java" />
         <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo11Predicate.java" />
         <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z003ThreadLocal/WsContext.java" />
-        <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z003ThreadLocal/ThreadLocalHolderMap.java" />
         <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo04ObjectRef.java" />
+        <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z003ThreadLocal/ThreadLocalHolderMap.java" />
         <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo02CallbackValue.java" />
+        <option value="$PROJECT_DIR$/com-hlj-util/pom.xml" />
+        <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z004布隆过滤器.java" />
+        <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z004布隆过滤器/Z004布隆过滤器.java" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/intlong/ShortTest.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ec22aa35-be00-4606-8323-8920633e78ef/console.sql" />
+        <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z005BitSet/D01BitSet.java" />
+        <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/thread/CallableTest.java" />
+        <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/file/TestMain.java" />
+        <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/file/CreateList.java" />
+        <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/file/Solution.java" />
       </list>
     </option>
   </component>
@@ -256,10 +342,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-1920" />
-    <option name="y" value="-200" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -288,8 +372,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -372,62 +454,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="Z002Stack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hlj-utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hlj-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="com-hlj-util" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="Z003ThreadLocal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hlj-utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="hlj-utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="hlj-utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hlj-utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hlj-utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="Z005BitSet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550546194868" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552492876470" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="database.data.extractors.current.id" value="HTML Table" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -436,12 +483,15 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/格式化xml" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hlj.util.file" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z003ThreadLocal" />
       <recent name="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/格式化xml" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -456,20 +506,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.D01Stack.test">
+  <component name="RunManager" selected="Application.TestMain">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SaxXML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hlj.util.xml.解析Xml.SaxXML" />
+    <configuration name="CreateList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hlj.util.file.CreateList" />
       <module name="com-hlj-util" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hlj.util.xml.解析Xml.*" />
+          <option name="PATTERN" value="com.hlj.util.file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -477,13 +527,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XmlFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hlj.util.xml.格式化xml.XmlFormat" />
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hlj.util.file.TestMain" />
       <module name="com-hlj-util" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hlj.util.xml.格式化xml.*" />
+          <option name="PATTERN" value="com.hlj.util.file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -497,49 +547,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D01Stack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="D01BitSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com-hlj-util" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hlj.util.Z002Stack.*" />
+          <option name="PATTERN" value="com.hlj.util.Z005BitSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hlj.util.Z002Stack" />
-      <option name="MAIN_CLASS_NAME" value="com.hlj.util.Z002Stack.D01Stack" />
+      <option name="PACKAGE_NAME" value="com.hlj.util.Z005BitSet" />
+      <option name="MAIN_CLASS_NAME" value="com.hlj.util.Z005BitSet.D01BitSet" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D01Stack.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com-hlj-util" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hlj.util.Z002Stack.*" />
+          <option name="PATTERN" value="com.hlj.util.file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hlj.util.Z002Stack" />
-      <option name="MAIN_CLASS_NAME" value="com.hlj.util.Z002Stack.D01Stack" />
+      <option name="PACKAGE_NAME" value="com.hlj.util.file" />
+      <option name="MAIN_CLASS_NAME" value="com.hlj.util.file.Solution" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com-hlj-util" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hlj.util.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hlj.util.file" />
+      <option name="MAIN_CLASS_NAME" value="com.hlj.util.file.Solution" />
       <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringTest.testSubStringByteOr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com-hlj-util" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hlj.util.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hlj.util.string" />
-      <option name="MAIN_CLASS_NAME" value="com.hlj.util.string.StringTest" />
-      <option name="METHOD_NAME" value="testSubStringByteOr" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -586,19 +634,19 @@
     <list>
       <item itemvalue="Spring Boot.ComHljUtilApplication" />
       <item itemvalue="Spring Boot.AdminApplication" />
-      <item itemvalue="JUnit.StringTest.testSubStringByteOr" />
-      <item itemvalue="Application.XmlFormat" />
-      <item itemvalue="Application.SaxXML" />
-      <item itemvalue="JUnit.D01Stack.test" />
-      <item itemvalue="JUnit.D01Stack" />
+      <item itemvalue="JUnit.D01BitSet" />
+      <item itemvalue="JUnit.Solution.test" />
+      <item itemvalue="JUnit.Solution" />
+      <item itemvalue="Application.CreateList" />
+      <item itemvalue="Application.TestMain" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.D01Stack.test" />
-        <item itemvalue="JUnit.D01Stack" />
-        <item itemvalue="Application.SaxXML" />
-        <item itemvalue="Application.XmlFormat" />
-        <item itemvalue="JUnit.StringTest.testSubStringByteOr" />
+        <item itemvalue="Application.TestMain" />
+        <item itemvalue="Application.CreateList" />
+        <item itemvalue="JUnit.Solution" />
+        <item itemvalue="JUnit.Solution.test" />
+        <item itemvalue="JUnit.D01BitSet" />
       </list>
     </recent_temporary>
   </component>
@@ -616,44 +664,50 @@
       <workItem from="1549806270714" duration="1316000" />
       <workItem from="1550051091115" duration="3564000" />
       <workItem from="1550201895050" duration="21592000" />
-      <workItem from="1550542907118" duration="2586000" />
+      <workItem from="1550542907118" duration="7307000" />
+      <workItem from="1550642459931" duration="4000" />
+      <workItem from="1550807561277" duration="5337000" />
+      <workItem from="1551256166850" duration="8148000" />
+      <workItem from="1551524985217" duration="5618000" />
+      <workItem from="1551837955300" duration="504000" />
+      <workItem from="1552443268692" duration="12511000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Demo08ForEach_demo - 2019.02.15 at 11h 41m 53s.xml">
-      <configuration name="Demo08ForEach.demo" configurationId="JUnit" />
+    <history-entry file="Solution - 2019.03.13 at 14h 55m 10s.xml">
+      <configuration name="Solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo08ForEach_continueForeach - 2019.02.15 at 11h 46m 42s.xml">
-      <configuration name="Demo08ForEach.continueForeach" configurationId="JUnit" />
+    <history-entry file="Solution - 2019.03.13 at 14h 56m 39s.xml">
+      <configuration name="Solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo08ForEach_continueForeach - 2019.02.15 at 11h 47m 25s.xml">
-      <configuration name="Demo08ForEach.continueForeach" configurationId="JUnit" />
+    <history-entry file="Solution - 2019.03.13 at 14h 58m 15s.xml">
+      <configuration name="Solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo08ForEach_continueForeach - 2019.02.15 at 11h 47m 36s.xml">
-      <configuration name="Demo08ForEach.continueForeach" configurationId="JUnit" />
+    <history-entry file="Solution - 2019.03.13 at 14h 58m 30s.xml">
+      <configuration name="Solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo08ForEach_continueForeach - 2019.02.15 at 11h 47m 42s.xml">
-      <configuration name="Demo08ForEach.continueForeach" configurationId="JUnit" />
+    <history-entry file="Solution - 2019.03.13 at 14h 59m 08s.xml">
+      <configuration name="Solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringTest_testSubStringByteOr - 2019.02.16 at 14h 43m 02s.xml">
-      <configuration name="StringTest.testSubStringByteOr" configurationId="JUnit" />
+    <history-entry file="Solution - 2019.03.13 at 15h 00m 05s.xml">
+      <configuration name="Solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="D01Stack_test - 2019.02.18 at 22h 52m 35s.xml">
-      <configuration name="D01Stack.test" configurationId="JUnit" />
+    <history-entry file="Solution - 2019.03.13 at 15h 00m 12s.xml">
+      <configuration name="Solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="D01Stack - 2019.02.18 at 22h 52m 49s.xml">
-      <configuration name="D01Stack" configurationId="JUnit" />
+    <history-entry file="Solution_test - 2019.03.13 at 15h 02m 14s.xml">
+      <configuration name="Solution.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="D01Stack - 2019.02.18 at 22h 55m 09s.xml">
-      <configuration name="D01Stack" configurationId="JUnit" />
+    <history-entry file="Solution - 2019.03.13 at 15h 04m 55s.xml">
+      <configuration name="Solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="D01Stack_test - 2019.02.18 at 22h 55m 28s.xml">
-      <configuration name="D01Stack.test" configurationId="JUnit" />
+    <history-entry file="Solution - 2019.03.13 at 15h 05m 49s.xml">
+      <configuration name="Solution" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31136000" />
+    <option name="totallyTimeSpent" value="67979000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -665,10 +719,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-200" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22162741" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27518427" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -678,29 +732,30 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3390558" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25155926" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952183" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2918455" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2910603" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32952183" />
       <window_info anchor="bottom" id="Tail" order="12" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="13" />
       <window_info anchor="bottom" id="Run with VisualVM" order="14" />
-      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="16" weight="0.32952183" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32744282" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="17" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="18" visible="true" weight="0.24034335" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32976446" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32976446" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
@@ -759,225 +814,16 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/file/Solution.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="137" column="45" selection-start-line="137" selection-start-column="34" selection-end-line="137" selection-end-column="45" />
-          <folding>
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
-            <element signature="e#24329#24330#0" expanded="true" />
-            <element signature="e#24394#24395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Hashtable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="131" column="17" lean-forward="true" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="50" column="7" lean-forward="true" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/map/MapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="1374" lean-forward="true" selection-start-line="1374" selection-end-line="1374" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/txt/GetTxtLineTextValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/ParseXml/EleClassB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/ParseXml/EleClassA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/ParseXml/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/FieldPropetiesToXml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/CreateXmlByVmFile.vm">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/XmlEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/com-hlj-util/lib/dom4j-1.6.1.jar!/org/dom4j/io/SAXReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="151" column="20" selection-start-line="151" selection-start-column="20" selection-end-line="151" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/格式化xml/XmlFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/test.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/CreateXmlByVmFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/解析Xml/People.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/解析Xml/people.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/解析Xml/SaxXML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/file/FileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="447" column="12" lean-forward="true" selection-start-line="447" selection-start-column="12" selection-end-line="447" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="73" column="21" lean-forward="true" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cant-breathe/相关代码/17 spring  webservice/17.3/SinoWebServiceWsClient/src/com/hlj/main/TestWebService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cant-breathe/相关代码/17 spring  webservice/17.3/之前的视频 springWebservice 代码/day02_ws_cxf_spring_client/src/com/atguigu/day01_ws_cxf_client/interceptor/AddUserInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cant-breathe/相关代码/17 spring  webservice/17.3/之前的视频 springWebservice 代码/day02_ws_cxf_spring/src/com/atguigu/day01_ws/interceptor/CheckUserInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="25" column="14" lean-forward="true" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HealerJean.github.io/_posts/DDKJ/6、工具类/12、一人一支笔ThreadLocal/ContextHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cant-breathe/相关代码/17 spring  webservice/17.2 17.4/SpringWebService/src/com/hlj/SinoIntercepter/InMessageInteceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cant-breathe/相关代码/17 spring  webservice/17.2 17.4/SpringWebService/src/com/hlj/MyInterceptor/MyInInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cant-breathe/相关代码/17 spring  webservice/17.2 17.4/SpringWebService/src/com/hlj/SinoIntercepter/other/WsContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo11Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo10Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../cant-breathe/相关代码/17 spring  webservice/17.2 17.4/SpringWebService/src/com/hlj/util/ApplicaionContextUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -985,70 +831,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z003ThreadLocal/Z01ThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z003ThreadLocal/Z01ThreadLocal.java" />
     <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z002Stack/D01Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo09Cousumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="139" column="48" selection-start-line="139" selection-start-column="37" selection-end-line="139" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo12Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z003ThreadLocal/ThreadLocalHolderMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1056,12 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="37" selection-start-line="37" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="e#631#775#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1072,14 +853,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Map.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        <state relative-caret-position="470">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo04ObjectRefPack/MyInterfaceObjectRef.java">
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo04ObjectRefPack/MethodRefObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo02CallbackValuePack/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
@@ -1093,13 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo03MethodRefPack/PrinterInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1107,21 +888,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo04ObjectRefPack/MethodRefObject.java">
+    <entry file="file://$PROJECT_DIR$/../HealerJean.github.io/_posts/DDKJ/14、sprignBoot定时器和quartz定时器/2017_03_22_2_springBoot集成Quartz/com-hlj-quartz/src/main/java/com/hlj/quartz/quartz/service/QuartzService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="902">
+          <caret line="176" column="16" lean-forward="true" selection-start-line="176" selection-start-column="16" selection-end-line="176" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo02CallbackValuePack/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo02CallbackValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="667">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
@@ -1129,28 +906,339 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="142" column="20" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="398" column="30" selection-start-line="398" selection-start-column="30" selection-end-line="398" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="1372" column="40" selection-start-line="1372" selection-start-column="40" selection-end-line="1372" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Stream/IntroduceCollectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HealerJean.github.io/_posts/DDKJ/5、springCloud/RedisConfig.java" />
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z004布隆过滤器/Z004布隆过滤器.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo06Delay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo04ObjectRef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="924">
+          <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo04ObjectRefPack/MyInterfaceObjectRef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo06DelayPack/MsgBuiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="220">
+            <caret line="10" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Serializable/SerializableStatic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/intlong/ShortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HealerJean.github.io/_posts/DDKJ/6、工具类/3、日期工具类 有/DateHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="98" column="23" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z006面试/Z01Sql面试.java" />
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z006面试/Z01Sql面试.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ec22aa35-be00-4606-8323-8920633e78ef/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z005BitSet/D01BitSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/thread/DeadLock/DeadLockThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="462" column="11" selection-start-line="462" selection-start-column="11" selection-end-line="462" selection-end-column="11" />
           <folding>
-            <element signature="e#1326#1327#0" expanded="true" />
-            <element signature="e#1386#1387#0" expanded="true" />
+            <element signature="e#15704#15705#0" expanded="true" />
+            <element signature="e#15770#15771#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo02CallbackValue.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/RunnableFuture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="308">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/thread/CallableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#541#549#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3107">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="1442" column="13" selection-end-line="1468" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/file/FileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/file/CreateList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="1156" lean-forward="true" selection-start-line="1156" selection-end-line="1156" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6268#6269#0" expanded="true" />
+            <element signature="e#6336#6337#0" expanded="true" />
+            <element signature="e#10390#10391#0" expanded="true" />
+            <element signature="e#10417#10418#0" expanded="true" />
+            <element signature="e#10599#10600#0" expanded="true" />
+            <element signature="e#10631#10632#0" expanded="true" />
+            <element signature="e#11108#11109#0" expanded="true" />
+            <element signature="e#11146#11147#0" expanded="true" />
+            <element signature="e#13746#13747#0" expanded="true" />
+            <element signature="e#13801#13802#0" expanded="true" />
+            <element signature="e#15143#15173#0" expanded="true" />
+            <element signature="e#15559#15589#1" expanded="true" />
+            <element signature="e#15619#15620#0" expanded="true" />
+            <element signature="e#15664#15665#0" expanded="true" />
+            <element signature="e#24709#24710#0" expanded="true" />
+            <element signature="e#24763#24764#0" expanded="true" />
+            <element signature="e#30651#30652#0" expanded="true" />
+            <element signature="e#30688#30689#0" expanded="true" />
+            <element signature="e#30988#30989#0" expanded="true" />
+            <element signature="e#31020#31021#0" expanded="true" />
+            <element signature="e#31363#31364#0" expanded="true" />
+            <element signature="e#31408#31409#0" expanded="true" />
+            <element signature="e#31419#31449#0" expanded="true" />
+            <element signature="e#32366#32396#0" expanded="true" />
+            <element signature="e#33588#33589#0" expanded="true" />
+            <element signature="e#33630#33631#0" expanded="true" />
+            <element signature="e#33664#33665#0" expanded="true" />
+            <element signature="e#33701#33702#0" expanded="true" />
+            <element signature="e#33739#33740#0" expanded="true" />
+            <element signature="e#33780#33781#0" expanded="true" />
+            <element signature="e#33791#33821#0" expanded="true" />
+            <element signature="e#39238#39239#0" expanded="true" />
+            <element signature="e#39289#39290#0" expanded="true" />
+            <element signature="e#39731#39732#0" expanded="true" />
+            <element signature="e#39776#39777#0" expanded="true" />
+            <element signature="e#40182#40183#0" expanded="true" />
+            <element signature="e#40256#40257#0" expanded="true" />
+            <element signature="e#40275#40305#0" expanded="true" />
+            <element signature="e#40897#40898#0" expanded="true" />
+            <element signature="e#40955#40956#0" expanded="true" />
+            <element signature="e#40974#41004#0" expanded="true" />
+            <element signature="e#41554#41584#0" expanded="true" />
+            <element signature="e#42526#42527#0" expanded="true" />
+            <element signature="e#42579#42580#0" expanded="true" />
+            <element signature="e#42625#42626#0" expanded="true" />
+            <element signature="e#42682#42683#0" expanded="true" />
+            <element signature="e#45078#45079#0" expanded="true" />
+            <element signature="e#45145#45146#0" expanded="true" />
+            <element signature="e#45720#45750#0" expanded="true" />
+            <element signature="e#46669#46670#0" expanded="true" />
+            <element signature="e#46735#46736#0" expanded="true" />
+            <element signature="e#50498#50528#1" expanded="true" />
+            <element signature="e#51399#51429#1" expanded="true" />
+            <element signature="e#52455#52485#0" expanded="true" />
+            <element signature="e#53542#53572#0" expanded="true" />
+            <element signature="e#54056#54086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/file/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/file/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1610">
+          <caret line="127" column="5" lean-forward="true" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+          <folding>
+            <element signature="e#4309#4310#0" expanded="true" />
+            <element signature="e#4336#4337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="272" lean-forward="true" selection-start-line="272" selection-end-line="272" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z003ThreadLocal/ThreadLocalHolderMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Stream/Demo02GetStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo09Cousumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo10Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo11Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo12Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
         </state>
       </provider>
     </entry>

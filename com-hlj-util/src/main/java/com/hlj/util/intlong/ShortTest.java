@@ -7,18 +7,18 @@ public class ShortTest {
 		  
 
 		/**
-		 * 1¡¢double ²âÊÔ
+		 * 1ã€double æµ‹è¯•
 		 */
 		DoubleTest();
 		
 		/**
-		 * 2¡¢Integer
+		 * 2ã€Integer
 		 */
 		// IntegerTest(); 
 		 
 		/**
-		 * Ô­ÒòÔÚÓÚÎÒÃÇµÄ¼ÆËã»úÊÇ¶ş½øÖÆµÄ¡£¸¡µãÊıÃ»ÓĞ°ì·¨ÊÇÓÃ¶ş½øÖÆ½øĞĞ¾«È·±íÊ¾¡£
-		 * ÔÚ´ó¶àÊıµÄÉÌÒµ¼ÆËãÖĞ£¬Ò»°ã²ÉÓÃjava.math.BigDecimalÀàÀ´½øĞĞ¾«È·¼ÆËã¡£
+		 * åŸå› åœ¨äºæˆ‘ä»¬çš„è®¡ç®—æœºæ˜¯äºŒè¿›åˆ¶çš„ã€‚æµ®ç‚¹æ•°æ²¡æœ‰åŠæ³•æ˜¯ç”¨äºŒè¿›åˆ¶è¿›è¡Œç²¾ç¡®è¡¨ç¤ºã€‚
+		 * åœ¨å¤§å¤šæ•°çš„å•†ä¸šè®¡ç®—ä¸­ï¼Œä¸€èˆ¬é‡‡ç”¨java.math.BigDecimalç±»æ¥è¿›è¡Œç²¾ç¡®è®¡ç®—ã€‚
 		 * http://www.cnblogs.com/chenssy/archive/2012/09/09/2677279.html
 		 */
 	/*	  BigDecimal b1 = new BigDecimal(Double.toString(0.48));
@@ -32,7 +32,7 @@ public class ShortTest {
 	
 	public static void shortTest(){
 		short s1 = 2;
-	//	s1=s1 +1;  ´íÎó,±ØĞëÇ¿ÖÆ×ªĞÍ ²ÅĞĞ 
+	//	s1=s1 +1;  é”™è¯¯,å¿…é¡»å¼ºåˆ¶è½¬å‹ æ‰è¡Œ 
 		s1 +=  2;
 		int a = 1;
 		a = a+1;
@@ -44,39 +44,37 @@ public class ShortTest {
 	
 	/**
 	 * 
-	 * 2¡¢Integer
+	 * 2ã€Integer
 	 */
 	private static void IntegerTest() {
 		String intString = "123";
-		int intA = Integer.parseInt(intString); //¶ÔÏóÊÇintÀàĞÍ
-		Integer intB = Integer.valueOf(intString); //¶ÔÏóÊÇ Integer ÀàĞÍ
+		int intA = Integer.parseInt(intString); //å¯¹è±¡æ˜¯intç±»å‹
+		Integer intB = Integer.valueOf(intString); //å¯¹è±¡æ˜¯ Integer ç±»å‹
 		System.out.println((Integer.valueOf(intString)).getClass()+""+(Integer.parseInt(intString)));
 	}
 
+
 	/**
-	 * 1¡¢double ²âÊÔ
+	 * 1ã€double æµ‹è¯•
 	 */
 	private static void DoubleTest() {
-		Double a = 2.4;
-		Double b = 1.2;
-		int aint = 2;
-		int bint = 3;
-		Double aDouble = 1.11;
-		Double bDouble = 1.32;
-		//¾¡¿ÉÄÜµÃµ½16Î»£¬Èç¹ûÈ·ÊµÃ»ÓĞ16Î»,Èç¹ûÎªÕûÊıÔò±£Áô0
-		System.out.println("double³ı·¨È¡16ÎªĞ¡Êı"+aDouble/bDouble); 
-		System.out.println("double³ı·¨È¡16£¬µ«ÊÇ²»¹»16Î»£¬ÔòÖ»±£Áô0»òÕß×îºóµÄ½á¹û"+a/b); 
-		System.out.println("ÕûÊı³ı·¨È¡ÓàÊı"+aint/bint);
 
-		System.out.println("double³ıÒÔint µÃµ½µÄ½á¹ûÎªdouble"+a/aint);
+		//å°½å¯èƒ½å¾—åˆ°16ä½ï¼Œå¦‚æœç¡®å®æ²¡æœ‰16ä½,å¦‚æœä¸ºæ•´æ•°åˆ™ä¿ç•™0
+		System.out.println("doubleé™¤æ³•å–16ä¸ºå°æ•°"+1.11/1.32); //0.8409090909090909
+		System.out.println("doubleé™¤æ³•å–16ï¼Œä½†æ˜¯ä¸å¤Ÿ16ä½ï¼Œåˆ™åªä¿ç•™0æˆ–è€…æœ€åçš„çœŸå®ç»“æœ"+2.4/1.2);//2.0
+		System.out.println("æ•´æ•°é™¤æ³•å–ä½™æ•°"+2/3);//0
+
+		System.out.println("doubleé™¤ä»¥int å¾—åˆ°çš„ç»“æœä¸ºdouble"+2.4/2);//1.2
 		
-		float ia = 1;
-		float fa = 2.4f;
-		float fb = 1.2f;
-		float af = 1.11f;
-		float bf = 1.32f;
-		System.out.println(fa/fb);
-		System.out.println(af/bf); //0.84090906  //8Î»
-	
+		System.out.println(2.4f/1.2f); //2.0
+		System.out.println(1.11f/1.32f); //0.84090906  //8ä½
+
+
+		System.out.println(3/2); //1
+		System.out.println(3.0/2);//1.5
+		System.out.println(3.0/2.0);//1.5
+		System.out.println(2.0/4.00);//0.5
+
+
 	}
 }

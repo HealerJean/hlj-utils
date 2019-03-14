@@ -8,8 +8,14 @@ import org.junit.Test;
 
 /** 
  * @author : HealerJean
- * @date   ： 2017年12月20日 下午4:58:19 
- * @Description:
+ * @date   ： 2017年12月20日 下午4:58:19
+ *
+ * 1、两者最大的不同点是：实现Callable接口的任务线程能返回执行结果；而实现Runnable接口的任务线程不能返回结果；
+ * 2、Callable接口的call()方法允许抛出异常；而Runnable接口的run()方法的异常只能在内部消化，不能继续上抛；
+ * 3、行Callable任务可以拿到一个Future对象，Future 表示异步计算的结果。它提供了检查计算是否完成的方法，以等待计算的完成，并获取计算的结果。
+ *
+ * 计算完成后只能使用 get 方法来获取结果，如果线程没有执行完，Future.get()方法可能会阻塞当前线程的执行
+ *
  */
 
 public class CallableTest {   

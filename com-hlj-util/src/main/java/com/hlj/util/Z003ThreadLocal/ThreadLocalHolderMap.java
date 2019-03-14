@@ -15,7 +15,7 @@ public class ThreadLocalHolderMap {
     /**
      * 为每个线程提供一个默认的值
      */
-	private static ThreadLocal<ThreadLocalHolderMap> threadLocal = ThreadLocal.withInitial(() -> new ThreadLocalHolderMap(new HashMap<String, Object>()));
+	private final static ThreadLocal<ThreadLocalHolderMap> threadLocal = ThreadLocal.withInitial(() -> new ThreadLocalHolderMap(new HashMap<String, Object>()));
 	
     private ThreadLocalHolderMap(Map<String, Object> contextMap) {
         this.contextMap = contextMap;

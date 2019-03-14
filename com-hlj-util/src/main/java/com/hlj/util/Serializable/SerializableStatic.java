@@ -1,7 +1,7 @@
 package com.hlj.util.Serializable;
 /** 
  * @author : HealerJean
- * @date   £º 2017Äê12ÔÂ4ÈÕ ÏÂÎç5:01:12 
+ * @date   ï¼š 2017å¹´12æœˆ4æ—¥ ä¸‹åˆ5:01:12 
  * @Description:
  */
 import java.io.FileInputStream;  
@@ -19,14 +19,14 @@ public class SerializableStatic implements Serializable
     private String name="SheepMu";  
     private static int age=24;  
     public static void main(String[] args)  
-    {//ÒÔÏÂ´úÂëÊµÏÖĞòÁĞ»¯  
+    {//ä»¥ä¸‹ä»£ç å®ç°åºåˆ—åŒ–  
         try   
         {  
-            ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("my.out"));//Êä³öÁ÷±£´æµÄÎÄ¼şÃûÎª my.out £»ObjectOutputStreamÄÜ°ÑObjectÊä³ö³ÉByteÁ÷  
+            ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("my.out"));//è¾“å‡ºæµä¿å­˜çš„æ–‡ä»¶åä¸º my.out ï¼›ObjectOutputStreamèƒ½æŠŠObjectè¾“å‡ºæˆByteæµ  
             SerializableStatic myTest=new SerializableStatic();  
             oos.writeObject(myTest);   
-            oos.flush();  //»º³åÁ÷   
-            oos.close(); //¹Ø±ÕÁ÷  
+            oos.flush();  //ç¼“å†²æµ   
+            oos.close(); //å…³é—­æµ  
         } catch (FileNotFoundException e)   
         {          
             e.printStackTrace();  
@@ -34,13 +34,13 @@ public class SerializableStatic implements Serializable
         {  
             e.printStackTrace();  
         }   
-        fan();//µ÷ÓÃÏÂÃæµÄ  ·´ĞòÁĞ»¯  ´úÂë  
+        fan();//è°ƒç”¨ä¸‹é¢çš„  ååºåˆ—åŒ–  ä»£ç   
     }  
     public static void fan()  
     {  
-        new SerializableStatic().name="SheepMu_1";     //!!!!!!!!!!!!!!!!ÖØµã¿´ÕâÁ½ĞĞ ¸ü¸Ä²¿·Ö  
-        age=1;        //!!!!!!!!!!!!!!!!!!!ÖØµã¿´ÕâÁ½ĞĞ ¸ü¸Ä²¿·Ö   
-         ObjectInputStream oin = null;//¾Ö²¿±äÁ¿±ØĞëÒª³õÊ¼»¯  
+        new SerializableStatic().name="SheepMu_1";     //!!!!!!!!!!!!!!!!é‡ç‚¹çœ‹è¿™ä¸¤è¡Œ æ›´æ”¹éƒ¨åˆ†  
+        age=1;        //!!!!!!!!!!!!!!!!!!!é‡ç‚¹çœ‹è¿™ä¸¤è¡Œ æ›´æ”¹éƒ¨åˆ†   
+         ObjectInputStream oin = null;//å±€éƒ¨å˜é‡å¿…é¡»è¦åˆå§‹åŒ–  
         try  
         {  
             oin = new ObjectInputStream(new FileInputStream("my.out"));  
@@ -53,7 +53,7 @@ public class SerializableStatic implements Serializable
         }        
         SerializableStatic mts = null;  
         try {  
-            mts = (SerializableStatic ) oin.readObject();//ÓÉObject¶ÔÏóÏòÏÂ×ªĞÍÎªMyTest¶ÔÏó  
+            mts = (SerializableStatic ) oin.readObject();//ç”±Objectå¯¹è±¡å‘ä¸‹è½¬å‹ä¸ºMyTestå¯¹è±¡  
         } catch (ClassNotFoundException e) {  
             e.printStackTrace();  
         } catch (IOException e) {  
