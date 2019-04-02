@@ -75,8 +75,6 @@ public class EquilsTest {
 		System.out.println(person1.hashCode()+"\n"+person2.hashCode()); // ≤ªœ‡µ» 
 		System.out.println(person1==person2); //false 
 		System.out.println(person1.equals(person2)); //false 
-		
-		
-		
+
 	}
 }

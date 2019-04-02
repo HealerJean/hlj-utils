@@ -38,9 +38,9 @@ public class HashTest {
         return i % 10;    
     } */   
     /**
-     *  ¶ÔÏóµÄÄÚ´æµØÖ·ÓëhashcodeÓĞ¹ØÏµ£¬µ«²¢²»ÊÇhashcodeÖµÏàµÈ£¬¾ÍÊÇ´ú±íÄÚ´æµØÖ·ÏàÍ¬£¬ÕâÖÖÏë·¨ÊÇÓ×ÖÉµÄ
-     *  ±ÈÈçhashtableÖĞhashcodeÖµÏàµÈ£¬
-     *  	µ«ÊÇ´æÁËºÜ¶àµÄ¶ÔÏó£¬Õâ±íÃ÷¶ÔÏóµÄ== ¿Ï¶¨²»ÏàµÈ£¬OjbectÄæÏòÍÆÀí£¬equals²»ÏàµÈ£¬==¿Ï¶¨²»ÏàµÈ 
+     *  å¯¹è±¡çš„å†…å­˜åœ°å€ä¸hashcodeæœ‰å…³ç³»ï¼Œä½†å¹¶ä¸æ˜¯hashcodeå€¼ç›¸ç­‰ï¼Œå°±æ˜¯ä»£è¡¨å†…å­˜åœ°å€ç›¸åŒï¼Œè¿™ç§æƒ³æ³•æ˜¯å¹¼ç¨šçš„
+     *  æ¯”å¦‚hashtableä¸­hashcodeå€¼ç›¸ç­‰ï¼Œ
+     *  	ä½†æ˜¯å­˜äº†å¾ˆå¤šçš„å¯¹è±¡ï¼Œè¿™è¡¨æ˜å¯¹è±¡çš„== è‚¯å®šä¸ç›¸ç­‰ï¼ŒOjbecté€†å‘æ¨ç†ï¼Œequalsä¸ç›¸ç­‰ï¼Œ==è‚¯å®šä¸ç›¸ç­‰ 
      *  
      */
      
@@ -48,22 +48,22 @@ public class HashTest {
         HashTest a = new HashTest();    
         HashTest b = new HashTest();  
         
-        System.out.println(a.hashCode() == b.hashCode());  //true ÈËÎªÖÆÔìhashcodeÖµÏàÍ¬  
-        System.out.println(a==b);    //false //== ±È½Ï¶ÔÏóµÄÏàµÈ±È½Ï¶ÔÏóÒıÓÃµØÖ·ÊÇ·ñÏàµÈ¡£»¹ÒªÒª±È½Ï¶ÔÏóÄÚÈİÊÇ·ñÏàµÈ
-        System.out.println(a.equals(b));    //false ²»Í¬µÄ¶ÔÏó objectÖĞ == ºÍeuqalsÊÇÒ»ÑùµÄ
+        System.out.println(a.hashCode() == b.hashCode());  //true äººä¸ºåˆ¶é€ hashcodeå€¼ç›¸åŒ  
+        System.out.println(a==b);    //false //== æ¯”è¾ƒå¯¹è±¡çš„ç›¸ç­‰æ¯”è¾ƒå¯¹è±¡å¼•ç”¨åœ°å€æ˜¯å¦ç›¸ç­‰ã€‚è¿˜è¦è¦æ¯”è¾ƒå¯¹è±¡å†…å®¹æ˜¯å¦ç›¸ç­‰
+        System.out.println(a.equals(b));    //false ä¸åŒçš„å¯¹è±¡ objectä¸­ == å’Œeuqalsæ˜¯ä¸€æ ·çš„
 
         a.setI(1);    
         b.setI(1);    
         Set<HashTest> set = new HashSet<HashTest>();    
         set.add(a);    
         set.add(b);    
-        //Ã»ÓĞ equels ÖØĞ´µÄÇé¿ö
-        System.out.println(a.hashCode() == b.hashCode());  //true hashcodeÏàÍ¬   
+        //æ²¡æœ‰ equels é‡å†™çš„æƒ…å†µ
+        System.out.println(a.hashCode() == b.hashCode());  //true hashcodeç›¸åŒ   
         
-        System.out.println(a.equals(b));    //false ²»Í¬µÄ¶ÔÏó £¬´´½¨³öÀ´µÄÊÇµØÖ·¾Í²»Í¬ÁË
+        System.out.println(a.equals(b));    //false ä¸åŒçš„å¯¹è±¡ ï¼Œåˆ›å»ºå‡ºæ¥çš„æ˜¯åœ°å€å°±ä¸åŒäº†
         
-      //2 Õâ¸öÊ±ºò»á·¢Ïë´æÈëÁËÁ½¸öÖµ  setÖĞ´æ·ÅÊÇ¸ù¾İhashcodeÖµ´æ·Å£¬Èç¹ûhashcodeÖµÏàÍ¬£¬
-       //ÔÙ±È½ÏequalsÖµ£¬Èç¹ûequalsÖµÒ²ÏàÍ¬£¬Ôò²úÉúÒ»¸öµ¥Á´±í·Å½øÈ¥
+      //2 è¿™ä¸ªæ—¶å€™ä¼šå‘æƒ³å­˜å…¥äº†ä¸¤ä¸ªå€¼  setä¸­å­˜æ”¾æ˜¯æ ¹æ®hashcodeå€¼å­˜æ”¾ï¼Œå¦‚æœhashcodeå€¼ç›¸åŒï¼Œ
+       //å†æ¯”è¾ƒequalså€¼ï¼Œå¦‚æœequalså€¼ä¹Ÿç›¸åŒï¼Œåˆ™äº§ç”Ÿä¸€ä¸ªå•é“¾è¡¨æ”¾è¿›å»
         System.out.println(set.size());    
         
     }    
