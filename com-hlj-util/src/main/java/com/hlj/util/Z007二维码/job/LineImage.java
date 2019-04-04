@@ -1,15 +1,15 @@
-package com.hlj.util.util.job;//package com.hlj.util.job;
+package com.hlj.util.Z007äºŒç»´ç .job;//package com.hlj.Z007äºŒç»´ç .job;
 //
 //import javax.imageio.ImageIO;
 //import java.awt.*;
 //import java.awt.image.BufferedImage;
 //import java.io.*;
-//import java.util.UUID;
+//import java.Z007äºŒç»´ç .UUID;
 //
 ///**
-// * ×÷Õß £ºHealerJean
-// * ÈÕÆÚ £º2018/12/27  ÏÂÎç4:59.
-// * ÀàÃèÊö£º
+// * ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½HealerJean
+// * ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½2018/12/27  ï¿½ï¿½ï¿½ï¿½4:59.
+// * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 // */
 //public class LineImage {
 //    private final static String SAVE_PATH = "D:\\test";
@@ -24,7 +24,7 @@ package com.hlj.util.util.job;//package com.hlj.util.job;
 //            Graphics2D g = bgImage.createGraphics();
 //            g.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
 //            g.setColor(Color.BLACK);
-//            g.setFont(new Font("ºÚÌå", Font.PLAIN, 20));
+//            g.setFont(new Font("ï¿½ï¿½ï¿½ï¿½", Font.PLAIN, 20));
 //            drawString(g,text, 51.7f, 514, 16, 72, 90, true, true);
 //            showImage(bgImage);
 //        }
@@ -33,14 +33,14 @@ package com.hlj.util.util.job;//package com.hlj.util.job;
 //    /**
 //     *
 //     * @param g
-//     * @param text ÎÄ±¾
-//     * @param lineHeight ĞĞ¸ß
-//     * @param maxWidth ĞĞ¿í
-//     * @param maxLine ×î´óĞĞÊı
-//     * @param left ×ó±ß¾à
-//     * @param top ÉÏ±ß¾à
-//     * @param trim ÊÇ·ñĞŞ¼ôÎÄ±¾£¨1¡¢È¥³ıÊ×Î²¿Õ¸ñ£¬2¡¢½«¶à¸ö»»ĞĞ·ûÌæ»»ÎªÒ»¸ö£©
-//     * @param lineIndent ÊÇ·ñÊ×ĞĞËõ½ø
+//     * @param text ï¿½Ä±ï¿½
+//     * @param lineHeight ï¿½Ğ¸ï¿½
+//     * @param maxWidth ï¿½Ğ¿ï¿½
+//     * @param maxLine ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+//     * @param left ï¿½ï¿½ß¾ï¿½
+//     * @param top ï¿½Ï±ß¾ï¿½
+//     * @param trim ï¿½Ç·ï¿½ï¿½Ş¼ï¿½ï¿½Ä±ï¿½ï¿½ï¿½1ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½Î²ï¿½Õ¸ï¿½2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ·ï¿½ï¿½æ»»ÎªÒ»ï¿½ï¿½ï¿½ï¿½
+//     * @param lineIndent ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 //     */
 //    private static void drawString(Graphics2D g, String text, float lineHeight, float maxWidth, int maxLine, float left,
 //                                   float top, boolean trim, boolean lineIndent) {
@@ -49,7 +49,7 @@ package com.hlj.util.util.job;//package com.hlj.util.job;
 //            text = text.replaceAll("\\n+", "\n").trim();
 //        }
 //        if(lineIndent) {
-//            text = "¡¡¡¡" + text.replaceAll("\\n", "\n¡¡¡¡");
+//            text = "ï¿½ï¿½ï¿½ï¿½" + text.replaceAll("\\n", "\nï¿½ï¿½ï¿½ï¿½");
 //        }
 //        drawString(g, text, lineHeight, maxWidth, maxLine, left, top);
 //    }
@@ -57,12 +57,12 @@ package com.hlj.util.util.job;//package com.hlj.util.job;
 //    /**
 //     *
 //     * @param g
-//     * @param text ÎÄ±¾
-//     * @param lineHeight ĞĞ¸ß
-//     * @param maxWidth ĞĞ¿í
-//     * @param maxLine ×î´óĞĞÊı
-//     * @param left ×ó±ß¾à
-//     * @param top ÉÏ±ß¾à
+//     * @param text ï¿½Ä±ï¿½
+//     * @param lineHeight ï¿½Ğ¸ï¿½
+//     * @param maxWidth ï¿½Ğ¿ï¿½
+//     * @param maxLine ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+//     * @param left ï¿½ï¿½ß¾ï¿½
+//     * @param top ï¿½Ï±ß¾ï¿½
 //     */
 //    private static void drawString(Graphics2D g, String text, float lineHeight, float maxWidth, int maxLine, float left,
 //                                   float top) {
@@ -82,7 +82,7 @@ package com.hlj.util.util.job;//package com.hlj.util.job;
 //                    g.drawString(text.substring(0, i), left, top);
 //                    drawString(g, text.substring(i), lineHeight, maxWidth, maxLine - 1, left, top + lineHeight);
 //                } else {
-//                    g.drawString(text.substring(0, i - 1) + "¡­", left, top);
+//                    g.drawString(text.substring(0, i - 1) + "ï¿½ï¿½", left, top);
 //                }
 //                return;
 //            }
@@ -100,9 +100,9 @@ package com.hlj.util.util.job;//package com.hlj.util.job;
 //        if (Desktop.isDesktopSupported()) {
 //            Desktop desktop = Desktop.getDesktop();
 //            desktop.open(file);
-//            System.out.println("ÏÔÊ¾Í¼Æ¬³É¹¦");
+//            System.out.println("ï¿½ï¿½Ê¾Í¼Æ¬ï¿½É¹ï¿½");
 //        } else {
-//            System.err.println("ÏÔÊ¾Í¼Æ¬Ê§°Ü");
+//            System.err.println("ï¿½ï¿½Ê¾Í¼Æ¬Ê§ï¿½ï¿½");
 //        }
 //
 //        Thread.sleep(2000);

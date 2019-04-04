@@ -1,20 +1,20 @@
-package com.hlj.util.util.job.authorZi;
+package com.hlj.util.Z007äºŒç»´ç .job.authorZi;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * ×÷Õß £ºHealerJean
- * ÈÕÆÚ £º2018/12/27  ÏÂÎç2:31.
- * ÀàÃèÊö£º
+ * ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½HealerJean
+ * ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½2018/12/27  ï¿½ï¿½ï¿½ï¿½2:31.
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  */
 public class StringTool {
 
 
     /**
-     * °ÑÔ­Ê¼×Ö·û´®·Ö¸î³ÉÖ¸¶¨³¤¶ÈµÄ×Ö·û´®ÁĞ±í
-     * @param inputString  Ô­Ê¼×Ö·û´®
-     * @param length   Ö¸¶¨³¤¶È
+     * ï¿½ï¿½Ô­Ê¼ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½Èµï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ğ±ï¿½
+     * @param inputString  Ô­Ê¼ï¿½Ö·ï¿½ï¿½ï¿½
+     * @param length   Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
      * @return
      */
     public static List<String> getStrList(String inputString, int length) {
@@ -27,10 +27,10 @@ public class StringTool {
 
 
     /**
-     * °ÑÔ­Ê¼×Ö·û´®·Ö¸î³ÉÖ¸¶¨³¤¶ÈµÄ×Ö·û´®ÁĞ±í
-     * @param inputString Ô­Ê¼×Ö·û´®
-     * @param length Ö¸¶¨³¤¶È
-     * @param size  Ö¸¶¨ÁĞ±í´óĞ¡
+     * ï¿½ï¿½Ô­Ê¼ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½Èµï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ğ±ï¿½
+     * @param inputString Ô­Ê¼ï¿½Ö·ï¿½ï¿½ï¿½
+     * @param length Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+     * @param size  Ö¸ï¿½ï¿½ï¿½Ğ±ï¿½ï¿½Ğ¡
      * @return
      */
     public static List<String> getStrList(String inputString, int length,
@@ -44,10 +44,10 @@ public class StringTool {
         return list;
     }
     /**
-     * ·Ö¸î×Ö·û´®£¬Èç¹û¿ªÊ¼Î»ÖÃ´óÓÚ×Ö·û´®³¤¶È£¬·µ»Ø¿Õ
-     * @param str  Ô­Ê¼×Ö·û´®
-     * @param f ¿ªÊ¼Î»ÖÃ
-     * @param t  ½áÊøÎ»ÖÃ
+     * ï¿½Ö¸ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼Î»ï¿½Ã´ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È£ï¿½ï¿½ï¿½ï¿½Ø¿ï¿½
+     * @param str  Ô­Ê¼ï¿½Ö·ï¿½ï¿½ï¿½
+     * @param f ï¿½ï¿½Ê¼Î»ï¿½ï¿½
+     * @param t  ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½
      * @return
      */
     public static String substring(String str, int f, int t) {

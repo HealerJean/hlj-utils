@@ -1,10 +1,10 @@
-package com.hlj.util.util.job.description;//package com.hlj.util.job;
+package com.hlj.util.Z007二维码.job.description;//package com.hlj.Z007二维码.job;
 //
 //import java.awt.*;
 //import java.awt.image.BufferedImage;
 //import java.math.BigDecimal;
-//import java.util.Arrays;
-//import java.util.List;
+//import java.Z007二维码.Arrays;
+//import java.Z007二维码.List;
 //
 //public class ChartGraphicsDescription {
 //

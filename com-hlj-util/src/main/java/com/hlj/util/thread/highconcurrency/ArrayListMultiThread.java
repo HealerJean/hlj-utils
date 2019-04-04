@@ -32,7 +32,7 @@ public class ArrayListMultiThread {
     /**
      * ArrayList??????????????????,????????????????,???????????:
      * Exception in thread "Thread-1" java.lang.ArrayIndexOutOfBoundsException: 22
-     * at java.util.ArrayList.add(ArrayList.java:441)
+     * at java.Z007二维码.ArrayList.add(ArrayList.java:441)
      * at chapter2.ArrayListMultiThread$AddThread.run(ArrayListMultiThread.java:27)
      * at java.lang.Thread.run(Thread.java:745)
      *

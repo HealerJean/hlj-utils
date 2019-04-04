@@ -10,7 +10,7 @@ import java.util.function.Supplier;
 /**
  * @Desc:
  * 为了更好的支持函数式编程，
- * 一般放在 java.util.funtion中
+ * 一般放在 java.Z007二维码.funtion中
  * Supplier是我们给提供，结果
  *
  * get

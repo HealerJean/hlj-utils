@@ -9,21 +9,21 @@ import java.util.List;
 /**
  * @Description
  * @Author HealerJean
- * @Date 2018/5/8  ÉÏÎç9:53.
+ * @Date 2018/5/8  ï¿½ï¿½ï¿½ï¿½9:53.
  */
 public class ListForEach {
 
     /**
-         List¶ÔÏóÓÐÒ»¸ö³ÉÔ±±äÁ¿modCount£¬Ëü´ú±í¸ÃList¶ÔÏó±»ÐÞ¸ÄµÄ´ÎÊý£¬Ã¿¶ÔList¶ÔÏóÐÞ¸ÄÒ»´Î£¬modCount¶¼»á¼Ó1.
+         Listï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½modCountï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Listï¿½ï¿½ï¿½ï¿½ï¿½Þ¸ÄµÄ´ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½Listï¿½ï¿½ï¿½ï¿½ï¿½Þ¸ï¿½Ò»ï¿½Î£ï¿½modCountï¿½ï¿½ï¿½ï¿½ï¿½1.
 
-     ¡¡¡¡ItrÀàÀïÓÐÒ»¸ö³ÉÔ±±äÁ¿expectedModCount£¬ËüµÄÖµÎª´´½¨Itr¶ÔÏóµÄÊ±ºòListµÄmodCountÖµ¡£
-       ÓÃ´Ë±äÁ¿À´¼ìÑéÔÚµü´ú¹ý³ÌÖÐList¶ÔÏóÊÇ·ñ±»ÐÞ¸ÄÁË£¬Èç¹û±»ÐÞ¸ÄÁËÔòÅ×³öjava.util.ConcurrentModificationExceptionÒì³£¡£
+     ï¿½ï¿½ï¿½ï¿½Itrï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½expectedModCountï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÖµÎªï¿½ï¿½ï¿½ï¿½Itrï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Listï¿½ï¿½modCountÖµï¿½ï¿½
+       ï¿½Ã´Ë±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Listï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½Þ¸ï¿½ï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×³ï¿½java.Z007äºŒç»´ç .ConcurrentModificationExceptionï¿½ì³£ï¿½ï¿½
 
-       ÔÚÃ¿´Îµ÷ÓÃItr¶ÔÏóµÄnext()»òÕßremove·½·¨µÄÊ±ºò¶¼»áµ÷ÓÃcheckForComodification()·½·¨½øÐÐÒ»´Î¼ìÑé£¬
-       checkForComodification()·½·¨ÖÐ×öµÄ¹¤×÷¾ÍÊÇ±È½ÏexpectedModCount ºÍmodCountµÄÖµÊÇ·ñÏàµÈ£¬Èç¹û²»ÏàµÈ£¬
-      ¾ÍÈÏÎª»¹ÓÐÆäËû¶ÔÏóÕýÔÚ¶Ôµ±Ç°µÄList½øÐÐ²Ù×÷£¬ÄÇ¸ö¾Í»áÅ×³öConcurrentModificationExceptionÒì³£¡£
+       ï¿½ï¿½Ã¿ï¿½Îµï¿½ï¿½ï¿½Itrï¿½ï¿½ï¿½ï¿½ï¿½next()ï¿½ï¿½ï¿½ï¿½removeï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ò¶¼»ï¿½ï¿½ï¿½ï¿½checkForComodification()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Î¼ï¿½ï¿½é£¬
+       checkForComodification()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç±È½ï¿½expectedModCount ï¿½ï¿½modCountï¿½ï¿½Öµï¿½Ç·ï¿½ï¿½ï¿½È£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È£ï¿½
+      ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¶Ôµï¿½Ç°ï¿½ï¿½Listï¿½ï¿½ï¿½Ð²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ï¿½Í»ï¿½ï¿½×³ï¿½ConcurrentModificationExceptionï¿½ì³£ï¿½ï¿½
 
-      ½«list¶ÔÏóÀïÃæµÄ¡°c"É¾³ýÁË£¬Í¬Ê±list¶ÔÏóµÄmodCountÖµ¼Ó1£¬µ«ÊÇItr¶ÔÏóµÄexpectedModCountÃ»ÓÐ±ä£¬ËûÃÇ¿Ï¶¨ÊÇ²»ÏàµÈÁË¡£µÈÔÙÒ»´ÎÖ´ÐÐnext()·½·¨µÄÊ±ºòµ÷ÓÃÁËcheckForComodification()·½·¨£¬ÕâÊ±ºò¾ÍÅ×³öÒì³£ÁË¡£
+      ï¿½ï¿½listï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¡ï¿½c"É¾ï¿½ï¿½ï¿½Ë£ï¿½Í¬Ê±listï¿½ï¿½ï¿½ï¿½ï¿½modCountÖµï¿½ï¿½1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Itrï¿½ï¿½ï¿½ï¿½ï¿½expectedModCountÃ»ï¿½Ð±ä£¬ï¿½ï¿½ï¿½Ç¿Ï¶ï¿½ï¿½Ç²ï¿½ï¿½ï¿½ï¿½ï¿½Ë¡ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ö´ï¿½ï¿½next()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½checkForComodification()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½×³ï¿½ï¿½ì³£ï¿½Ë¡ï¿½
      */
 
     public static void main(String[] args) {
@@ -35,16 +35,16 @@ public class ListForEach {
         list.add("d");
         list.add("e");
         Iterator iterator = list.iterator();
-        while(iterator.hasNext()){       //¸Õ½øÀ´cursorÎª0 
-            String str = (String) iterator.next(); //µÚÒ»´ÎnextÖ®ºóÓÎ±êÎª1£¬Ö¸ÏòµÄÊÇÏÂÒ»¸öË÷Òý£¬Óëlist¶ÔÏósizeÅÐ¶ÏÊÇ·ñÓÐÎ´µü´úµÄ¶ÔÏó
+        while(iterator.hasNext()){       //ï¿½Õ½ï¿½ï¿½ï¿½cursorÎª0 
+            String str = (String) iterator.next(); //ï¿½ï¿½Ò»ï¿½ï¿½nextÖ®ï¿½ï¿½ï¿½Î±ï¿½Îª1ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½listï¿½ï¿½ï¿½ï¿½sizeï¿½Ð¶ï¿½ï¿½Ç·ï¿½ï¿½ï¿½Î´ï¿½ï¿½ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½
           if(str.equals("c")){ //a b checkForComodification
                 list.remove(str);
           }
 //            if(str.equals("d")){ // a b c
-//                //ËüÊÇÍ¨¹ýItrµÄ¶ÔÏóµÄcursorÓëList¶ÔÏóµÄsizeÖµÀ´ÅÐ¶ÏÊÇ·ñ»¹ÓÐÎ´µü´úµÄ¶ÔÏó£¬
-//                // µ±±éÀúÍê¡°d"µÄÊ±ºòcursor=4£¬É¾³ý¡±d"µÄÊ±ºò£¬List¶ÔÏóµÄsize¾Í»á¼õ1£¬sizeÊ×ÏÈÎª5£¬ºóÀ´±äÎª4£¬
-//                // ÕâÊ±ºòcursorºÍsizeÊÇÏàµÈµÄ£¬hasNext()·½·¨·µ»ØµÄÊÇfalse£¬¾ÍÈÏÎª±éÀú½áÊøÁË£¬
-//                // ËùÒÔÉ¾³ýÒÔºóÃ»ÓÐ½øÈ¥Ö´ÐÐnext()·½·¨ÁË£¬¾ÍÃ»ÓÐÅ×³öÒì³£ÁË£¬µ±È»"e"Ò²Ã»ÓÐÊä³öÀ´¡£
+//                //ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½Itrï¿½Ä¶ï¿½ï¿½ï¿½ï¿½cursorï¿½ï¿½Listï¿½ï¿½ï¿½ï¿½ï¿½sizeÖµï¿½ï¿½ï¿½Ð¶ï¿½ï¿½Ç·ï¿½ï¿½ï¿½Î´ï¿½ï¿½ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½
+//                // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê¡°d"ï¿½ï¿½Ê±ï¿½ï¿½cursor=4ï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½d"ï¿½ï¿½Ê±ï¿½ï¿½Listï¿½ï¿½ï¿½ï¿½ï¿½sizeï¿½Í»ï¿½ï¿½1ï¿½ï¿½sizeï¿½ï¿½ï¿½ï¿½Îª5ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª4ï¿½ï¿½
+//                // ï¿½ï¿½Ê±ï¿½ï¿½cursorï¿½ï¿½sizeï¿½ï¿½ï¿½ï¿½ÈµÄ£ï¿½hasNext()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½falseï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë£ï¿½
+//                // ï¿½ï¿½ï¿½ï¿½É¾ï¿½ï¿½ï¿½Ôºï¿½Ã»ï¿½Ð½ï¿½È¥Ö´ï¿½ï¿½next()ï¿½ï¿½ï¿½ï¿½ï¿½Ë£ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½×³ï¿½ï¿½ì³£ï¿½Ë£ï¿½ï¿½ï¿½È»"e"Ò²Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 //                list.remove(str);   //
 //            }
             else{
@@ -65,16 +65,16 @@ public class ListForEach {
         list.add("eeeeee");
 
         Iterator it = list.iterator();
-        //it.remove(); //É¾³ýµÄÊÇÉÏÒ»¸öÔªËØ IllegalStateException
+        //it.remove(); //É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ôªï¿½ï¿½ IllegalStateException
         int i = 0;
         String s = null;
         while(it.hasNext()){
             if(i==2){
-//              list.remove(it.next()); Èç¹ûÓÃlist.remove(it.next());»á±¨Òì³£checkForComodification
-                it.remove();//removeµÄÊÇb removeÖ®ºócursor»á¼õ1,ÒòÎªcursorÖ¸ÏòµÄÊÇÏÂÒ»¸öË÷Òý£¬É¾³ýÖ®ºóÏÂÒ»¸öË÷Òý¾Í»á¼õ1£¬È»ºólist¸öÊý»á¼õ1
-                            //Õâ¸öÊ±ºò ÔÚcÔªËØµÄ itµÄcursor´Ó2 ±ä³ÉÁË 1 cÔªËØ¶¥ÌæÁËb£¬cursor¾Í±ä³ÉÁËcursor=1
+//              list.remove(it.next()); ï¿½ï¿½ï¿½ï¿½ï¿½list.remove(it.next());ï¿½á±¨ï¿½ì³£checkForComodification
+                it.remove();//removeï¿½ï¿½ï¿½ï¿½b removeÖ®ï¿½ï¿½cursorï¿½ï¿½ï¿½1,ï¿½ï¿½ÎªcursorÖ¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¾ï¿½ï¿½Ö®ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½1ï¿½ï¿½È»ï¿½ï¿½listï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1
+                            //ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ ï¿½ï¿½cÔªï¿½Øµï¿½ itï¿½ï¿½cursorï¿½ï¿½2 ï¿½ï¿½ï¿½ï¿½ï¿½ 1 cÔªï¿½Ø¶ï¿½ï¿½ï¿½ï¿½ï¿½bï¿½ï¿½cursorï¿½Í±ï¿½ï¿½ï¿½ï¿½cursor=1
             }
-            System.out.println("µÚ"+i+"¸öÔªËØ"+it.next());
+            System.out.println("ï¿½ï¿½"+i+"ï¿½ï¿½Ôªï¿½ï¿½"+it.next());
             i++ ;
         }
         System.out.println("----------------");
@@ -85,11 +85,11 @@ public class ListForEach {
 
     }
 //
-//    µÚ0¸öÔªËØaaaaaa
-//    µÚ1¸öÔªËØbbbbbb
-//    µÚ2¸öÔªËØcccccc
-//    µÚ3¸öÔªËØdddddd
-//    µÚ4¸öÔªËØeeeeee
+//    ï¿½ï¿½0ï¿½ï¿½Ôªï¿½ï¿½aaaaaa
+//    ï¿½ï¿½1ï¿½ï¿½Ôªï¿½ï¿½bbbbbb
+//    ï¿½ï¿½2ï¿½ï¿½Ôªï¿½ï¿½cccccc
+//    ï¿½ï¿½3ï¿½ï¿½Ôªï¿½ï¿½dddddd
+//    ï¿½ï¿½4ï¿½ï¿½Ôªï¿½ï¿½eeeeee
 //----------------
 //    aaaaaa
 //    cccccc

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/../cant-breathe/相关代码/17 spring  webservice/17.2 17.4/SpringWebService/src/com/hlj/SinoIntercepter/other/WsContext.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-hlj-admin" charset="UTF-8" />
@@ -11,6 +11,7 @@
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Optional/MainTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Optional/bean/User.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Serializable/SerializableStatic.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z007二维码/job/authorZi/ChartGraphicsZi.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/equils/EquilsTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/file/FileTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/intlong/ShortTest.java" charset="UTF-8" />
@@ -25,7 +26,6 @@
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/thread/CallableTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/thread/DeadLock/DeadLockThread.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/txt/GetTxtLineTextValue.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/util/job/authorZi/ChartGraphicsZi.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/CreateXmlByVmFile.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/FieldPropetiesToXml.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/格式化xml/XmlFormat.java" charset="UTF-8" />

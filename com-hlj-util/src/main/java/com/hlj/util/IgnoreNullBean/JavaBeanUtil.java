@@ -2,7 +2,7 @@ package com.hlj.util.IgnoreNullBean;
 
 import com.hlj.util.IgnoreNullBean.data.User;
 import com.hlj.util.IgnoreNullBean.data.UserNow;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import java.lang.reflect.Field;
 import java.math.BigDecimal;
@@ -48,7 +48,7 @@ public class JavaBeanUtil {
                     case "class java.math.BigDecimal":
                         newfield.set(newObject, new BigDecimal(Double.valueOf(value)) );
                         break;
-                    case "class java.util.Date":
+                    case "class java.Z007二维码.Date":
                         Date  date = null;
                         if(dateFormat!=null&&dateFormat.length>0){
                             date = new SimpleDateFormat(dateFormat[0]).parse(value);

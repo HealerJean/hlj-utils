@@ -1,7 +1,7 @@
-package com.hlj.util.util.job.description;//package com.hlj.util.job.description;
+package com.hlj.util.Z007二维码.job.description;//package com.hlj.Z007二维码.job.description;
 //
-//import com.hlj.util.QRcode.BufferedImageUtils;
-//import com.hlj.util.job.ChartGraphicsDescription;
+//import com.hlj.Z007二维码.QRcode.BufferedImageUtils;
+//import com.hlj.Z007二维码.job.ChartGraphicsDescription;
 //
 //import javax.imageio.ImageIO;
 //import java.awt.image.BufferedImage;
@@ -9,8 +9,8 @@ package com.hlj.util.util.job.description;//package com.hlj.util.job.description
 //import java.io.FileOutputStream;
 //import java.math.BigDecimal;
 //import java.net.URL;
-//import java.util.Arrays;
-//import java.util.List;
+//import java.Z007二维码.Arrays;
+//import java.Z007二维码.List;
 //
 ///**
 // * @Desc:

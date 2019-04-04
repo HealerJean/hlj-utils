@@ -1,4 +1,4 @@
-package com.hlj.util.util.QRcode;
+package com.hlj.util.Z007二维码.QRcode;
 
 import com.google.zxing.*;
 import com.google.zxing.client.j2se.BufferedImageLuminanceSource;

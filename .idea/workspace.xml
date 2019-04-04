@@ -2,25 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f2397da-fa64-4e6f-9906-c73133fa7656" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cglib_3_2_5__2_.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_4__2_.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_net_3_6__2_.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/core_3_3_2__2_.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dom4j_1_6_1__2_.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/freemarker_2_3_16__2_.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z006运算符/Z001位移运算符.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/HashCode/HashTest.java" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/HashCode/HashTest.java" />
-      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/equils/EquilsTest.java" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/equils/EquilsTest.java" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/cglib_3_2_5__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_4__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_net_3_6__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/core_3_3_2__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/dom4j_1_6_1__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/freemarker_2_3_16__3_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-dao/com-hlj-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-dao/com-hlj-dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-dao/target/classes/com/hlj/data/bean/demo/DemoEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-dao/target/classes/com/hlj/data/bean/demo/DemoEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-dao/target/classes/com/hlj/data/general/AppException.class" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-dao/target/classes/com/hlj/data/general/AppException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-dao/target/classes/com/hlj/data/general/ErrorCodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-dao/target/classes/com/hlj/data/general/ErrorCodeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-dao/target/classes/com/hlj/data/general/ResponseBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-dao/target/classes/com/hlj/data/general/ResponseBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Arraylist/ListForEach.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Arraylist/ListForEach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/IgnoreNullBean/JavaBeanUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/IgnoreNullBean/JavaBeanUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Optional/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Optional/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo10Supplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo10Supplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Stream/Demo08ForEach.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Stream/Demo08ForEach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/thread/highconcurrency/ArrayListMultiThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/thread/highconcurrency/ArrayListMultiThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/util/Base64Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z007二维码/Base64Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/util/QRcode/BufferedImageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z007二维码/QRcode/BufferedImageUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/util/job/LineImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z007二维码/job/LineImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/util/job/authorZi/ChartGraphicsZi.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z007二维码/job/authorZi/ChartGraphicsZi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/util/job/authorZi/CouponAdzoneFoodieTagZi.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z007二维码/job/authorZi/CouponAdzoneFoodieTagZi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/util/job/authorZi/MainServiceZi.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z007二维码/job/authorZi/MainServiceZi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/util/job/authorZi/StringTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z007二维码/job/authorZi/StringTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/util/job/description/ChartGraphicsDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z007二维码/job/description/ChartGraphicsDescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/util/job/description/MainServiceDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z007二维码/job/description/MainServiceDescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/FieldPropetiesToXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/FieldPropetiesToXml.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/com-hlj-admin/target/" />
     <ignored path="$PROJECT_DIR$/com-hlj-dao/target/" />
     <ignored path="$PROJECT_DIR$/com-hlj-util/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,99 +68,8 @@
     </expand>
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1453913385">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.1" value="4" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="184" />
-          <entry key="md" value="1" />
-          <entry key="properties" value="1" />
-          <entry key="sql" value="2" />
-          <entry key="vm" value="1" />
-          <entry key="xml" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="184" />
-          <entry key="Markdown" value="1" />
-          <entry key="Properties" value="1" />
-          <entry key="SQL" value="1" />
-          <entry key="Scratch" value="1" />
-          <entry key="VTL" value="1" />
-          <entry key="XML" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cell" value="19" />
-          <entry key="dummy" value="21" />
-          <entry key="java" value="2079" />
-          <entry key="md" value="12" />
-          <entry key="sql" value="935" />
-          <entry key="xml" value="20" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="2079" />
-          <entry key="Markdown" value="12" />
-          <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Scratch" value="954" />
-          <entry key="XML" value="20" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EquilsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/equils/EquilsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="70" column="8" lean-forward="true" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Z001位移运算符.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z006运算符/Z001位移运算符.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/string/StringTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="233" column="21" lean-forward="true" selection-start-line="233" selection-start-column="21" selection-end-line="233" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -167,6 +99,8 @@
       <find>ensureCapacity</find>
       <find>ArrayList</find>
       <find>hashCode</find>
+      <find>org.apache.log4j.Logger</find>
+      <find>二维码</find>
     </findStrings>
     <replaceStrings>
       <replace>CreateList</replace>
@@ -174,11 +108,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -189,7 +118,6 @@
         <option value="$PROJECT_DIR$/com-hlj-admin/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo03MethodRef.java" />
         <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Stream/Demo06Map.java" />
-        <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Stream/Demo08ForEach.java" />
         <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/map/MapTest.java" />
         <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/CreateXmlByVmFile.java" />
         <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/格式化xml/XmlFormat.java" />
@@ -218,20 +146,20 @@
         <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/file/FileTest.java" />
         <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/equils/EquilsTest.java" />
         <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z006运算符/Z001位移运算符.java" />
+        <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Stream/Demo08ForEach.java" />
+        <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/FieldPropetiesToXml.java" />
+        <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/file/FtpUtil.java" />
+        <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z007二维码/job/LineImage.java" />
+        <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z007二维码/QRcode/BufferedImageUtils.java" />
+        <option value="$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/IgnoreNullBean/JavaBeanUtil.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="/Library/apache-maven-3.3.9" />
-        <option name="userSettingsFile" value="/Library/apache-maven-3.3.9/conf/settings.xml" />
+        <option name="mavenHome" value="D:/programFiles/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\programFiles\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -241,9 +169,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -268,23 +196,10 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,7 +210,54 @@
             <path>
               <item name="hlj-utils" type="b2602c69:ProjectViewProjectNode" />
               <item name="hlj-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="com-hlj-admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hlj-utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hlj-utils" type="462c0819:PsiDirectoryNode" />
               <item name="com-hlj-util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hlj-utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hlj-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="com-hlj-util" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hlj-utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hlj-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="com-hlj-util" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="DynamicProxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hlj-utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hlj-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="com-hlj-util" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hlj-utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hlj-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="com-hlj-util" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hlj-utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hlj-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="com-hlj-util" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="QRcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hlj-utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hlj-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="com-hlj-util" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hlj-utils" type="b2602c69:ProjectViewProjectNode" />
@@ -335,7 +297,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="clone" type="462c0819:PsiDirectoryNode" />
+              <item name="IgnoreNullBean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hlj-utils" type="b2602c69:ProjectViewProjectNode" />
@@ -345,7 +307,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="equils" type="462c0819:PsiDirectoryNode" />
+              <item name="IgnoreNullBean" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hlj-utils" type="b2602c69:ProjectViewProjectNode" />
@@ -355,7 +318,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="Z007二维码" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hlj-utils" type="b2602c69:ProjectViewProjectNode" />
@@ -365,13 +328,50 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="Z006运算符" type="462c0819:PsiDirectoryNode" />
+              <item name="Z007二维码" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hlj-utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hlj-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="com-hlj-util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="Z007二维码" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+              <item name="authorZi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hlj-utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hlj-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="com-hlj-util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="Z007二维码" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+              <item name="description" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hlj-utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hlj-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="com-hlj-util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="Z007二维码" type="462c0819:PsiDirectoryNode" />
+              <item name="QRcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,7 +382,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552492876470" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554362705247" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="database.data.extractors.current.id" value="HTML Table" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -390,7 +390,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -416,120 +416,100 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EquilsTest">
-    <configuration default="true" type="Applet" factoryName="Applet">
+  <component name="RunManager" selected="Application.MainServiceZi">
+    <configuration default="true" type="Applet">
+      <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
-      <option name="HEIGHT" value="0" />
-      <module />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="EquilsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="com.hlj.util.equils.EquilsTest" />
+      <module name="com-hlj-util" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hlj.util.equils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.hlj.util.equils.EquilsTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="com-hlj-util" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+    <configuration name="MainServiceZi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hlj.util.Z007二维码.job.authorZi.MainServiceZi" />
+      <module name="com-hlj-util" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hlj.util.file.*" />
+          <option name="PATTERN" value="com.hlj.util.Z007二维码.job.authorZi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.hlj.util.file.TestMain" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="com-hlj-util" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo08ForEach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com-hlj-util" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hlj.util.java8.Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hlj.util.java8.Stream" />
+      <option name="MAIN_CLASS_NAME" value="com.hlj.util.java8.Stream.Demo08ForEach" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Z001位移运算符" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <module name="com-hlj-util" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hlj.util.Z006运算符.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="com-hlj-util" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.hlj.util.Z006运算符" />
       <option name="MAIN_CLASS_NAME" value="com.hlj.util.Z006运算符.Z001位移运算符" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Z001位移运算符.左移运算符" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <module name="com-hlj-util" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hlj.util.Z006运算符.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="com-hlj-util" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.hlj.util.Z006运算符" />
       <option name="MAIN_CLASS_NAME" value="com.hlj.util.Z006运算符.Z001位移运算符" />
       <option name="METHOD_NAME" value="左移运算符" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Z001位移运算符.异或运算符" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -557,100 +537,64 @@
       <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hlj.AdminApplication" />
       <module name="com-hlj-admin" />
-      <envs />
-    </configuration>
-    <configuration name="ComHljUtilApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hlj.util.ComHljUtilApplication" />
-      <module name="com-hlj-util" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hlj.AdminApplication" />
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration name="ComHljUtilApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="com-hlj-util" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hlj.util.ComHljUtilApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-      <method>
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.ComHljUtilApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.AdminApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestMain" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Z001位移运算符.左移运算符" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Z001位移运算符" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.Z001位移运算符.异或运算符" />
-      <item index="6" class="java.lang.String" itemvalue="Application.EquilsTest" />
+    <list>
+      <item itemvalue="Application.EquilsTest" />
+      <item itemvalue="JUnit.Z001位移运算符.左移运算符" />
+      <item itemvalue="JUnit.Z001位移运算符" />
+      <item itemvalue="JUnit.Demo08ForEach" />
+      <item itemvalue="Spring Boot.ComHljUtilApplication" />
+      <item itemvalue="Spring Boot.AdminApplication" />
+      <item itemvalue="Application.MainServiceZi" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.EquilsTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Z001位移运算符.异或运算符" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Z001位移运算符.左移运算符" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Z001位移运算符" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TestMain" />
+      <list>
+        <item itemvalue="Application.MainServiceZi" />
+        <item itemvalue="JUnit.Demo08ForEach" />
+        <item itemvalue="Application.EquilsTest" />
+        <item itemvalue="JUnit.Z001位移运算符.左移运算符" />
+        <item itemvalue="JUnit.Z001位移运算符" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -674,6 +618,8 @@
       <workItem from="1551837955300" duration="504000" />
       <workItem from="1552443268692" duration="12511000" />
       <workItem from="1552902947212" duration="5404000" />
+      <workItem from="1554281770830" duration="279000" />
+      <workItem from="1554362272239" duration="436000" />
     </task>
     <servers />
   </component>
@@ -710,7 +656,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73383000" />
+    <option name="totallyTimeSpent" value="74098000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -722,48 +668,48 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25588864" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32859176" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.33628318" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Tail" order="13" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="14" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="16" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32976446" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.32976446" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -782,104 +728,16 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo04ObjectRefPack/MethodRefObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo02CallbackValuePack/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo01Lambda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo03MethodRefPack/PrinterInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HealerJean.github.io/_posts/DDKJ/14、sprignBoot定时器和quartz定时器/2017_03_22_2_springBoot集成Quartz/com-hlj-quartz/src/main/java/com/hlj/quartz/quartz/service/QuartzService.java" />
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo02CallbackValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo03MethodRef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="142" column="20" lean-forward="false" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/System.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/Collectors.java" />
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Stream/IntroduceCollectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="166" column="0" lean-forward="true" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HealerJean.github.io/_posts/DDKJ/5、springCloud/RedisConfig.java" />
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z004布隆过滤器/Z004布隆过滤器.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo06Delay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo04ObjectRef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="44" column="11" lean-forward="false" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo04ObjectRefPack/MyInterfaceObjectRef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo06DelayPack/MsgBuiler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -887,7 +745,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="220">
-            <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <caret line="10" selection-start-line="10" selection-end-line="10" />
           </first_editor>
           <second_editor />
         </state>
@@ -903,7 +761,7 @@
     <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/intlong/ShortTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
-          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
@@ -914,7 +772,7 @@
     <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/thread/DeadLock/DeadLockThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -924,7 +782,7 @@
     <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/thread/CallableTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding />
         </state>
       </provider>
@@ -939,21 +797,21 @@
     <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z003ThreadLocal/ThreadLocalHolderMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Stream/Demo02GetStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo09Cousumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
           <folding>
             <element signature="e#582#583#0" expanded="false" />
             <element signature="e#687#688#0" expanded="false" />
@@ -964,7 +822,7 @@
     <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo11Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
-          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -973,14 +831,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Lambda/Demo12Function.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -988,7 +845,7 @@
     <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z005BitSet/D01BitSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
-          <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -996,9 +853,9 @@
     <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/file/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" />
           </folding>
         </state>
       </provider>
@@ -1006,23 +863,21 @@
     <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/file/FileTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
-          <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-          <folding />
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/log4j/Log4jTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/HashCode/HashTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="60" column="37" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="37" />
+          <caret line="60" column="37" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1037,16 +892,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/equils/EquilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="70" column="8" lean-forward="true" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="2030">
+          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z006运算符/Z001位移运算符.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="1450">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1055,9 +909,135 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/string/StringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="233" column="21" lean-forward="true" selection-start-line="233" selection-start-column="21" selection-end-line="233" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="6931">
+          <caret line="244" column="43" selection-start-line="244" selection-start-column="43" selection-end-line="244" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Stream/Demo08ForEach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2813">
+          <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/xml/FieldPropetiesToXml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2204">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/file/FtpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Stream/Demo15MaxMin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Stream/Demo17Sorted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="899">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Stream/Demo14AnyMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Stream/Demo13Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Stream/Demo12Collect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/java8/Stream/Demo11Concurrence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/programFiles/Jdk1.8/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="498" lean-forward="true" selection-start-line="498" selection-end-line="498" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z007二维码/job/LineImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1044">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/programFiles/Jdk1.8/src.zip!/java/awt/Graphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="920" column="28" selection-start-line="920" selection-start-column="28" selection-end-line="920" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z007二维码/QRcode/BufferedImageUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1073">
+          <caret line="92" column="7" lean-forward="true" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2409#2433#0" expanded="true" />
+            <element signature="e#4404#4428#0" expanded="true" />
+            <element signature="e#5326#5350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z007二维码/job/authorZi/ChartGraphicsZi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="156" column="19" selection-start-line="156" selection-start-column="19" selection-end-line="156" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/Z007二维码/job/authorZi/MainServiceZi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-hlj-util/src/main/java/com/hlj/util/IgnoreNullBean/JavaBeanUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>

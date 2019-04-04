@@ -1,7 +1,7 @@
-package com.hlj.util.util.job.authorZi;
+package com.hlj.util.Z007二维码.job.authorZi;
 
 
-import com.hlj.util.util.QRcode.BufferedImageUtils;
+import com.hlj.util.Z007二维码.QRcode.BufferedImageUtils;
 
 import javax.imageio.ImageIO;
 import java.awt.*;

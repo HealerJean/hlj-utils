@@ -13,16 +13,17 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.Properties;
 
-import org.apache.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 
 //解析xml
 public class FieldPropetiesToXml {
-	static Logger logger = Logger.getLogger(FieldPropetiesToXml.class);
+	static Logger logger = LoggerFactory.getLogger(FieldPropetiesToXml.class);
 	
 	public static void main(String[] args) {
 		FieldPropetiesToXml xmlTest = new FieldPropetiesToXml();
@@ -94,7 +95,6 @@ public class FieldPropetiesToXml {
 
 	/**
 	 * 根据业务类型获得相应的属性文件
-	 * @param busCd
 	 * @return
 	 */
 	private  Properties getPropFileByBusCd(){
@@ -146,7 +146,7 @@ public class FieldPropetiesToXml {
 				BigDecimal bde=new BigDecimal(value);
 				field.set(ins, bde);
 			}
-			if("class java.util.Date".equals(fieldType)){
+			if("class java.Z007二维码.Date".equals(fieldType)){
 				SimpleDateFormat df=new SimpleDateFormat("yyyyMMdd");
 				Date date=df.parse(value);
 				field.set(ins, date);

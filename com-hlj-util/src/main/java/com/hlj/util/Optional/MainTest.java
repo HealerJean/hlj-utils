@@ -43,7 +43,7 @@ public class MainTest {
         //下面创建了一个不包含任何值的Optional实例
         //例如，值为'null'
         Optional<String> empty = Optional.ofNullable(null);
-        System.out.println(empty.get()); //java.util.NoSuchElementException: No value present
+        System.out.println(empty.get()); //java.Z007二维码.NoSuchElementException: No value present
     }
 
     /**
