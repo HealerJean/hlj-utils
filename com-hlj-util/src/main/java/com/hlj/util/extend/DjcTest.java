@@ -1,6 +1,8 @@
 package com.hlj.util.extend;
 
-
+/**
+ * å†…éƒ¨ç±»å®ç°å¤šé‡ç»§æ‰¿
+ */
 class Example1 {
 
     public String name()
@@ -54,7 +56,7 @@ class DjcTest
     public static void main(String args[])
     {
     	DjcTest mi = new DjcTest();
-        System.out.println("ĞÕÃû:" + mi.name());
-        System.out.println("ÄêÁä:" + mi.age());
+        System.out.println("????:" + mi.name());
+        System.out.println("????:" + mi.age());
     }
 }

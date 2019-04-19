@@ -1,31 +1,30 @@
 package com.hlj.util.extend;
 
+
+
 class A{
-	
-	// private String aString = "¸¸Ç×±äÁ¿";
-	String aString = "¸¸Ç×±äÁ¿";
-		public void aString(){
-		System.out.println("¸¸Ç×·½·¨");
-	}	
-}
-
-public class TestBl extends A{
-	String aString = "¶ù×Ó±äÁ¿";
+	// private String aString = "çˆ¶äº²å˜é‡";
+	String aString = "çˆ¶äº²å˜é‡";
 	public void aString(){
-		aString = "·½·¨¶ù×Ó"; //Ã»ÓĞ¸Ä±ä
-	System.out.println("¶ù×Ó·½·¨");	
-}	
+		System.out.println("çˆ¶äº²æ–¹æ³•");
+	}
+}
+public class TestBl extends A{
+	String aString = "å„¿å­å˜é‡";
+	public void aString(){
+		aString = "æ–¹æ³•å„¿å­"; //æ²¡æœ‰æ”¹å˜stringçš„å€¼
+		System.out.println("å„¿å­æ–¹æ³•");
+	}
 	public static void main(String[] args) {
-		//¶àÌ¬
-		System.out.println("*****¶àÌ¬******");
-		A testB = new TestBl(); 
-		System.out.println(testB.aString ); 
-		testB.aString(); 
-	System.out.println("***********");
-		
-		TestBl testBl = new TestBl();	
+		//å¤šæ€
+		System.out.println("*****å¤šæ€******");
+		A testB = new TestBl();
+		System.out.println(testB.aString );
+		testB.aString();
+		System.out.println("***********");
 
-		System.out.println(testBl.aString ); 
-		testBl.aString() ;		
+		TestBl testBl = new TestBl();
+		System.out.println(testBl.aString );
+		testBl.aString() ;
 	}
 }

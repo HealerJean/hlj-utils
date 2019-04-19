@@ -1,5 +1,8 @@
 package com.hlj.util.extend;
 
+/**
+ * 父类中的变量是子类共享的，如果没有覆盖的话
+ */
 class SimleCale {
 public int value;
 	public void calculate(){
@@ -16,7 +19,7 @@ public class MultiCale extends SimleCale{
 	}
 	public void calculate(int multiplier){
 			calculate(); 
-			super.calculate(); //4 //使用了子类的value值
+			super.calculate(); //4 /
 			value*=multiplier; //8
 		}
 public static void main(String[] args) {
