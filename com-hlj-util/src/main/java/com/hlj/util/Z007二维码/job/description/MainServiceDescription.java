@@ -1,7 +1,7 @@
-package com.hlj.util.Z007二维码.job.description;//package com.hlj.Z007二维码.job.description;
+//package com.hlj.util.Z007二维码.job.description;
 //
-//import com.hlj.Z007二维码.QRcode.BufferedImageUtils;
-//import com.hlj.Z007二维码.job.ChartGraphicsDescription;
+//
+//import com.hlj.util.Z007二维码.QRcode.BufferedImageUtils;
 //
 //import javax.imageio.ImageIO;
 //import java.awt.image.BufferedImage;
@@ -9,8 +9,8 @@ package com.hlj.util.Z007二维码.job.description;//package com.hlj.Z007二维�
 //import java.io.FileOutputStream;
 //import java.math.BigDecimal;
 //import java.net.URL;
-//import java.Z007二维码.Arrays;
-//import java.Z007二维码.List;
+//import java.util.Arrays;
+//import java.util.List;
 //
 ///**
 // * @Desc:
@@ -49,7 +49,7 @@ package com.hlj.util.Z007二维码.job.description;//package com.hlj.Z007二维�
 //
 //
 //        BufferedImage bufferedImage = ChartGraphicsDescription. graphicsGenerationlovely(imageQR, ErWeiMaImage,titleLab,title,originPrice,nowPrice,couponPrice+"",description,lable);
-
+//
 ////        有小编推荐 start-----------------------------------------------------------------------------------------------------------------------------
 //            String tuijian = description ;
 //            StringBuffer s1= null;
@@ -92,7 +92,7 @@ package com.hlj.util.Z007二维码.job.description;//package com.hlj.Z007二维�
 //
 //       BufferedImage bufferedImageFinal =  BufferedImageUtils.reduceImg(bufferedImage, 375*3, bili*3, null);
 ////        有小编推荐去 end-----------------------------------------------------------------------------------------------------------------------------
-
+//
 //         //下面这个是去掉 小编推荐语
 ////        BufferedImage bufferedImageFinal =  BufferedImageUtils.reduceImg(bufferedImage, 375*3, 534*3, null);
 //

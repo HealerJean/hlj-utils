@@ -1,10 +1,10 @@
-package com.hlj.util.Z007二维码.job.description;//package com.hlj.Z007二维码.job;
+//package com.hlj.util.Z007二维码.job.description;//package com.hlj.Z007二维码.job;
 //
 //import java.awt.*;
 //import java.awt.image.BufferedImage;
 //import java.math.BigDecimal;
-//import java.Z007二维码.Arrays;
-//import java.Z007二维码.List;
+//import java.util.Arrays;
+//import java.util.List;
 //
 //public class ChartGraphicsDescription {
 //
@@ -64,7 +64,7 @@ package com.hlj.util.Z007二维码.job.description;//package com.hlj.Z007二维�
 //         lovelyImageHeight = bili*30;
 //
 ////小编推荐 ------end-----------------------
-
+//
 //
 //
 //
@@ -72,7 +72,7 @@ package com.hlj.util.Z007二维码.job.description;//package com.hlj.Z007二维�
 ////        int  lovelyImageWidth = 375*30;
 ////        int lovelyImageHeight = 534*30;
 ////小编推荐 end
-
+//
 //
 //
 //
