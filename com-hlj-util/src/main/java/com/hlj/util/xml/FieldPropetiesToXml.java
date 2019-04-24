@@ -157,7 +157,7 @@ public class FieldPropetiesToXml {
 				field.set(ins, date);
 			}
 		}catch(Exception ex){
-			logger.error(ex);
+			logger.error(ex.getMessage());
 		}
 		
 	}

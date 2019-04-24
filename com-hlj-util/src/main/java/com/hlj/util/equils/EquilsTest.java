@@ -3,7 +3,7 @@ package com.hlj.util.equils;
 public class EquilsTest {
 	public static void main(String[] args) {
 		dy();
-		//== µØÖ·ÏàÍ¬£¬equit ×ƒÁ¿ÏàÍ¬
+		//== åœ°å€ç›¸åŒï¼Œequit è®Šé‡ç›¸åŒ
 	}
 	public static void dy(){
 		
@@ -14,65 +14,65 @@ public class EquilsTest {
 		String abuilder2 = new String(abuilder);
 
 		String ab = new String(abuilder);
-		if(a==a2){ //a a2 µØÖ·ÏàÍ¬
-			System.out.println("a==a2"); //³ÉÁ¢
+		if(a==a2){ //a a2 åœ°å€ç›¸åŒ
+			System.out.println("a==a2"); //æˆç«‹
 		}else {
 			System.out.println("a !=a2");
 		}
 		
-		if(a==abuilder){//a abuilder µØÖ·²»Í¬
+		if(a==abuilder){//a abuilder åœ°å€ä¸åŒ
 			System.out.println("a==abuilder"); 
 		}else {
-			System.out.println("a !=abuilder");//³ÉÁ¢
+			System.out.println("a !=abuilder");//æˆç«‹
 		}
 		
-		if(a.equals(abuilder)){ //µØÖ·ËùÖ¸ÏòµÄ¶ÔÏó ²»Í¬
+		if(a.equals(abuilder)){ //åœ°å€æ‰€æŒ‡å‘çš„å¯¹è±¡ ä¸åŒ
 			System.out.println("a==abuilder"); 
 		}else {
-			System.out.println("a !equals =abuilder");//³ÉÁ¢
+			System.out.println("a !equals =abuilder");//æˆç«‹
 		}
 		
-		if(abuilder==abuilder2){ //µØÖ·²»Í¬
+		if(abuilder==abuilder2){ //åœ°å€ä¸åŒ
 			System.out.println("abuilder = abuilder2");
 		}else {
-			System.out.println("abuilder != abuilder2"); //³ÉÁ¢
+			System.out.println("abuilder != abuilder2"); //æˆç«‹
 		}
 		
 		if(abuilder.equals(abuilder2)){
-			System.out.println("abuilder equals= abuilder2"); //³ÉÁ¢
+			System.out.println("abuilder equals= abuilder2"); //æˆç«‹
 		}else {
 			System.out.println("abuilder !equals= abuilder2");
 		}
 		
 		/**
-		 1¡¢
-		 StringÀàÖĞµÄequals()·½·¨ºÜÃ÷ÏÔÊÇ½ö½ö½øĞĞÁË¶ÔÏóÄÚÈİµÄ±È½Ï£¬¶øÃ»ÓĞ±È½Ï¶ÔÏó´æ´¢µØÖ·,
-		 					ÕâÊÇÒòÎªStringÀàÖØĞ´ÁËequals()·½·¨ºÍhashCode()·½·¨£¬
+		 1ã€
+		 Stringç±»ä¸­çš„equals()æ–¹æ³•å¾ˆæ˜æ˜¾æ˜¯ä»…ä»…è¿›è¡Œäº†å¯¹è±¡å†…å®¹çš„æ¯”è¾ƒï¼Œè€Œæ²¡æœ‰æ¯”è¾ƒå¯¹è±¡å­˜å‚¨åœ°å€,
+		 					è¿™æ˜¯å› ä¸ºStringç±»é‡å†™äº†equals()æ–¹æ³•å’ŒhashCode()æ–¹æ³•ï¼Œ
 		 					
-		 ==           ½Ï¶ÔÏóÒıÓÃµØÖ·ÊÇ·ñÏàµÈ¡£   »¹Òª±È½Ï¶ÔÏóÄÚÈİÏàµÈ
+		 ==           è¾ƒå¯¹è±¡å¼•ç”¨åœ°å€æ˜¯å¦ç›¸ç­‰ã€‚   è¿˜è¦æ¯”è¾ƒå¯¹è±¡å†…å®¹ç›¸ç­‰
 		  
-		 2¡¢
-		 * ¶ÔÏóµÄ== ºÍequals
+		 2ã€
+		 * å¯¹è±¡çš„== å’Œequals
 		  
-			 Ä¬ÈÏÇé¿ö ÏÂ equals()ºÍhashCode()¶¼ÊÇ´ÓObjectÀàÖĞ¼Ì³Ğ¶øÀ´µÄ£¬
-			 ¶øObjectÖĞequals()Ä¬ÈÏÊµÏÖµÄÊÇ±È½ÏÁ½¸ö¶ÔÏóÊÇ·ñ==£¬¼´Ä¬ÈÏµÄequals()ºÍ==µÄĞ§¹ûÊÇÒ»ÑùµÄ
-			 ObjectÖĞequels·½·¨ÈçÏÂ
+			 é»˜è®¤æƒ…å†µ ä¸‹ equals()å’ŒhashCode()éƒ½æ˜¯ä»Objectç±»ä¸­ç»§æ‰¿è€Œæ¥çš„ï¼Œ
+			 è€ŒObjectä¸­equals()é»˜è®¤å®ç°çš„æ˜¯æ¯”è¾ƒä¸¤ä¸ªå¯¹è±¡æ˜¯å¦==ï¼Œå³é»˜è®¤çš„equals()å’Œ==çš„æ•ˆæœæ˜¯ä¸€æ ·çš„
+			 Objectä¸­equelsæ–¹æ³•å¦‚ä¸‹
 			     public boolean equals(Object obj) {
 	        		return (this == obj);
 	    		} 
 			 
-		 * ¶ÔÏóµÄequals±È½ÏÊÇÏÈÍ¨¹ı ¶ÔÏóµÄhashcode ÖµÕÒµ½·¿×Ó£¨Î»ÖÃ£©£¬ÔÙ¿´¿´µØÖ·ÊÇ²»ÊÇÒ»Ñù£¬
-		 * ObjectµÄµØÖ·ÔÚ´´½¨µÄÊ±ºò¾Í»á²»Ò»ÑùµÄ£¬
-		 * hashcode ÓÃÀ´È·¶¨¶ÔÏóµÄÎ»ÖÃ£¨·¿×Ó£©£¬ÔÙ±È½Ï¶ÔÏóÄÚÈİ
+		 * å¯¹è±¡çš„equalsæ¯”è¾ƒæ˜¯å…ˆé€šè¿‡ å¯¹è±¡çš„hashcode å€¼æ‰¾åˆ°æˆ¿å­ï¼ˆä½ç½®ï¼‰ï¼Œå†çœ‹çœ‹åœ°å€æ˜¯ä¸æ˜¯ä¸€æ ·ï¼Œ
+		 * Objectçš„åœ°å€åœ¨åˆ›å»ºçš„æ—¶å€™å°±ä¼šä¸ä¸€æ ·çš„ï¼Œ
+		 * hashcode ç”¨æ¥ç¡®å®šå¯¹è±¡çš„ä½ç½®ï¼ˆæˆ¿å­ï¼‰ï¼Œå†æ¯”è¾ƒå¯¹è±¡å†…å®¹
 		 * 
-		 * == ÊÇ±È½ÏµØÖ·ºÍÄÚÈİ¶¼ÊÇ²»ÊÇÏàÍ¬
+		 * == æ˜¯æ¯”è¾ƒåœ°å€å’Œå†…å®¹éƒ½æ˜¯ä¸æ˜¯ç›¸åŒ
 		 */
 		
 		
 		Person person1 = new Person();
 		Person person2 = new Person();
 		
-		System.out.println(person1.hashCode()+"\n"+person2.hashCode()); // ²»ÏàµÈ 
+		System.out.println(person1.hashCode()+"\n"+person2.hashCode()); // ä¸ç›¸ç­‰ 
 		System.out.println(person1==person2); //false 
 		System.out.println(person1.equals(person2)); //false 
 
