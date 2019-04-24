@@ -5,13 +5,13 @@ import org.junit.Test;
 import java.util.function.Consumer;
 
 /**
- *  ConsumerÔÚ streamÖĞÏàµ±ÓÚÊÇ ForEach()ÖĞÖ´ĞĞ
- * @Desc:  Consumer ÊÇÎÒÃÇ½øĞĞÏû·Ñµô´«ÈëµÄ²ÎÊı()
+ *  Consumeråœ¨ streamä¸­ç›¸å½“äºæ˜¯ ForEach()ä¸­æ‰§è¡Œ
+ * @Desc:  Consumer æ˜¯æˆ‘ä»¬è¿›è¡Œæ¶ˆè´¹æ‰ä¼ å…¥çš„å‚æ•°()
  *
  * accept andThen
  *
  * @Author HealerJean
- * @Date 2018/9/14  ÉÏÎç11:48.
+ * @Date 2018/9/14  ä¸Šåˆ11:48.
  */
 public class Demo09Cousumer {
 
@@ -30,14 +30,14 @@ public class Demo09Cousumer {
 
 
     /**
-     * µÚÒ»¸ö´òÓ¡´óĞ´×ÖÄ¸£¬µÚ¶ş¸ö´òÓ¡Ğ¡Ğ´
+     * ç¬¬ä¸€ä¸ªæ‰“å°å¤§å†™å­—æ¯ï¼Œç¬¬äºŒä¸ªæ‰“å°å°å†™
      */
     @Test
     public void demo2(){
         method2(s->System.out.println(s.toUpperCase()),s2-> System.out.println(s2.toLowerCase()));
     }
     public void method2(Consumer<String> one,Consumer<String> two){
-        //ÏÂÃæÕâ¸ö±íÊ¾ÏÈÖ´ĞĞone£¬ÔÙÖ´ĞĞtwo
+        //ä¸‹é¢è¿™ä¸ªè¡¨ç¤ºå…ˆæ‰§è¡Œoneï¼Œå†æ‰§è¡Œtwo
         one.andThen(two).accept("hellow");
     }
 

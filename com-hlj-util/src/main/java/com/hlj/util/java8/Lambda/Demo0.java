@@ -8,20 +8,20 @@ import java.util.List;
 /**
  * @Desc:
  * @Author HealerJean
- * @Date 2018/9/14  ÉÏÎç11:48.
+ * @Date 2018/9/14  ä¸Šåˆ11:48.
  */
 public class Demo0 {
 
     @Test
     public void demo(){
         List<String> list = new ArrayList<>();
-        list.add("ÕÔÀöÓ±");
-        list.add("ÕÅÓî½ú");
-        list.add("ÕÔ´ºÓî");
-        list.add("ÁÖÌú");
-        list.add("¶Å´³");
-        list.add("¸ßÍ®");
-        list.add("ÕÅ´ä´ä");
-        list.add("ÕÅÈı·á");
+        list.add("èµµä¸½é¢–");
+        list.add("å¼ å®‡æ™‹");
+        list.add("èµµæ˜¥å®‡");
+        list.add("æ—é“");
+        list.add("æœé—¯");
+        list.add("é«˜å½¤");
+        list.add("å¼ ç¿ ç¿ ");
+        list.add("å¼ ä¸‰ä¸°");
     }
 }
