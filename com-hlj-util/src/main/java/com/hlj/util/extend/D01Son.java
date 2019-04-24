@@ -24,6 +24,8 @@ public class D01Son extends D01Father{
 
     public String sString = "儿子变量" ;
 
+    public String son1Name ;
+
     public static void main(String[] args) {
 
         //父类 引用指向子类，（如果使用子类对象，则变量必须强制转化）,不会丢失子类的数据
@@ -37,5 +39,19 @@ public class D01Son extends D01Father{
 
 
 
+        //子类  之间 不可以  互相转化
+
+         father = new D01Son() ;
+         System.out.println(((D02Son) father) .sint);
+
     }
+}
+
+class D02Son extends D01Father{
+
+    public int sint = 2 ;
+
+    public String sString = "儿子变量" ;
+
+    public String son2Name ;
 }

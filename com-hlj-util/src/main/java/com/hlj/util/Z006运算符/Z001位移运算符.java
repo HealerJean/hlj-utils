@@ -11,6 +11,7 @@ import org.junit.Test;
 public class Z001位移运算符 {
 
     /**
+     * 1 2 4 8 16
      * 后面的数字代表移动几位
      */
     @Test
