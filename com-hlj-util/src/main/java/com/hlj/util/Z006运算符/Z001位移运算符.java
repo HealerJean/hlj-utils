@@ -16,17 +16,17 @@ public class Z001位移运算符 {
      */
     @Test
     public void 左移运算符(){
-        int n = 10 ;
-        System.out.println(Integer.toBinaryString(n)); //辗转相除法 1010
+        int n = 10 ; //转化为二进制 1010
+        System.out.println(Integer.toBinaryString(n)); // 1010
 
         // <<  左移运算符，相当于乘以 2 (二进制 加 一位)
-        int l = n << 1 ;  //num << 1,
+        int l = n << 1 ;  //1010 -> 10100   16 + 0 + 4 + 0 + 0 = 20
         System.out.println("n << 1 左移运算符"+l); //20
-        l  = n  << 2 ;
+        l  = n  << 2 ;    //1010 -> 101000   32 + 0 + 8 + 0 + 0 + 0 = 40
         System.out.println("n << 2 左移运算符"+l);// 40
 
         // >> 右移运算符 ,相当于除以 2 （二进制 减 一位）
-        int  r= n >> 1 ;
+        int  r= n >> 1 ;  //1010 -> 0101  4 + 0 + 1 = 5
         System.out.println("n >> 1 右移运算符"+r); //5
 
         //res = 20 >>> 2; 的结果与 >> 相同；
@@ -38,18 +38,18 @@ public class Z001位移运算符 {
 
         int s = 10 ;
         int e = 8 ;
-        System.out.println(Integer.toBinaryString(s));
-        System.out.println(Integer.toBinaryString(e));
+        System.out.println(s+"二进制"+Integer.toBinaryString(s));
+        System.out.println(e+"二进制"+Integer.toBinaryString(e));
 
         int y = s&e ;
-        System.out.println("& 与运算："+y+" 二进制："+Integer.toBinaryString(y));
+        System.out.println("& 与运算："+s+"&"+e+"="+y+"     二进制："+Integer.toBinaryString(y));
 
         int h = s|e ;
-        System.out.println("| 或运算："+h+" 二进制："+Integer.toBinaryString(h));
+        System.out.println("| 或运算："+s+"|"+e+"="+h+" 二进制："+Integer.toBinaryString(h));
 
         int yh =s^e ;
         //然后从高位开始比较，如果相同则为0，不相同则为1。
-        System.out.println("^ 异或运算："+yh+" 二进制："+Integer.toBinaryString(yh));
+        System.out.println("^ 异或运算："+s+"^"+e+"="+yh+" 二进制："+Integer.toBinaryString(yh));
 
         //在Java中，所有数据的表示方法都是以补码的形式表示，正数的补码是它本身，负数的补码是其绝对值的原码取反，末尾再加1。
         //如果没有特殊说明， Java中的数据类型默认是int,int数据类型的长度是8位，一位是四个字节，就是32bit
