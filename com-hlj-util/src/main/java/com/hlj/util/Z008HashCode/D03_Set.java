@@ -1,10 +1,12 @@
-package com.hlj.util.HashCode;
+package com.hlj.util.Z008HashCode;
 
 import java.util.HashSet;
 import java.util.Set;
 
-
-public class HashTest {    
+/**
+ * 测试 set
+ */
+public class D03_Set {
     private int i;    
     
     public int getI() {    
@@ -23,10 +25,10 @@ public class HashTest {
         if (object == this) {    
             return true;    
         }    
-        if (!(object instanceof HashTest)) {    
+        if (!(object instanceof D03_Set)) {
             return false;    
         }    
-        HashTest other = (HashTest) object;    
+        D03_Set other = (D03_Set) object;
         if (other.getI() == this.getI()) {    
             return true;    
         }    
@@ -45,8 +47,8 @@ public class HashTest {
      */
      
     public final static void main(String[] args) {    
-        HashTest a = new HashTest();    
-        HashTest b = new HashTest();  
+        D03_Set a = new D03_Set();
+        D03_Set b = new D03_Set();
         
         System.out.println(a.hashCode() == b.hashCode());  //true 人为制造hashcode值相同  
         System.out.println(a==b);    //false //== 比较对象的相等比较对象引用地址是否相等。还要要比较对象内容是否相等
@@ -54,7 +56,7 @@ public class HashTest {
 
         a.setI(1);    
         b.setI(1);    
-        Set<HashTest> set = new HashSet<HashTest>();    
+        Set<D03_Set> set = new HashSet<D03_Set>();
         set.add(a);    
         set.add(b);    
         //没有 equels 重写的情况
