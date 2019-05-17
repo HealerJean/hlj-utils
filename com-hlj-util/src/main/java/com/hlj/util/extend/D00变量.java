@@ -9,7 +9,7 @@ class A{
 		System.out.println("父亲方法");
 	}
 }
-public class TestBl extends A{
+public class D00变量 extends A{
 	String aString = "儿子变量";
 	public void aString(){
 		aString = "方法儿子"; //没有改变string的值
@@ -18,13 +18,13 @@ public class TestBl extends A{
 	public static void main(String[] args) {
 		//多态
 		System.out.println("*****多态******");
-		A testB = new TestBl();
-		System.out.println(testB.aString );
+		A testB = new D00变量();
+		System.out.println(testB.aString ); //父亲变量
 		testB.aString();
 		System.out.println("***********");
 
-		TestBl testBl = new TestBl();
-		System.out.println(testBl.aString );
-		testBl.aString() ;
+		D00变量 d00变量 = new D00变量();
+		System.out.println(d00变量.aString );//儿子变量
+		d00变量.aString() ;
 	}
 }

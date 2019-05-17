@@ -1,4 +1,4 @@
-package com.hlj.util.equils;
+package com.hlj.util.Z009相等;
 
 public class Person {
     private Long id;

@@ -1,6 +1,6 @@
-package com.hlj.util.equils;
+package com.hlj.util.Z009相等;
 
-public class EquilsTest {
+public class D01EquilsTest {
 	public static void main(String[] args) {
 		dy();
 		//== 地址相同，equit 變量相同
@@ -77,4 +77,5 @@ public class EquilsTest {
 		System.out.println(person1.equals(person2)); //false 
 
 	}
+
 }
