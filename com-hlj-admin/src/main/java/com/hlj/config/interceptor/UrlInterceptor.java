@@ -1,6 +1,6 @@
 package com.hlj.config.interceptor;
 
-import com.hlj.utils.IpUtil;
+import com.hlj.utils.ip.IpUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
