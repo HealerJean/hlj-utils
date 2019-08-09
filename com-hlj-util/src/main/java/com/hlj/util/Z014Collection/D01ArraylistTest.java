@@ -5,6 +5,7 @@ import com.hlj.util.Z014Collection.data.SortEntry;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 
+import java.lang.reflect.Method;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -377,6 +378,48 @@ public class D01ArraylistTest {
 
 	}
 
+	/**
+	 * 11、泛型
+	 * Java中的泛型，只在编译阶段有效，Java中编译后的class不会包含泛型信息
+	 *  反射：       所有反射的操作都是在运行时的，运行时表示已经经过编译了
+	 * 	 * 既然为true，就证明了编译之后， 程序会采取去泛型化的措施，也就是说
+	 * 	 * 成功编译过后的class文件中是不包含任何泛型信息的。泛型信息不会进入到运行时阶段。
+	 */
+	@Test
+	public void t(){
+		//1、可以打印
+		List list = new ArrayList();
+		list.add(1);
+		list.add("String");
+		Iterator iterator = list.iterator();
+		while (iterator.hasNext()){
+			System.out.println(iterator.next());//正常打印
+		}
+
+		//2、 Java中的泛型，只在编译阶段有效，Java中编译后的class不会包含泛型信息
+		ArrayList<String> lista = new ArrayList<>();
+		ArrayList listb = new ArrayList();
+		Class c1 = lista.getClass();
+		Class c2 = listb.getClass();
+
+		System.out.println(lista == listb); //false
+		System.out.println(c1 == c2); //true   表示已经经过编译了
+		System.out.println(lista.getClass() == listb.getClass()); //true
+
+
+		//3、反射调用arrylist，说明反射只在编译阶段有效
+		ArrayList<String> a = new ArrayList<>();
+		a.add("CSDN_SEU_Cavin");
+		Class c = a.getClass();
+		try{
+			Method method = c.getMethod("add",Object.class);
+			method.invoke(a,100);
+			System.out.println(a);  //[CSDN_SEU_Cavin, 100]
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+
+	}
 
 
 

@@ -4,13 +4,16 @@ package com.hlj.util.extend;
 
 class A{
 	// private String aString = "父亲变量";
-	String aString = "父亲变量";
+	public String aString = "父亲变量";
 	public void aString(){
 		System.out.println("父亲方法");
 	}
 }
 public class D00变量 extends A{
-	String aString = "儿子变量";
+
+	public String aString = "儿子变量";
+
+	@Override
 	public void aString(){
 		aString = "方法儿子"; //没有改变string的值
 		System.out.println("儿子方法");
