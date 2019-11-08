@@ -1,14 +1,13 @@
 package com.hlj.util.publicTest.abstracts.interAbstract;
 
-import com.hlj.util.designpatterns.ObserverPattern.main;
 
-/** 
+/**
  * @author : HealerJean
- * @date   £º 2017Äê12ÔÂ21ÈÕ ÏÂÎç5:57:23 
+ * @date   ï¿½ï¿½ 2017ï¿½ï¿½12ï¿½ï¿½21ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½5:57:23
  * @Description:
  */
 public class Main {
-	
+
 	public static void main(String[] args) {
 		AbstractInterface abstractInterface = new AbstractSon();
 		abstractInterface.a();

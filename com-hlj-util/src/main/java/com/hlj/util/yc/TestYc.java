@@ -1,102 +1,102 @@
 package com.hlj.util.yc;
 
 
-/*ÏÂÃæ×öÁË¹éÄÉ×Ü½á,»¶Ó­ÅúÆÀÖ¸Õý*/  
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¹ï¿½ï¿½ï¿½ï¿½Ü½ï¿½,ï¿½ï¿½Ó­ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½*/
 
-/*×Ô¶¨ÒåÒì³£*/  
-class ChushulingException extends Exception  
-{  
-    public ChushulingException(String msg)  
-    {  
-        super(msg);  
-    }  
+/*ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ì³£*/
+class ChushulingException extends Exception
+{
+    public ChushulingException(String msg)
+    {
+        super(msg);
+    }
 }
 
-class ChushufuException extends Exception  
-{  
-    public ChushufuException(String msg)  
-    {  
-        super(msg);  
-    }  
-}  
-  
-/*×Ô¶¨ÒåÒì³£ End*/
+class ChushufuException extends Exception
+{
+    public ChushufuException(String msg)
+    {
+        super(msg);
+    }
+}
 
-class Numbertest   
-{  
-    public int shang(int x,int y) throws ChushulingException,ChushufuException  
-    {  
-        if(y<0)  
-        {  
-            throw new ChushufuException("ÄúÊäÈëµÄÊÇ"+y+",¹æ¶¨³ýÊý²»ÄÜÎª¸ºÊý!");//Å×³öÒì³£  ÉèÖÃÒì³£µÄÐÅÏ¢
-        }  
-        if(y==0)  
-        {  
-            throw new ChushulingException("ÄúÊäÈëµÄÊÇ"+y+",³ýÊý²»ÄÜÎª0!");  
-        }  
-      
-        int m=x/y;  
-        return m;  
-    }  
+/*ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ì³£ End*/
+
+class Numbertest
+{
+    public int shang(int x,int y) throws ChushulingException,ChushufuException
+    {
+        if(y<0)
+        {
+            throw new ChushufuException("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"+y+",ï¿½æ¶¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½!");//ï¿½×³ï¿½ï¿½ì³£  ï¿½ï¿½ï¿½ï¿½ï¿½ì³£ï¿½ï¿½ï¿½ï¿½Ï¢
+        }
+        if(y==0)
+        {
+            throw new ChushulingException("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"+y+",ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª0!");
+        }
+
+        int m=x/y;
+        return m;
+    }
 }
 
 
-public class TestYc  
-{  
-    public static void main(String[]args)  
-    {  
-        Numbertest n=new Numbertest();  
-  
-        //²¶»ñÒì³£  
-        try  
-        {  
-            System.out.println("ÉÌ="+n.shang(1,-3));  
-        }  
-        catch(ChushulingException yc)  
-        {  
-            System.out.println(yc.getMessage());  
-            yc.printStackTrace();  
-        }  
-        catch(ChushufuException yx)  
-        {  
-            System.out.println(yx.getMessage()+"hello");  
-           yx.printStackTrace();  
-        }  
-        catch(Exception y)  
-        {  
-            System.out.println(y.getMessage());  
-            y.printStackTrace();  
-        }  
-      
-    finally{ System.out.println("finally!");} ////finally²»¹Ü·¢Ã»·¢ÉúÒì³£¶¼»á±»Ö´ÐÐ    
-        System.out.println("½áÊø");
-    }  
-}  
-/* 
-[×Ü½á] 
- 
-1.×Ô¶¨ÒåÒì³£: 
- 
-class Òì³£ÀàÃû extends Exception 
-{ 
-    public Òì³£ÀàÃû(String msg) 
-    { 
-        super(msg); 
-    } 
-}  
- 
-2.±êÊ¶¿ÉÄÜÅ×³öµÄÒì³£: 
- 
-throws Òì³£ÀàÃû1,Òì³£ÀàÃû2 
- 
-3.²¶»ñÒì³£: 
-try{} 
-catch(Òì³£ÀàÃû y){} 
-catch(Òì³£ÀàÃû y){} 
- 
-4.·½·¨½âÊÍ 
-getMessage() //Êä³öÒì³£µÄÐÅÏ¢ 
-printStackTrace() //Êä³öµ¼ÖÂÒì³£¸üÎªÏêÏ¸µÄÐÅÏ¢ 
- 
- 
-*/  
+public class TestYc
+{
+    public static void main(String[]args)
+    {
+        Numbertest n=new Numbertest();
+
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ì³£
+        try
+        {
+            System.out.println("ï¿½ï¿½="+n.shang(1,-3));
+        }
+        catch(ChushulingException yc)
+        {
+            System.out.println(yc.getMessage());
+            yc.printStackTrace();
+        }
+        catch(ChushufuException yx)
+        {
+            System.out.println(yx.getMessage()+"hello");
+           yx.printStackTrace();
+        }
+        catch(Exception y)
+        {
+            System.out.println(y.getMessage());
+            y.printStackTrace();
+        }
+
+    finally{ System.out.println("finally!");} ////finallyï¿½ï¿½ï¿½Ü·ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ì³£ï¿½ï¿½ï¿½á±»Ö´ï¿½ï¿½
+        System.out.println("ï¿½ï¿½ï¿½ï¿½");
+    }
+}
+/*
+[ï¿½Ü½ï¿½]
+
+1.ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ì³£:
+
+class ï¿½ì³£ï¿½ï¿½ï¿½ï¿½ extends Exception
+{
+    public ï¿½ì³£ï¿½ï¿½ï¿½ï¿½(String errMsg)
+    {
+        super(errMsg);
+    }
+}
+
+2.ï¿½ï¿½Ê¶ï¿½ï¿½ï¿½ï¿½ï¿½×³ï¿½ï¿½ï¿½ï¿½ì³£:
+
+throws ï¿½ì³£ï¿½ï¿½ï¿½ï¿½1,ï¿½ì³£ï¿½ï¿½ï¿½ï¿½2
+
+3.ï¿½ï¿½ï¿½ï¿½ï¿½ì³£:
+try{}
+catch(ï¿½ì³£ï¿½ï¿½ï¿½ï¿½ y){}
+catch(ï¿½ì³£ï¿½ï¿½ï¿½ï¿½ y){}
+
+4.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+getMessage() //ï¿½ï¿½ï¿½ï¿½ì³£ï¿½ï¿½ï¿½ï¿½Ï¢
+printStackTrace() //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì³£ï¿½ï¿½Îªï¿½ï¿½Ï¸ï¿½ï¿½ï¿½ï¿½Ï¢
+
+
+*/

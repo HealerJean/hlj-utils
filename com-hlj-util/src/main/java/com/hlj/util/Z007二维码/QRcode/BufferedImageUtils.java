@@ -539,7 +539,7 @@ public class BufferedImageUtils {
         if (image instanceof BufferedImage) {
             return (BufferedImage) image;
         }
-        // This code ensures that all the pixels in the image are loaded
+        // This retCode ensures that all the pixels in the image are loaded
         image = new ImageIcon(image).getImage();
         BufferedImage bimage = null;
         GraphicsEnvironment ge = GraphicsEnvironment

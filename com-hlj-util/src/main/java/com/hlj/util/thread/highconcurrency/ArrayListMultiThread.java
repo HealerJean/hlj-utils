@@ -11,12 +11,12 @@ public class ArrayListMultiThread {
     public static class AddThread implements Runnable {
 
         /**
-         * When an object implementing interface <code>Runnable</code> is used
+         * When an object implementing interface <retCode>Runnable</retCode> is used
          * to create a thread, starting the thread causes the object's
-         * <code>run</code> method to be called in that separately executing
+         * <retCode>run</retCode> method to be called in that separately executing
          * thread.
          * <p/>
-         * The general contract of the method <code>run</code> is that it may
+         * The general contract of the method <retCode>run</retCode> is that it may
          * take any action whatsoever.
          *
          * @see Thread#run()

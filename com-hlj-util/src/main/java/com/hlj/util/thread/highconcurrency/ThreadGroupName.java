@@ -5,12 +5,12 @@ package com.hlj.util.thread.highconcurrency;
  */
 public class ThreadGroupName implements Runnable {
     /**
-     * When an object implementing interface <code>Runnable</code> is used
+     * When an object implementing interface <retCode>Runnable</retCode> is used
      * to create a thread, starting the thread causes the object's
-     * <code>run</code> method to be called in that separately executing
+     * <retCode>run</retCode> method to be called in that separately executing
      * thread.
      * <p/>
-     * The general contract of the method <code>run</code> is that it may
+     * The general contract of the method <retCode>run</retCode> is that it may
      * take any action whatsoever.
      *
      * @see Thread#run()
@@ -34,10 +34,10 @@ public class ThreadGroupName implements Runnable {
         Thread t2 = new Thread(tg, new ThreadGroupName(), "T2");
         t1.start();
         t2.start();
-        System.out.println("»ñµÃ»î¶¯Ïß³ÌµÄ×ÜÊý"+tg.activeCount()); //»ñµÃ»î¶¯Ïß³ÌµÄ×ÜÊý
+        System.out.println("ï¿½ï¿½Ã»î¶¯ï¿½ß³Ìµï¿½ï¿½ï¿½ï¿½ï¿½"+tg.activeCount()); //ï¿½ï¿½Ã»î¶¯ï¿½ß³Ìµï¿½ï¿½ï¿½ï¿½ï¿½
         Thread t3 = new Thread(tg, new ThreadGroupName(), "T3");
         t3.start();
-        System.out.println("»ñµÃ»î¶¯Ïß³ÌµÄ×ÜÊý"+tg.activeCount());
-        tg.list(); //´òÓ¡Õâ¸öÏß³Ì×éÖÐ ËùÓÐµÄÏß³ÌÐÅÏ¢£¬¶ÔÓÚµ÷ÊÔÓÐÒ»¶¨µÄ°ïÖú£¬
+        System.out.println("ï¿½ï¿½Ã»î¶¯ï¿½ß³Ìµï¿½ï¿½ï¿½ï¿½ï¿½"+tg.activeCount());
+        tg.list(); //ï¿½ï¿½Ó¡ï¿½ï¿½ï¿½ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ðµï¿½ï¿½ß³ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ä°ï¿½ï¿½ï¿½ï¿½ï¿½
     }
 }

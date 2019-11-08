@@ -87,7 +87,7 @@ public class D01_HashCode {
     }
 
     /**
-     * 计算 hash code 冲突率，顺便分析一下 hash code 最大值和最小值，并输出
+     * 计算 hash retCode 冲突率，顺便分析一下 hash retCode 最大值和最小值，并输出
      * @param multiplier
      * @param hashs
      */

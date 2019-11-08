@@ -228,6 +228,20 @@
 			<version>1.7</version>
 		</dependency>
 
+
+		<!--xmlUtils-->
+		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-xml</artifactId>
+		</dependency>
+
+		<!--http okhttp-->
+		<dependency>
+			<groupId>com.squareup.okhttp3</groupId>
+			<artifactId>okhttp</artifactId>
+			<version>3.11.0</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
