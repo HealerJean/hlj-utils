@@ -2,32 +2,30 @@ package com.hlj.util.path;
 
 import java.net.URL;
 
-import com.hlj.util.file.FileTest;
-
-/** 
- *  ÔÚweblogic Ê¹ÓÃ±¾ÊµÀý 
+/**
+ *  ï¿½ï¿½weblogic Ê¹ï¿½Ã±ï¿½Êµï¿½ï¿½
  */
 public class ClassLoadThead {
-	
+
 	public static void main(String[] args) {
 		threadClassload();
 	}
 	private static void threadClassload() {
-	
-		//ÎÞ / Õý³£ÏÔÊ¾ 
+
+		//ï¿½ï¿½ / ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾
 		URL urlThread_ =Thread.currentThread().getContextClassLoader().getResource("");
 		System.out.println("urlThread_"+urlThread_);
-		// ÓÐ / null 
+		// ï¿½ï¿½ / null
 		URL urlThread_1 =Thread.currentThread().getContextClassLoader().getResource("/");
-		System.out.println("urlThread_1:Î»¿Õ£º£º£º"+urlThread_1);
+		System.out.println("urlThread_1:Î»ï¿½Õ£ï¿½ï¿½ï¿½ï¿½ï¿½"+urlThread_1);
 
-		//ÎÞ / Õý³£ÏÔÊ¾ 
-		URL urlClassLoader_ = FileTest.class.getClassLoader().getResource("");
-		System.out.println("urlClassLoader_"+urlClassLoader_);
+		//ï¿½ï¿½ / ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾
+		// URL urlClassLoader_ = FileTest.class.getClassLoader().getResource("");
+		// System.out.println("urlClassLoader_"+urlClassLoader_);
 
-		// ÓÐ / null
-		URL urlClassLoader_1 = FileTest.class.getClassLoader().getResource("/");
-		System.out.println("urlClassLoader_1"+urlClassLoader_1);
+		// ï¿½ï¿½ / null
+		// URL urlClassLoader_1 = FileTest.class.getClassLoader().getResource("/");
+		// System.out.println("urlClassLoader_1"+urlClassLoader_1);
 
 	}
 }
