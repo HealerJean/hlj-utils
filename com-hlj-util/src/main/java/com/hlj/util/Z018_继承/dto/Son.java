@@ -1,4 +1,4 @@
-package com.hlj.util.Z017_继承.dto;
+package com.hlj.util.Z018_继承.dto;
 
 import lombok.Data;
 
@@ -11,7 +11,7 @@ import lombok.Data;
 @Data
 public class Son extends Father{
 
-    public String name = "儿子";
+    // public String name = "儿子";
 
     @Override
     public String printName() {
