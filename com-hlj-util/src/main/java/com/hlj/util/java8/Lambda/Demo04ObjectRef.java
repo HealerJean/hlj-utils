@@ -50,21 +50,12 @@ public class Demo04ObjectRef {
             new MethodRefObject(s);
         });
 
-        /**
-         * 张宇晋
-         张宇晋
-         非静态的方法引用张宇晋
-         非静态的方法引用张宇晋
-         静态类方法引用张宇晋
-         静态类方法引用张宇晋
-         构造器引用张宇晋
-         构造器引用张宇晋
-         */
 
     }
 
     public void method(MyInterfaceObjectRef myInterfaceObjectRef){
         myInterfaceObjectRef.printStringUpper("张宇晋");
+
     }
 
 

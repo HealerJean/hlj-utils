@@ -10,7 +10,7 @@ import static java.util.stream.Collectors.*;
 
 
 /**
- * 
+ *
  * @author yuanbing
  *
  */
@@ -41,7 +41,6 @@ public class IntroduceCollectors {
 	}
 
 
-
 	/**
 	 * 1、 averagingDouble/Int/Long
 	 *     汇总求出平均值
@@ -55,6 +54,7 @@ public class IntroduceCollectors {
 	public void averagingDoubleTestCase() {
 		System.out.println(collectors.averagingDoubleTest(students));
 	}
+
 
 
 	/**
@@ -141,7 +141,7 @@ public class IntroduceCollectors {
 		System.out.println(collectors.groupingByToTreeMap(students));
 	}
 
-	
+
 	/**
 	 * 5.1、返回所有的学生的姓名
 	 */
@@ -191,7 +191,7 @@ public class IntroduceCollectors {
 		return students.stream()
 				.collect(groupingBy(Student::getFrom, Collectors.mapping(Student::getName, toList())));
 	}
-	
+
 	/**
 	 *
 	 * 7.1、 返回身高最高的学生
@@ -203,7 +203,7 @@ public class IntroduceCollectors {
 				.get();
 	}
 	/**
-	 * 
+	 *
 	 * 7.2、返回体重最轻的学生。
 	 */
 	public Student minByTest(List<Student> students) {
@@ -218,12 +218,17 @@ public class IntroduceCollectors {
 
 
 	/**
-	 * 
+	 *
 	 * 7.3、获取学生的成绩 getScores Map<String, Double>
 	 */
 	public Map<String, Map<String, Double>> toConcurrentMapTest(List<Student> students){
 		return students.stream()
 				.collect(Collectors.toConcurrentMap(Student::getName, Student::getScores));
+	}
+
+	public Map<String, Map<String, Double>> te(List<Student> students){
+		return students.stream()
+				.collect(Collectors.toMap(Student::getName, Student::getScores));
 	}
 	@Test
 	public void toConcurrentMapTestCase() {
@@ -232,7 +237,7 @@ public class IntroduceCollectors {
 	}
 
 	/**
-	 * 
+	 *
 	 * @param students
 	 * @return
 	 */
@@ -244,5 +249,14 @@ public class IntroduceCollectors {
 
 
 
-	
+	/**
+	 * 6、以省份分组，并返回学生姓名的集合。
+	 */
+	public List<String> test(List<Student> students){
+		return students.stream()
+				.collect(Collectors.mapping(Student::getName, toList()));
+	}
+
+
+
 }

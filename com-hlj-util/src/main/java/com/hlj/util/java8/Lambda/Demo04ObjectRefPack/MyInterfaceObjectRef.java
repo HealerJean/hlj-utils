@@ -8,4 +8,6 @@ package com.hlj.util.java8.Lambda.Demo04ObjectRefPack;
 public interface MyInterfaceObjectRef {
 
     void printStringUpper(String str);
+
+
 }

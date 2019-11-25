@@ -419,5 +419,7 @@ public class StringTest {
 
 		String str = "____%s____"+ "____%c____"+"____%b____"+"____%d____" ;
 		System.out.println(String.format(str, "mingrisoft",'c',true,123));
+
+
 	}
 }

@@ -4,6 +4,7 @@ import com.hlj.util.Arraylist.Person;
 import com.hlj.util.Z014Collection.data.SortEntry;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
+import org.springframework.util.CollectionUtils;
 
 import java.lang.reflect.Method;
 import java.util.*;
@@ -404,10 +405,9 @@ public class D01ArraylistTest {
 
 		System.out.println(lista == listb); //false
 		System.out.println(c1 == c2); //true   表示已经经过编译了
-		System.out.println(lista.getClass() == listb.getClass()); //true
 
 
-		//3、反射调用arrylist，说明反射只在编译阶段有效
+		//3、反射调用arrylist，说明泛型只在编译阶段有效
 		ArrayList<String> a = new ArrayList<>();
 		a.add("CSDN_SEU_Cavin");
 		Class c = a.getClass();
@@ -420,6 +420,7 @@ public class D01ArraylistTest {
 		}
 
 	}
+
 
 
 
