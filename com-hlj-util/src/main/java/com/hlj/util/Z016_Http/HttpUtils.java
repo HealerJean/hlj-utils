@@ -65,7 +65,7 @@ public class HttpUtils {
      *  Get调用
      * @param url
      * @param params 发送内容
-     * @return string
+     * @return Z022_String
      */
     public static HttpEntity doGet (String url , Map<String,String> params, Map<String, String> headersParams)  {
         //  url中添加参数
@@ -96,7 +96,7 @@ public class HttpUtils {
      *  Get异步调用
      * @param url
      * @param params 发送内容
-     * @return string
+     * @return Z022_String
      */
     public static void doGetAsyn (String url ,  Map<String,String> headersParams, Map<String,String> params, Consumer<HttpEntity> consumer)  {
         HttpUrl httpUrl = HttpUrl.parse(url);
@@ -131,7 +131,7 @@ public class HttpUtils {
      *  Post调用 map提交
      * @param url
      * @param params 发送参数
-     * @return string
+     * @return Z022_String
      */
     public static HttpEntity doPostFrom (String url,  Map<String, String> params, Map<String, String> headersParams)  {
         FormBody.Builder builder = new FormBody.Builder();
@@ -162,7 +162,7 @@ public class HttpUtils {
      *
      * @param url
      * @param params 发送参数
-     * @return string
+     * @return Z022_String
      */
     public HttpEntity doPostFrom(String url, Map<String, String> params, List<HttpFileEntity> files, Map<String, String> headersParams) {
         MultipartBody.Builder multiBuilder = new MultipartBody.Builder();
@@ -242,7 +242,7 @@ public class HttpUtils {
      * @param type  类型
      * @param url
      * @param content 发送内容
-     * @return string
+     * @return Z022_String
      */
     public static HttpEntity doPost (MediaType type, String url, String content, Map<String, String> headersParams)  {
         RequestBody body = RequestBody.create(type, content);
@@ -266,7 +266,7 @@ public class HttpUtils {
      *  Put调用 map提交
      * @param url
      * @param params 发送参数
-     * @return string
+     * @return Z022_String
      */
     public static HttpEntity doPutForm ( String url,  Map<String, String> params, Map<String, String> headersParams)  {
         FormBody.Builder builder = new FormBody.Builder();
@@ -297,7 +297,7 @@ public class HttpUtils {
      * @param type  类型
      * @param url
      * @param content 发送内容
-     * @return string
+     * @return Z022_String
      */
     public static HttpEntity doPut (MediaType type, String url, String content, Map<String, String> headersParams)  {
         RequestBody body = RequestBody.create(type, content);
@@ -320,7 +320,7 @@ public class HttpUtils {
      *  Delete调用
      * @param url
      * @param params 发送参数
-     * @return string
+     * @return Z022_String
      */
     public static HttpEntity doDeleteForm ( String url,  Map<String, String> params, Map<String, String> headersParams)  {
         FormBody.Builder builder = new FormBody.Builder();
@@ -350,7 +350,7 @@ public class HttpUtils {
      * @param type  类型
      * @param url
      * @param content 发送内容
-     * @return string
+     * @return Z022_String
      */
     public static HttpEntity doDelete (MediaType type, String url, String content, Map<String, String> headersParams)  {
         RequestBody body = RequestBody.create(type, content);

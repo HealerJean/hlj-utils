@@ -41,7 +41,7 @@ public class DemoController {
             response = ResponseBean.class
     )
     @ApiImplicitParams({
-            @ApiImplicitParam(name = "params", value = "参数", required =false,paramType = "query", dataType = "string")
+            @ApiImplicitParam(name = "params", value = "参数", required =false,paramType = "query", dataType = "Z022_String")
     })
     @PostMapping( value = "post",produces="application/json;charset=utf-8")
     @ResponseBody
@@ -64,7 +64,7 @@ public class DemoController {
             produces = MediaType.APPLICATION_JSON_VALUE,
             response = ResponseBean.class)
     @ApiImplicitParams({
-            @ApiImplicitParam(name = "params", value = "参数", required =false,paramType = "query", dataType = "string")
+            @ApiImplicitParam(name = "params", value = "参数", required =false,paramType = "query", dataType = "Z022_String")
     })
     @GetMapping("get")
     @ResponseBody

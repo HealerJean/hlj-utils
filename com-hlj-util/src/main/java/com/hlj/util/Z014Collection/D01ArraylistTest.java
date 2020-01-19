@@ -55,7 +55,7 @@ public class D01ArraylistTest {
 
 
     /**
-     * 2、设定arraylist最大的size
+     * 2、设定arraylist最大的size 毫无意义
      * ArrayList中没有值时，则size为0
      * 不管size初始化为几 其实是没有意义的，只会动态的的得到它的大小
      */
@@ -421,6 +421,29 @@ public class D01ArraylistTest {
 
 	}
 
+
+	/**
+	 * 12、foreach中断
+	 */
+	@Test
+	public void method(){
+		List<Integer> list = new ArrayList();
+		list.add(1);
+		list.add(2);
+		list.add(3);
+
+		list.stream().forEach(item ->{
+			// 不可以放入 break;continue ; return相当于continue
+			if (item == 2){
+				return;
+			}
+			System.out.println(item);
+		});
+
+
+		// 1
+		// 3
+	}
 
 
 

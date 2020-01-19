@@ -13,7 +13,7 @@ import java.util.Locale;
 /**
  * 作者 ：HealerJean
  * 日期 ：2018/12/13  上午10:55.
- * 类描述 防止非空字段，在类似于 new BigDecimal(string))中进行报错
+ * 类描述 防止非空字段，在类似于 new BigDecimal(Z022_String))中进行报错
  */
 public class JavaBeanUtil {
 
