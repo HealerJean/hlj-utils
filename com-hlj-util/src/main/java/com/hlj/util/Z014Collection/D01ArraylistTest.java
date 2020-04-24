@@ -447,4 +447,38 @@ public class D01ArraylistTest {
 
 
 
+	/**
+	 * 14、new ArrayList
+	 */
+	@Test
+	public void arrayListTest(){
+
+		Stack<String> stack = new Stack<>();
+		stack.push("a");
+		stack.push("b");
+		stack.push("c");
+		List<String> list1 = new ArrayList(stack);
+		System.out.println(list1);
+
+		/** Map<String, List<String>> map  */
+		Map<String, List<String>> map = new HashMap<>();
+		List<String> lista = new ArrayList<>();
+		lista.add("a");
+		lista.add("b");
+		lista.add("c");
+		map.put("keyA", lista);
+		List<String> listb = new ArrayList<>();
+		listb.add("a");
+		listb.add("b");
+		listb.add("c");
+		map.put("keyB", listb);
+		List<List<String>> list2 = new ArrayList<>(map.values());
+		System.out.println(list2);
+
+	}
+
+
+
+
+
 }
