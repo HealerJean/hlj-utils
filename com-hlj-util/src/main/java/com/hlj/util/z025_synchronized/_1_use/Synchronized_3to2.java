@@ -1,4 +1,4 @@
-package com.hlj.util.z025_synchronized;
+package com.hlj.util.z025_synchronized._1_use;
 
 public class Synchronized_3to2 {
 

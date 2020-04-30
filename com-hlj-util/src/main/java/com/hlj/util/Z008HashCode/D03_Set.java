@@ -1,72 +1,109 @@
 package com.hlj.util.Z008HashCode;
 
+import org.junit.Test;
+
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * 测试 set
  */
 public class D03_Set {
-    private int i;    
-    
-    public int getI() {    
-        return i;    
-    }    
-    
-    public void setI(int i) {    
-        this.i = i;    
-    }    
- /*   
+    private int i;
+
+    public int getI() {
+        return i;
+    }
+
+    public void setI(int i) {
+        this.i = i;
+    }
+ /*
     @Override
-    public boolean equals(Object object) {    
-        if (object == null) {    
-            return false;    
-        }    
-        if (object == this) {    
-            return true;    
-        }    
+    public boolean equals(Object object) {
+        if (object == null) {
+            return false;
+        }
+        if (object == this) {
+            return true;
+        }
         if (!(object instanceof D03_Set)) {
-            return false;    
-        }    
+            return false;
+        }
         D03_Set other = (D03_Set) object;
-        if (other.getI() == this.getI()) {    
-            return true;    
-        }    
-        return false;    
+        if (other.getI() == this.getI()) {
+            return true;
+        }
+        return false;
     }  */
-    /*
     @Override
-    public int hashCode() {    
-        return i % 10;    
-    } */   
+    public int hashCode() {
+        return 1;
+    }
+
     /**
      *  对象的内存地址与hashcode有关系，但并不是hashcode值相等，就是代表内存地址相同，这种想法是幼稚的
      *  比如hashtable中hashcode值相等，
-     *  	但是存了很多的对象，这表明对象的== 肯定不相等，Ojbect逆向推理，equals不相等，==肯定不相等 
-     *  
+     *  	但是存了很多的对象，这表明对象的== 肯定不相等，Ojbect逆向推理，equals不相等，==肯定不相等
+     *
      */
-     
-    public final static void main(String[] args) {    
-        D03_Set a = new D03_Set();
-        D03_Set b = new D03_Set();
-        
-        System.out.println(a.hashCode() == b.hashCode());  //true 人为制造hashcode值相同  
-        System.out.println(a==b);    //false //== 比较对象的相等比较对象引用地址是否相等。还要要比较对象内容是否相等
-        System.out.println(a.equals(b));    //false 不同的对象 object中 == 和euqals是一样的
+    @Test
+    public void test1(){
+        D03_Set a1 = new D03_Set();
+        D03_Set a2 = new D03_Set();
+        D03_Set a3 = new D03_Set();
+        D03_Set a4 = new D03_Set();
+        D03_Set a5 = new D03_Set();
+        D03_Set a6 = new D03_Set();
+        D03_Set a7 = new D03_Set();
+        D03_Set a8 = new D03_Set();
+        D03_Set a9 = new D03_Set();
+        D03_Set a10 = new D03_Set();
+        D03_Set a11 = new D03_Set();
+        D03_Set a12 = new D03_Set();
+        D03_Set a13 = new D03_Set();
+        D03_Set a14 = new D03_Set();
+        D03_Set a15 = new D03_Set();
+        D03_Set a16 = new D03_Set();
 
-        a.setI(1);    
-        b.setI(1);    
-        Set<D03_Set> set = new HashSet<D03_Set>();
-        set.add(a);    
-        set.add(b);    
-        //没有 equels 重写的情况
-        System.out.println(a.hashCode() == b.hashCode());  //true hashcode相同   
-        
-        System.out.println(a.equals(b));    //false 不同的对象 ，创建出来的是地址就不同了
-        
-      //2 这个时候会发想存入了两个值  set中存放是根据hashcode值存放，如果hashcode值相同，
-       //再比较equals值，如果equals值也相同，则产生一个单链表放进去
-        System.out.println(set.size());    
-        
-    }    
-}   
+        ConcurrentHashMap<D03_Set, String> concurrentHashMap = new ConcurrentHashMap();
+        concurrentHashMap.put(a1 , "1");
+        concurrentHashMap.put(a2 , "2");
+        concurrentHashMap.put(a3 , "3");
+        concurrentHashMap.put(a4 , "4");
+        concurrentHashMap.put(a5 , "5");
+        concurrentHashMap.put(a6 , "6");
+        concurrentHashMap.put(a7 , "7");
+        concurrentHashMap.put(a8 , "8");
+        concurrentHashMap.put(a9 , "9");
+        concurrentHashMap.put(a10, "10");
+        concurrentHashMap.put(a11, "11");
+        concurrentHashMap.put(a12, "12");
+        concurrentHashMap.put(a13, "13");
+        concurrentHashMap.put(a14, "14");
+        concurrentHashMap.put(a15, "15");
+
+
+
+    }
+
+
+
+    @Test
+    public void test2(){
+        Set<String> set = new HashSet<String>();
+        set.add("abc");
+        set.add(new String("abc"));
+        System.out.println(set.size()); //1
+
+
+        Map map = new HashMap();
+        map.put("abc", "ab");
+        map.put(new String("abc"), "ab");
+        System.out.println(map.size()); //1
+
+    }
+}
