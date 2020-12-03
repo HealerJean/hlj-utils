@@ -2,6 +2,8 @@ package com.hlj.util.Z018_继承.d02_supper;
 
 import org.junit.Test;
 
+import java.util.Stack;
+
 
 public class D02_SuperMain {
 
@@ -23,5 +25,7 @@ public class D02_SuperMain {
 		Father fatherParam = new Son();
 		fatherParam.otheMethod();
 	}
+
+
 
 }
