@@ -18,7 +18,6 @@ public class TestMain {
     public void test(){
         Set<String> hashSet = new HashSet();
         hashSet.add(null);
-
         // Set<String> hashSet = new HashSet(2);
 
     }

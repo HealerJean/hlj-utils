@@ -19,38 +19,46 @@ public class D01ArraylistTest {
 	 * 1、测试remove方法 remove(object 或者是 index(int))
 	 */
 	@Test
-	public  void RemoveMethod() {
+	public void RemoveObjectMethod() {
 		List<String> stringList = new ArrayList<String>();
+		stringList.add("String one");
 		stringList.add("String one");
 		stringList.add("String two");
 
-		stringList.remove("String one");
-		System.out.println(stringList.size()); //1
-		System.out.println(stringList); //[String two]
+		stringList.remove("String one"); //只能移除第一个重复元素
+		System.out.println(stringList.size()); //2
+		System.out.println(stringList); //[String one, String two]
 
-
+		// 2
+		// [String one, String two]
+	}
+	@Test
+	public  void RemoveIndexMethod() {
+		List<String> stringList = new ArrayList<String>();
+		stringList.add("String one");
+		stringList.add("String two");
 		stringList.add("String three");
 		stringList.remove(0);
-		System.out.println("remove 0 也就是去掉 String two");
-		System.out.println(stringList); //[String three]
+		System.out.println(stringList); //[String two, String three]
 
 
 		List<Integer> integerList = new ArrayList<>();
 		integerList.add(1);
 		integerList.add(2);
-		integerList.add(3);
+		integerList.add(10000);
 		integerList.remove(0);
-		System.out.println(integerList); //[2, 3]
+		System.out.println(integerList); //[2, 10000]
 
+		integerList.remove((Integer)2);
+		System.out.println(integerList); //[10000]
 
+		integerList.remove((Integer)10000);
+		System.out.println(integerList); //[]
 
-		// 1
-		// [String two]
-		// remove 0 也就是去掉 String two
-		// [String three]
-		// [2, 3]
-
-
+		// [String two, String three]
+		// [2, 10000]
+		// [10000]
+		// []
 	}
 
 
@@ -478,17 +486,6 @@ public class D01ArraylistTest {
 	}
 
 
-	@Test
-	public void arrayListAnnylise(){
-		List<Integer> list = new ArrayList();
-		list.add(1);
-		list.add(2);
-		list.add(3);
-		list.remove(1);
-
-		System.out.println(Integer.MAX_VALUE + 1);
-
-	}
 
 
 
