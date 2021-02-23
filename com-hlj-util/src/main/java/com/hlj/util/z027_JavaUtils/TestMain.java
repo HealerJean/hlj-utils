@@ -1,4 +1,4 @@
-package com.hlj.util.z027_hashset;
+package com.hlj.util.z027_JavaUtils;
 
 import org.junit.Test;
 
