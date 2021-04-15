@@ -11,7 +11,7 @@ import org.junit.Test;
  * @Description
  */
 @Slf4j
-public class MainTest {
+public class TestMain {
 
 
     /**

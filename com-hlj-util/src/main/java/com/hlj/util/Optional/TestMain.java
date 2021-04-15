@@ -10,7 +10,7 @@ import java.util.Optional;
  * @Author HealerJean
  * @Date 2018/9/7  上午11:29.
  */
-public class MainTest {
+public class TestMain {
 
 
     /**
