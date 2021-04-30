@@ -1,4 +1,4 @@
-package com.hlj.util.generics;
+package com.hlj.util.z031娉涘瀷瀛︿範.origin;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -6,15 +6,15 @@ import java.util.Iterator;
 /**
  * 
  * @author :HealerJean: 
- * @date   :2017年11月20日 下午2:45:44 
- * @Description: 以下两个表明了T和？号的区别，但如果是T的话 函数里面可以对T进行操作
+ * @date   :2017锟斤拷11锟斤拷20锟斤拷 锟斤拷锟斤拷2:45:44 
+ * @Description: 锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷T锟酵ｏ拷锟脚碉拷锟斤拷锟金，碉拷锟斤拷锟斤拷锟絋锟侥伙拷 锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷远锟絋锟斤拷锟叫诧拷锟斤拷
  * @param al    
  * void
  */
 public class OneMain {
 	
 	/**
-	 	? 的使用
+	 	? 锟斤拷使锟斤拷
 	 */
 	public static void printColl(ArrayList<?> al){
         Iterator<?> it = al.iterator();
@@ -24,7 +24,7 @@ public class OneMain {
         }
 	}
 	/**
-		T 的使用，可以直接当做方法使用哦，函数里面可以对T进行操作
+		T 锟斤拷使锟矫ｏ拷锟斤拷锟斤拷直锟接碉拷锟斤拷锟斤拷锟斤拷使锟斤拷哦锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷远锟絋锟斤拷锟叫诧拷锟斤拷
 	 */
 	public static <T> void printT(ArrayList<T> al){
         Iterator<T> it = al.iterator();

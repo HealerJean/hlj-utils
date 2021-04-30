@@ -18,7 +18,7 @@ public class GrayUtil {
     /**
      * TODO 模拟数据 从配置中心获取
      */
-    public static final ImmutableMap<String, List<Object>> WHITE_MAP = ImmutableMap.of(
+    public static final ImmutableMap<String, List<?>> WHITE_MAP = ImmutableMap.of(
             GrayEnum.GrayBusinessEnum.TOPIC_CHANGE.getCode(), ImmutableList.of(10, 81),
             GrayEnum.GrayBusinessEnum.HELMET_ONLINE.getCode(), ImmutableList.of("10", "81")
     );
@@ -41,7 +41,7 @@ public class GrayUtil {
      *
      * @return
      */
-    public static boolean hitGrayWhiteList(GrayEnum.GrayBusinessEnum grayBusinessEnum, Object grayObject) {
+    public static <T> boolean hitGrayWhiteList(GrayEnum.GrayBusinessEnum grayBusinessEnum, T grayObject) {
         if (!grayBusinessEnum.isWhiteSupport()) {
             return false;
         }
@@ -77,7 +77,7 @@ public class GrayUtil {
      * @param grayPercentEnum
      * @return
      */
-    public static boolean hitGray(GrayEnum.GrayBusinessEnum grayBusinessEnum, Object grayObject, int percent, GrayEnum.GrayPercentEnum grayPercentEnum) {
+    public static <T> boolean hitGray(GrayEnum.GrayBusinessEnum grayBusinessEnum, T grayObject, int percent, GrayEnum.GrayPercentEnum grayPercentEnum) {
         // 1、判断灰度开关是否打开
         boolean gray = graySwitch(grayBusinessEnum);
         if (!gray) {

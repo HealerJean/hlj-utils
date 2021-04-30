@@ -23,7 +23,7 @@ public class ShardItemContextUtils {
      * @param ids
      * @return
      */
-    public static List<Object> getIds(List<Object> ids) {
+    public static <T> List<T> getIds(List<T> ids) {
         // 1、如果 userIds 为空，则返回空集合
         if (CollectionUtils.isEmpty(ids)) {
             return Collections.EMPTY_LIST;
@@ -42,7 +42,7 @@ public class ShardItemContextUtils {
         }
 
         // 3、hash取模，确定result
-        List<Object> result = new ArrayList<>();
+        List<T> result = new ArrayList<>();
         ids.stream().forEach(id -> {
             if (shardItems.contains(Math.abs(id.hashCode()) % shardCount)) {
                 result.add(id);

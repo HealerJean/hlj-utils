@@ -1,22 +1,22 @@
-package com.hlj.util.generics;
+package com.hlj.util.z031æ³›åž‹å­¦ä¹ .origin;
 /** 
  * @author : HealerJean
- * @date   £º 2017Äê11ÔÂ20ÈÕ ÏÂÎç1:36:12 
- * @Description: Number»»Îª¡°£¿¡±±àÒëÍ¨¹ý  
+ * @date   ï¿½ï¿½ 2017ï¿½ï¿½11ï¿½ï¿½20ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½1:36:12 
+ * @Description: Numberï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½  
  */
 public class ThreeMain {
 	public static void main(String[] args) {  
 	    FX<Number> ex_num = new FX<Number>(100);  
 	    FX<Integer> ex_int = new FX<Integer>(200);  
 	    getData(ex_num);  
-	//    getData(ex_int);//±àÒë´íÎó  
+	//    getData(ex_int);//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  
 	    
 	    getUpperNumberData(ex_num);
 	    getUpperNumberData(ex_int);
 
 	}  
 	  
-	public static void getData(FX<Number> temp) { //´ËÐÐÈô°ÑNumber»»Îª¡°£¿¡± »òÕßT ±àÒëÍ¨¹ý  
+	public static void getData(FX<Number> temp) { //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Numberï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½T ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½  
 	    //do something...  
 	}  
 	

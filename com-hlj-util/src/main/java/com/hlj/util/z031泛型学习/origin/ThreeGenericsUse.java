@@ -1,30 +1,26 @@
-package com.hlj.util.generics;
+package com.hlj.util.z031娉涘瀷瀛︿範.origin;
 /** 
  * @author : HealerJean
- * @date   ： 2017年11月20日 下午1:16:27 
+ * @date   锟斤拷 2017锟斤拷11锟斤拷20锟斤拷 锟斤拷锟斤拷1:16:27 
  * @Description:
  */
 public class ThreeGenericsUse {
 	
     public static void main(String[] args) {  
-        FX<Integer> intOb = new FX<Integer>(100);  
+        FX<Integer> intOb = new FX(100);
         intOb.showTyep();  
         System.out.println("value= " + intOb.getOb());  
         System.out.println("----------------------------------");  
   
-        FX<String> strOb = new FX<String>("CSDN_SEU_Calvin");  
+        FX<String> strOb = new FX("CSDN_SEU_Calvin");
         strOb.showTyep();  
         System.out.println("value= " + strOb.getOb());  
     }
     
 	public static class FX<T> {  
-	    private T ob; // 定义泛型成员变量  
+	    private T ob;
 	  
-	    /**
-	     * 构造器
-	     * @param ob
-	     */
-	    public FX(T ob) {  
+	    public FX(T ob) {
 	        this.ob = ob;  
 	    }  
 	  
@@ -33,7 +29,7 @@ public class ThreeGenericsUse {
 	    }  
 	  
 	    public void showTyep() {  
-	        System.out.println("T的实际类型是: " + ob.getClass().getName());  
+	        System.out.println("T : " + ob.getClass().getName());
 	    }  
 	}  
 	
