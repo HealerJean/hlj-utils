@@ -1,4 +1,4 @@
-package com.hlj.util.z027_JavaUtils.set;
+package com.hlj.util.z027_JavaUtils.set.ImmutableSet;
 
 import com.google.common.collect.ImmutableSet;
 import lombok.extern.slf4j.Slf4j;
@@ -8,11 +8,12 @@ import java.util.Set;
 
 /**
  * @author zhangyujin
- * @date 2021/2/23  8:09 下午.
+ * @date 2021/11/11  3:58 下午.
  * @description
  */
 @Slf4j
-public class ImmutableSetMain {
+public class TestMain {
+
 
     @Test
     public void test() {
@@ -23,4 +24,5 @@ public class ImmutableSetMain {
         immutalbleSet.add("C");
         //抛出异常，因为是不可变的
     }
+
 }

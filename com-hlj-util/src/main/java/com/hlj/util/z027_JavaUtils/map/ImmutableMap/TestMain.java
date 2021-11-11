@@ -1,4 +1,4 @@
-package com.hlj.util.z027_JavaUtils.maputils;
+package com.hlj.util.z027_JavaUtils.map.ImmutableMap;
 
 import com.google.common.collect.ImmutableMap;
 import lombok.extern.slf4j.Slf4j;
@@ -8,11 +8,11 @@ import java.util.Map;
 
 /**
  * @author zhangyujin
- * @date 2021/2/23  8:06 下午.
+ * @date 2021/11/11  4:00 下午.
  * @description
  */
 @Slf4j
-public class ImmutableMapMain {
+public class TestMain {
 
     @Test
     public void test() {
@@ -23,7 +23,6 @@ public class ImmutableMapMain {
         map.put("keyN" ,"N");
         //抛出异常，因为是不可变的
     }
-
 
 
 }

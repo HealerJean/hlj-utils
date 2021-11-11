@@ -1,4 +1,4 @@
-package com.hlj.util.z027_JavaUtils.enumutils.enums;
+package com.hlj.util.z027_JavaUtils.set.EnumSet.enums;
 
 /**
  * @author zhangyujin

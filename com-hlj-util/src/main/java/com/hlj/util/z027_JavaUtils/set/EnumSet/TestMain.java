@@ -1,7 +1,7 @@
-package com.hlj.util.z027_JavaUtils.enumutils;
+package com.hlj.util.z027_JavaUtils.set.EnumSet;
 
 import com.google.common.collect.ImmutableList;
-import com.hlj.util.z027_JavaUtils.enumutils.enums.DayEnum;
+import com.hlj.util.z027_JavaUtils.set.EnumSet.enums.DayEnum;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 
@@ -31,7 +31,7 @@ import java.util.Set;
     <E extends Enum<E>> EnumSet<E> copyOf(Collection<E> c)
  */
 @Slf4j
-public class EnumSetMain {
+public class TestMain {
 
 
     /**

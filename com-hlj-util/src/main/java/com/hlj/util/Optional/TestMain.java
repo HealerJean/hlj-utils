@@ -158,6 +158,9 @@ public class TestMain {
         Optional<String> name = Optional.ofNullable("HealerJean");
         Optional<String> upperName = name.map((value) -> value.toUpperCase());
         System.out.println(upperName.orElse("No value found"));
+
+        Object object = "HealerJean";
+        System.out.println(Optional.ofNullable(object).map(item->String.valueOf(item)).orElse(null));
     }
 
 
