@@ -1,9 +1,9 @@
-package com.hlj.util.z031泛型学习;
+package com.hlj.util.z031_泛型学习;
 
-import com.hlj.util.z031泛型学习.dto.Bean03DTO;
-import com.hlj.util.z031泛型学习.dto.Bean03OtherDTO;
-import com.hlj.util.z031泛型学习.dto.Bean31ParentDTO;
-import com.hlj.util.z031泛型学习.dto.Bean31SonDTO;
+import com.hlj.util.z031_泛型学习.dto.Bean03DTO;
+import com.hlj.util.z031_泛型学习.dto.Bean03OtherDTO;
+import com.hlj.util.z031_泛型学习.dto.Bean31ParentDTO;
+import com.hlj.util.z031_泛型学习.dto.Bean31SonDTO;
 import javafx.util.Pair;
 
 /**

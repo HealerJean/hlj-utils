@@ -1,6 +1,6 @@
-package com.hlj.util.z031泛型学习;
-import com.hlj.util.z031泛型学习.dto.Bean03DTO;
-import com.hlj.util.z031泛型学习.dto.Bean03OtherDTO;
+package com.hlj.util.z031_泛型学习;
+import com.hlj.util.z031_泛型学习.dto.Bean03DTO;
+import com.hlj.util.z031_泛型学习.dto.Bean03OtherDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 

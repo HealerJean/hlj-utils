@@ -1,4 +1,4 @@
-package com.hlj.util.z031泛型学习.origin;
+package com.hlj.util.z031_泛型学习.origin;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;

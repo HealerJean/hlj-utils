@@ -1,4 +1,4 @@
-package com.hlj.util.z031泛型学习.origin;
+package com.hlj.util.z031_泛型学习.origin;
 /** 
  * @author : HealerJean
  * @date   �� 2017��11��20�� ����1:16:27 
