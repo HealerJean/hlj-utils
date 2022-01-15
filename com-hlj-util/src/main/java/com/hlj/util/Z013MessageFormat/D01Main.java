@@ -1,6 +1,8 @@
 package com.hlj.util.Z013MessageFormat;
 
+import ch.qos.logback.classic.spi.EventArgUtil;
 import org.junit.Test;
+import org.slf4j.helpers.MessageFormatter;
 
 import java.math.BigDecimal;
 import java.text.MessageFormat;
@@ -15,7 +17,7 @@ import java.text.MessageFormat;
 public class D01Main {
 
     /**
-     新字符串使用本地语言环境，制定字符串格式和参数生成格式化的新字符串。
+     1、新字符串使用本地语言环境，制定字符串格式和参数生成格式化的新字符串。
      format(String format, Object... args)
 
      %s  字符串类型  "mingrisoft" ，也可以放入其他类型，比如，整数，小数等等
@@ -49,7 +51,7 @@ public class D01Main {
 
 
     /**
-     *
+     * 2、MessageFormat.format ：{0},{1},{2},{3},{4},{5},{6},{7},{8}
      */
     @Test
     public void format(){
@@ -68,5 +70,20 @@ public class D01Main {
         System.out.println(value);
 
     }
+
+    /**
+     * 3、MessageFormatter.arrayFormat(msg, value) 推荐
+     */
+    @Test
+    public void test() {
+        String msg = "var1:{}, var2:{} 打印:{}";
+        Object[] value = new Object[]{"value1", "value2", "result"};
+        String message = MessageFormatter.arrayFormat(msg, value).getMessage();
+        System.out.println(message);
+
+        Throwable throwable = EventArgUtil.extractThrowable(value);
+        throw new RuntimeException(throwable);
+    }
+
 
 }

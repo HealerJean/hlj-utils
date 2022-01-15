@@ -21,7 +21,7 @@ public class BigDataQueryUtils {
      */
     @Test
     public void test(){
-        int totalCount = 100;
+        int totalCount = 101;
         int intervalLength = 10;
         List<ImmutablePair<Integer, Integer>> result = intervalPairOfTotalCount(totalCount, intervalLength);
         log.info("totalCouont:{}, intervalLength:{}, result:{}", totalCount, intervalLength, result);
@@ -45,11 +45,11 @@ public class BigDataQueryUtils {
         Integer pageNow = 1;
         while (pageNow <= pageCount ){
             int startIndex = (pageNow - 1) * pageSize;
-            ImmutablePair<Integer, Integer> pair = ImmutablePair.of(startIndex, pageSize);
+            // ImmutablePair<Integer, Integer> pair = ImmutablePair.of(startIndex, pageSize);
 
             // 结束索引，看需要是否要取分段endIndex
-            // int endIndex = pageNow != pageCount ? startIndex + pageSize : totalCount;
-            // ImmutablePair<Integer, Integer> pair = ImmutablePair.of(startIndex, endIndex);
+            int endIndex = pageNow != pageCount ? startIndex + pageSize : totalCount;
+            ImmutablePair<Integer, Integer> pair = ImmutablePair.of(startIndex, endIndex);
 
             pageNow++;
             result.add(pair);
