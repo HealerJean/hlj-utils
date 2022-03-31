@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.text.DecimalFormat;
 
 /**
  * @author HealerJean
@@ -180,6 +181,24 @@ public class D01_Round {
 
     }
 
+    /**
+     * 保留2位小数百分比
+     */
+    @Test
+    public void division(){
+        System.out.println(division(1,2));
+    }
+
+    private  String division(int todayNum, int yesterdayNum) {
+        DecimalFormat df = new DecimalFormat("0.00");
+        String result ;
+        if (yesterdayNum == 0) {
+            result = "";
+        } else {
+            result = df.format((float) (todayNum - yesterdayNum) / yesterdayNum * 100) + "%";
+        }
+        return result;
+    }
 
 
 }

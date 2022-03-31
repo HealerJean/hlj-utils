@@ -1,14 +1,15 @@
 package com.hlj.util.Z022_String;
 
+import com.google.common.collect.Lists;
+import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
+import org.junit.Test;
+
 import java.io.UnsupportedEncodingException;
 import java.math.BigDecimal;
 import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.List;
-
-import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang3.StringUtils;
-import org.junit.Test;
 
 @Slf4j
 public class StringTest {
@@ -390,5 +391,44 @@ public class StringTest {
             System.out.println(b); //a b c d e f
         }
     }
+
+    /**
+     * 15、StringUtils.join
+     */
+    @Test
+    public void test(){
+        String[] strArray  = new String[]{"a", "b", "c"};
+        String join = StringUtils.join(strArray);
+        System.out.println(join);//abc
+
+        join = StringUtils.join(strArray, "-");
+        System.out.println(join);//a-b-c
+
+        List<String> strList = Lists.newArrayList("a", "b", "c");
+        join = StringUtils.join(strList, "-");
+        System.out.println(join);//a-b-c
+    }
+
+    /**
+     * 16、计算字符串字节数
+     */
+    @Test
+    public void test_16() throws UnsupportedEncodingException {
+        String charsetName = "UTF-8";
+        int mSize = 1024 * 1024; //1M
+        int kSize = 1024; //1kb
+        //制作1024个字节
+        StringBuilder sb = new StringBuilder();
+        while (sb.toString().getBytes(charsetName).length < kSize){
+            sb.append("1");
+        }
+        String fs = sb.toString();
+        System.out.println(fs.length());
+        System.out.println(fs.getBytes().length);
+    }
+
+
+
+
 
 }
