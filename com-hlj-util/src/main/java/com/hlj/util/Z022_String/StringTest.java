@@ -428,6 +428,14 @@ public class StringTest {
     }
 
 
+    /**
+     * 17、concat
+     */
+    @Test
+    public void test_17(){
+        String str = "ABC".concat("_").concat("Message");
+        System.out.println(str);
+    }
 
 
 

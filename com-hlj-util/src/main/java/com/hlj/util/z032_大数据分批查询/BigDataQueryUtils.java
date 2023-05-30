@@ -4,7 +4,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.junit.Test;
 
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -58,27 +57,6 @@ public class BigDataQueryUtils {
         return result;
     }
 
-    public static void main(String[] args) {
-        System.out.println(division(5059325, 4314426));
-        System.out.println(division(94220, 96567));
-        System.out.println(division(94220, 0));
-        System.out.println(division(0, 96567));
 
 
-    }
-
-    /**
-     * 今日数量
-     * 昨日数量
-     */
-    private static String division(int todayNum, int yesterdayNum) {
-        DecimalFormat df = new DecimalFormat("0.00");
-        String result ;
-        if (yesterdayNum == 0) {
-            result = "";
-        } else {
-            result = df.format((float) (todayNum - yesterdayNum) / yesterdayNum * 100) + "%";
-        }
-        return result;
-    }
 }

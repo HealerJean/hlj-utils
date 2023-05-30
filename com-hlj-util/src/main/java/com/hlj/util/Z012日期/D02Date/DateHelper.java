@@ -1,9 +1,11 @@
 package com.hlj.util.Z012日期.D02Date;
 
 import org.apache.commons.lang3.time.DateUtils;
+import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -395,6 +397,17 @@ public class DateHelper extends DateUtils {
         return flag;
     }
 
+
+    @Test
+    public void test(){
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(new Date());
+        calendar.set(Calendar.DATE, calendar.getActualMaximum(Calendar.DATE));
+        DateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+        String lastDate = format.format(calendar.getTime())+" 23:59:59";
+
+        System.out.println(lastDate);
+    }
 
 
 }

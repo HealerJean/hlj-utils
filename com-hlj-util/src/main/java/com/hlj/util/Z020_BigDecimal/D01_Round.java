@@ -5,6 +5,7 @@ import org.junit.Test;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
+import java.text.NumberFormat;
 
 /**
  * @author HealerJean
@@ -199,6 +200,37 @@ public class D01_Round {
         }
         return result;
     }
+
+
+    /**
+     * 格式化
+      */
+    @Test
+    public void format(){
+        // 1、建立货币格式化引用
+        NumberFormat currency = NumberFormat.getCurrencyInstance();
+        System.out.println("贷款金额:" + currency.format(new BigDecimal("15000.48"))); //￥15,000.48
+
+
+        //2、建立百分比格式化引用
+        NumberFormat percent = NumberFormat.getPercentInstance();
+        //百分比小数点最多3位
+        percent.setMaximumFractionDigits(3);
+        System.out.println("利率:\t" + percent.format(new BigDecimal("0.000008")));//0.001%
+        System.out.println("利率:\t" + percent.format(new BigDecimal("0.00008"))); //0.008%
+        System.out.println("利率:\t" + percent.format(new BigDecimal("0.0008"))); //0.08%
+        System.out.println("利率:\t" + percent.format(new BigDecimal("0.00080"))); //0.08%
+
+
+        System.out.println( new DecimalFormat("0.00").format(new BigDecimal("3.435")));
+        System.out.println( new DecimalFormat("0.00").format(new BigDecimal("0")));
+        System.out.println( new DecimalFormat("0.00").format(new BigDecimal("0.00")));
+        System.out.println( new DecimalFormat("0.00").format(new BigDecimal("0.001")));
+        System.out.println( new DecimalFormat("0.00").format(new BigDecimal("0.006")));
+        System.out.println( new DecimalFormat("0.00").format(new BigDecimal("0.206")));
+
+    }
+
 
 
 }
