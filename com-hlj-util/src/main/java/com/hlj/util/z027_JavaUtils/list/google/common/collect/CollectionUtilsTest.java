@@ -28,4 +28,14 @@ public class CollectionUtilsTest {
         System.out.println(CollectionUtils.containsAny(listA, listB));
     }
 
+
+
+    @Test
+    public void test2(){
+
+        String[] array = {"Java", "Python", "C++"};
+        List list = org.springframework.util.CollectionUtils.arrayToList(array);
+        System.out.println(list);
+    }
+
 }
