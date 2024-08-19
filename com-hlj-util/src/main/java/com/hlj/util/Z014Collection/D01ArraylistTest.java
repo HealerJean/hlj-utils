@@ -4,7 +4,6 @@ import com.hlj.util.Arraylist.Person;
 import com.hlj.util.Z014Collection.data.SortEntry;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
-import org.springframework.util.CollectionUtils;
 
 import java.lang.reflect.Method;
 import java.util.*;
@@ -275,32 +274,39 @@ public class D01ArraylistTest {
 		String array[] = {"1","2","3"};
 		List<String> list ;
 		String str ;
-		//1、数组转化为集合
+		//1、数组 ->>>>> 集合
 		list =  Arrays.stream(array).collect(Collectors.toList());
-		//2、
 		list =  Arrays.asList(array);
 
-		//2、集合转换为数组
-		array =  list.stream().toArray(String[]::new);
-		//2、
+		//2、集合 ->>>>> 数组
 		array =  list.toArray(new String[0]);
 
-		//集合转化为逗号的字符串
-		//1、
-		str =    list.stream().collect(Collectors.joining(","));
-		System.out.println(str);
-		//2、
-		str = StringUtils.join(list,"," );
-		System.out.println(str);
 
-		//1、数组转化为带逗号的字符串
-		str = Arrays.stream(array).collect(Collectors.joining(","));
-		System.out.println(str);
 
-		//逗号字符串转化为数组
-		array = str.split(",");
-		//逗号字符串转化为集合
+		// 3、集合 ->>>>> 字符串
+		str = String.join(",", list); //建议
+		str = StringUtils.join(list,"," ); //建议
+		str = list.stream().collect(Collectors.joining(",")); // 不建议
+
+		// 4、字符串  ->>>>>  集合
 		list = Arrays.asList(str.split(",")) ;
+
+
+		// 5、 数组  ->>>>>  字符串
+		str = String.join(",", array); //建议
+		str = StringUtils.join(array,"," ); //建议
+		str = Arrays.stream(array).collect(Collectors.joining(",")); // 不建议
+
+		// 6、字符串  ->>>>>  数组
+		array = str.split(",");
+
+
+
+		// 7、字符串转 int数组
+		int[] nums = Arrays.stream(array).mapToInt(Integer::new).toArray();
+		nums = Arrays.stream(array).mapToInt(Integer::valueOf).toArray();
+		// 8、int数 转 String集合
+		list = Arrays.stream(nums).mapToObj(String::valueOf).collect(Collectors.toList());
 
 	}
 

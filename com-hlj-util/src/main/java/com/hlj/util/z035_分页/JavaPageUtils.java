@@ -30,7 +30,7 @@ public class JavaPageUtils {
         }
 
         Integer totalCount = list.size();
-        Integer pageCount;
+        int pageCount;
         if (totalCount % pageSize == 0) {
             pageCount = totalCount / pageSize;
         } else {

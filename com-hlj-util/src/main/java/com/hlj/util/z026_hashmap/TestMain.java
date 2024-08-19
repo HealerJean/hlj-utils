@@ -1,9 +1,9 @@
 package com.hlj.util.z026_hashmap;
 
+import com.google.common.collect.Maps;
 import org.junit.Test;
 
-import java.util.*;
-import java.util.concurrent.ConcurrentHashMap;
+import java.util.Map;
 
 /**
  * @author HealerJean
@@ -17,22 +17,11 @@ public class TestMain {
     @Test
     public void test(){
 
-        // ConcurrentHashMap concurrentHashMap = new ConcurrentHashMap();
-        // concurrentHashMap.put("1", "1");
-        // concurrentHashMap.put("1", "2");
 
-        HashMap hashMap = new HashMap(2);
-        hashMap.put("1",null);
-        hashMap.put("2",null);
-        hashMap.put("3",null);
-        hashMap.put("4",null);
-        System.out.println(hashMap.put("1",2));
-
-        System.out.println(hashMap.remove("1"));
-        Map hashtable = new Hashtable();
+        Map<String, String> map = Maps.newHashMap();
 
 
-
+        map.remove("a");
 
 
     }

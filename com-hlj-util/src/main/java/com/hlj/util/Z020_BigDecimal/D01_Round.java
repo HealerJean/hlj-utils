@@ -232,5 +232,32 @@ public class D01_Round {
     }
 
 
+    @Test
+    public void removeZero(){
+        BigDecimal decimal = new BigDecimal("0.10000000000000");
+
+        // 0.10000000000000
+        // BigDecimal的精确表示，不会去除尾随的零。
+        System.out.println(decimal.toString());
+
+        // 0.10000000000000
+        // 返回BigDecimal的简单表示，不使用科学计数法，并且也不会去除尾随的零。
+        System.out.println(decimal.toPlainString());
+
+        // 0.10000000000000
+        // 返回BigDecimal的工程表示，会使用科学计数法，并去除尾随的零。
+        System.out.println(decimal.toEngineeringString());
+
+        // 0.1
+        System.out.println(decimal.stripTrailingZeros());
+
+        System.out.println( new BigDecimal("350000000").stripTrailingZeros());
+
+        System.out.println( new BigDecimal("350000000.010000").stripTrailingZeros().toPlainString());
+
+
+
+    }
+
 
 }

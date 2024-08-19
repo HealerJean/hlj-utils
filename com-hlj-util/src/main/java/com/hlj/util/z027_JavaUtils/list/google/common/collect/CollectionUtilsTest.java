@@ -26,6 +26,7 @@ public class CollectionUtilsTest {
         List<String> listB = Arrays.asList(arrayB);
 
         System.out.println(CollectionUtils.containsAny(listA, listB));
+
     }
 
 

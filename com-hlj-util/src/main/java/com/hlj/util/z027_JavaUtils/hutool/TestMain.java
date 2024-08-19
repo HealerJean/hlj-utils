@@ -86,12 +86,31 @@ public class TestMain {
         System.out.println(format);
         // 输出：2023-03-15 10:30:15
 
+        format = DateUtil.formatDateTime(date);
+        System.out.println(format);
+
+        format = DateUtil.formatTime(date);
+        System.out.println(format);
+
+        format = DateUtil.formatDate(date);
+        System.out.println(format);
+
+
         String dateStr = "2023-03-15 10:30:15";
         date = DateUtil.parse(dateStr, "yyyy-MM-dd HH:mm:ss");
         System.out.println(date);
         // 输出：Tue Mar 15 10:30:15 CST 2023`
 
+
+        date = DateUtil.parseDateTime(dateStr);
+        System.out.println(date);
+
+
         DateUtil.offsetSecond(new Date(), 1);
+
+
+
+
     }
 
 
@@ -102,6 +121,7 @@ public class TestMain {
     public void test201(){
         NumberUtil.div(new BigDecimal("1"), new BigDecimal("2"),2, RoundingMode.UP);
     }
+
 
 
 
