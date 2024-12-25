@@ -1,8 +1,8 @@
-package com.hlj.util.z038_数工具;
+package com.hlj.util.z038_tree工具;
 
 import cn.hutool.json.JSONUtil;
-import com.hlj.util.z038_数工具.domain.MenuVo;
-import com.hlj.util.z038_数工具.utils.TreeUtil;
+import com.hlj.util.z038_tree工具.domain.MenuVo;
+import com.hlj.util.z038_tree工具.utils.TreeUtil;
 import org.junit.Test;
 
 import java.util.Arrays;

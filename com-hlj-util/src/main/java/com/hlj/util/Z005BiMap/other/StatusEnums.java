@@ -1,4 +1,4 @@
-package com.hlj.util.Z005BitSet;
+package com.hlj.util.Z005BiMap.other;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -8,14 +8,29 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public class StatusEnums {
+
+    /**
+     * 1  --> 2进制 0001
+     */
     private final static long INIT = 1L << 0;
+
+    /**
+     * 2 --> 2进制 0010
+     */
     private final static long CHSI_VERIFY = 1L << 1;
+
+    /**
+     * 4 --> 2进制 0010
+     */
     private final static long GRADUATE = 1L << 2;
 
     static {
         System.out.println(Long.toBinaryString(INIT));
+        // 1
         System.out.println(Long.toBinaryString(CHSI_VERIFY));
+        // 10
         System.out.println(Long.toBinaryString(GRADUATE));
+        // 100
         System.out.println();
     }
 

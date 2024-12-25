@@ -18,35 +18,35 @@ public interface GrayEnum {
      */
     @Getter
     @AllArgsConstructor
-    enum GraySwitchEnum implements GrayEnum {
+    enum GrayResEnum implements GrayEnum {
 
         /**
          * GRAY_CLOSE
          */
-        GRAY_CLOSE("GrayClose", "灰度关闭"),
-        GRAY_PERCENT("Percent", "灰度中"),
-        ALL_PERCENT("AllPercent", "全量"),
+        GRAY_WHITE_TRUE( "whiteHit", true,"命中灰度白名单"),
+        GRAY_TRUE("hit" ,true,"命中灰度"),
 
+        GRAY_NOT_EXIST( "notExist", false,"无灰度"),
+        GRAY_BLACK_TRUE( "blackHit", false,"命中灰度白名单"),
+        GRAY_FALSE("unHit", false, "未命中"),
         ;
 
+
         /**
-         * code
+         * 灰度详细结果
          */
         private final String code;
+
+        /**
+         * 灰度结果
+         */
+        private final Boolean flag;
+
         /**
          * desc
          */
         private final String desc;
 
-        /**
-         * GraySwitchEnum
-         *
-         * @param code code
-         * @return GraySwitchEnum
-         */
-        public static GraySwitchEnum toGraySwitchEnum(String code) {
-            return Arrays.stream(GraySwitchEnum.values()).filter(item -> item.getCode().equals(code)).findAny().orElse(null);
-        }
     }
 
 

@@ -1,4 +1,4 @@
-package com.hlj.util.z038_数工具.domain;
+package com.hlj.util.z038_tree工具.domain;
 
 import lombok.Data;
 
