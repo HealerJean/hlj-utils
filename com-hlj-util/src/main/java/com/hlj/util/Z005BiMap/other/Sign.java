@@ -1,4 +1,4 @@
-package com.hlj.util.Z005BitSet;
+package com.hlj.util.Z005BiMap.other;
 
 import java.util.*;
 
@@ -57,6 +57,7 @@ public class Sign {
      * @return
      */
     public static int unSignCountInFixedMonth(int holder, int month) {
+        // java 月份从0开始算，因此传入的月份需要减去1
         CALENDAR.set(Calendar.MONTH, month - 1);
         return CALENDAR.getActualMaximum(Calendar.DATE) - Integer.bitCount(holder);
     }
@@ -110,27 +111,34 @@ public class Sign {
         int month = 5;
         System.out.printf("签到记录：【%s】 %n", Integer.toBinaryString(monthSignRecord));
         // 签到记录：【1111111111111111111111111111000】
+
         System.out.printf("签到总数：【%d】 %n", signCount(monthSignRecord));
         // 签到总数：【28】
+
         System.out.printf("%d月漏签总数 %d %n", month, unSignCountInFixedMonth(monthSignRecord, month));
-        // 4月漏签总数 2
+        // 5月漏签总数 3
+
         System.out.printf("全月是否全部签到 %b %n", isSignFullInFixedMonth(monthSignRecord, month));
         // 全月是否全部签到 false
 
         System.out.printf("签到前【%s】%n", Integer.toBinaryString(monthSignRecord));
         // 签到前【1111111111111111111111111111000】
+
         int signTemp = signInFixedDay(monthSignRecord, getPosition(30));
         signTemp = signInFixedDay(signTemp, getPosition(31));
         System.out.printf("签到后【%s】%n", Integer.toBinaryString(signTemp));
         // 签到后【1111111111111111111111111111011】
+
         System.out.printf("全月是否全部签到 %b %n", isSignFullInFixedMonth(signTemp, month));
         // 全月是否全部签到 false
 
         System.out.printf("批量签到前【%s】%n", Integer.toBinaryString(monthSignRecord));
         // 批量签到前【1111111111111111111111111111000】
+
         int signBatch = batchSign(monthSignRecord, Arrays.asList(29, 30, 31));
         System.out.printf("批量签到后【%s】%n", Integer.toBinaryString(signBatch));
         // 批量签到后【1111111111111111111111111111111】
+
         System.out.printf("全月是否全部签到 %b %n", isSignFullInFixedMonth(signBatch, month));
         // 全月是否全部签到 true
     }
